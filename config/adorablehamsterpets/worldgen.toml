@@ -1,0 +1,235 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Adjusts hamster spawn frequency. Higher = more chaos. 1 = blissful silence.
+spawnWeight = 30
+# Maximum hamsters per spawn group. Because sometimes one just isn't cute enough.
+maxGroupSize = 1
+# A list of biome tags where hamsters can spawn. Format: 'mod_id:tag_name'. For example, 'minecraft:is_forest'.
+spawnBiomeTags = [
+    "minecraft:is_beach",
+    "minecraft:is_badlands",
+    "minecraft:is_savanna",
+    "minecraft:is_jungle",
+    "minecraft:is_forest",
+    "minecraft:is_taiga",
+    "minecraft:is_mountain"
+]
+# A list of 'c:' convention biome tags where hamsters can spawn. Used for broad mod compatibility. By default, this includes most overworld tags as a 'catch-all', and the filtering for different hamster variants in each biome is hard coded.
+spawnBiomeConventionTags = [
+    "c:is_cold",
+    "c:is_hot",
+    "c:is_temperate",
+    "c:is_dry",
+    "c:is_wet",
+    "c:is_dense_vegetation",
+    "c:is_sparse_vegetation"
+]
+# A list of specific biome IDs to ALWAYS allow spawns in, even if they don't match the tags above. Format: 'mod_id:biome_name'. For example, 'minecraft:plains'.
+includeBiomes = [  ]
+# A list of specific biome IDs to NEVER allow spawns in, even if they match a tag. This overrides all other settings. Format: 'mod_id:biome_name'. For example, 'minecraft:plains'.
+excludeBiomes = [
+    "mod_id:biome_name"
+]
+blueBiomes = [
+    "terralith:glacial_chasm",
+    "terralith:mirage_isles",
+    "terralith:moonlight_valley",
+    "biomesoplenty:enchanted_garden"
+]
+blueTags = [
+    "c:is_icy"
+]
+blueExclusionBiomes = [
+    "namespace:id"
+]
+blueExclusionTags = [
+    "c:tag_name"
+]
+lavenderBiomes = [
+    "minecraft:cherry_grove",
+    "terralith:sakura_valley",
+    "biomesoplenty:fungi_forest",
+    "biomesoplenty:mystic_grove"
+]
+lavenderTags = [
+    "c:is_magical",
+    "c:is_mushroom",
+    "terralith:mystical"
+]
+lavenderExclusionBiomes = [
+    "namespace:id"
+]
+lavenderExclusionTags = [
+    "c:tag_name"
+]
+whiteBiomes = [
+    "terralith:snowy_maple_forest",
+    "terralith:wintry_forest",
+    "terralith:alpine_grove",
+    "terralith:siberian_grove"
+]
+whiteTags = [
+    "c:is_cold",
+    "c:is_snowy"
+]
+whiteExclusionBiomes = [
+    "minecraft:deep_frozen_ocean",
+    "minecraft:frozen_ocean",
+    "minecraft:stony_shore",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills",
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga"
+]
+whiteExclusionTags = [
+    "c:tag_name"
+]
+grayBiomes = [
+    "minecraft:stony_shore",
+    "terralith:stony_spires"
+]
+grayTags = [
+    "c:is_mountain",
+    "c:is_sparse_vegetation",
+    "terralith:cliffs"
+]
+grayExclusionBiomes = [
+    "namespace:id"
+]
+grayExclusionTags = [
+    "minecraft:is_badlands",
+    "minecraft:is_jungle",
+    "minecraft:is_savanna"
+]
+blackBiomes = [
+    "minecraft:deep_dark"
+]
+blackTags = [
+    "c:is_wet",
+    "c:is_cave"
+]
+blackExclusionBiomes = [
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves"
+]
+blackExclusionTags = [
+    "minecraft:is_jungle",
+    "minecraft:is_beach"
+]
+creamBiomes = [
+    "minecraft:old_growth_birch_forest",
+    "minecraft:birch_forest",
+    "terralith:ancient_sands",
+    "terralith:sandstone_valley",
+    "biomesoplenty:wasteland"
+]
+creamTags = [
+    "c:is_sandy"
+]
+creamExclusionBiomes = [
+    "terralith:gravel_beach"
+]
+creamExclusionTags = [
+    "minecraft:is_badlands"
+]
+chocolateBiomes = [
+    "terralith:cloud_forest",
+    "biomesoplenty:redwood_forest"
+]
+chocolateTags = [
+    "c:is_forest",
+    "c:is_dense_vegetation"
+]
+chocolateExclusionBiomes = [
+    "namespace:id"
+]
+chocolateExclusionTags = [
+    "c:tag_name"
+]
+# Higher = slower, lower = faster. Makes perfect sense.
+wildBushRegrowthModifier = 1.0
+# Higher = slower, lower = faster. Photosynthesis is hard, okay?
+sunflowerRegrowthModifier = 1.0
+# A list of biome tags where these custom Sunflowers can replace vanilla ones. The 'c:is_plains' tag provides wide compatibility with modded biomes.
+sunflowerBiomeTags = [
+    "c:is_plains",
+    "c:is_temperate",
+    "c:is_hot",
+    "c:is_dry"
+]
+# Specific biome IDs where these sunflowers can replace the vanilla ones. Format: 'mod_id:biome_name'. They’re picky.
+sunflowerBiomes = [
+    "minecraft:sunflower_plains"
+]
+# 1 in X chunks. Lower numbers means cucumbers take over the planet.
+wildCucumberBushRarity = 24
+# Biome tags where cucumbers feel at home. Format: 'mod_id:tag_name', for example: 'minecraft:is_jungle'.
+cucumberBushTags = [
+    "minecraft:is_jungle"
+]
+# Convention tags for maximum mod-pack harmony. Format: 'c:tag_name', for example: 'c:is_temperate'.
+cucumberBushConventionTags = [
+    "c:is_temperate",
+    "c:is_hot",
+    "c:is_dry"
+]
+# Specific biome IDs where cucumbers can sprout. Format: 'mod_id:biome_name', for example: 'minecraft:savanna'.
+cucumberBushBiomes = [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:meadow",
+    "minecraft:wooded_badlands",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle"
+]
+# Biomes where cucumbers are absolutely NOT allowed. Overrides everything else. Format: 'mod_id:biome_name', for example: 'minecraft:ocean'.
+cucumberBushExclusions = [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:mushroom_fields",
+    "minecraft:ocean",
+    "minecraft:deep_ocean",
+    "minecraft:warm_ocean",
+    "minecraft:stony_peaks"
+]
+# 1 in X chunks. Lower = beanpocalypse. For those of you in the back, it means they'll spam everywhere.
+wildGreenBeanBushRarity = 24
+# Biome tags for bean growth. Empty by default—choose wisely. Format: 'mod_id:tag_name', for example: 'minecraft:is_jungle'.
+greenBeanBushTags = [
+    "mod_id:biome_name"
+]
+# Convention tags for mod-friendly bean spam. Format: 'c:tag_name', for example: 'c:is_wet'.
+greenBeanBushConventionTags = [
+    "c:is_wet",
+    "c:is_temperate"
+]
+# Specific biomes where beans sprout like gossip in chat. Format: 'mod_id:biome_name', for example: 'minecraft:swamp'.
+greenBeanBushBiomes = [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:lush_caves",
+    "minecraft:flower_forest"
+]
+# Absolutely no beans here, thank you very much. Overrides all other settings. Format: 'mod_id:biome_name', for example: 'minecraft:beach'.
+greenBeanBushExclusions = [
+    "minecraft:beach",
+    "minecraft:birch_forest",
+    "minecraft:cherry_grove",
+    "minecraft:dark_forest",
+    "minecraft:deep_ocean",
+    "minecraft:dripstone_caves",
+    "minecraft:forest",
+    "minecraft:meadow",
+    "minecraft:ocean",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:plains",
+    "minecraft:river",
+    "minecraft:sunflower_plains"
+]

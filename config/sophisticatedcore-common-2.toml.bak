@@ -1,0 +1,3 @@
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedbackpacks:void_upgrade|true", "sophisticatedbackpacks:advanced_refill_upgrade|true", "sophisticatedbackpacks:advanced_pickup_upgrade|true", "sophisticatedbackpacks:jukebox_upgrade|true", "sophisticatedbackpacks:smoking_upgrade|true", "sophisticatedbackpacks:everlasting_upgrade|true", "sophisticatedbackpacks:compacting_upgrade|true", "sophisticatedbackpacks:advanced_restock_upgrade|true", "sophisticatedbackpacks:advanced_magnet_upgrade|true", "sophisticatedbackpacks:advanced_tool_swapper_upgrade|true", "sophisticatedbackpacks:advanced_filter_upgrade|true", "sophisticatedbackpacks:advanced_feeding_upgrade|true", "sophisticatedbackpacks:diamond_backpack|true"]

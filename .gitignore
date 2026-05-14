@@ -1,0 +1,57 @@
+# --- Mods (copyright, large) ---
+mods/
+
+# --- Worlds & personal data ---
+saves/
+screenshots/
+profileImage/
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+cherishedworlds-favorites.dat
+emotes/
+
+# --- Runtime / cache / generated ---
+.fabric/
+.mixin.out/
+logs/
+crash-reports/
+hs_err_pid*.log
+replay_pid*.log
+downloads/
+moddata/
+slideshow/
+patchouli_books/
+patchouli_data.json
+local/
+Distant_Horizons_server_data/
+telemetry/
+xaero/
+
+# --- Heavy binary content ---
+shaderpacks/
+
+# --- Per-installation user prefs (not modpack content) ---
+options.txt
+user-prefs.json
+emi.json
+irisUpdateInfo.json
+rhino.local.properties
+.curseclient
+data/
+schematics/
+
+# --- KubeJS-generated diagnostic dumps ---
+kubejs/exports/
+
+# --- Claude / AI assistant artifacts (never commit) ---
+CLAUDE.md
+.claude/
+*.claude.*
+claude-*
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
