@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
     'numismatics:andesite_depositor',
     'numismatics:bank_terminal',
 
-    // FISHERMAN: "minecraft:fisherman"
+    // FISHERMAN: "minecraft:fisherman" — Tide rods/lines/hooks + maritime gadgets
     'tide:stone_fishing_rod',
     'tide:iron_fishing_rod',
     'tide:golden_fishing_rod',
@@ -145,8 +145,12 @@ ServerEvents.recipes(event => {
     'tide:braided_line',
     'tide:golden_line',
     'tide:fish_display',
+    'tide:pocket_watch',
+    'tide:depth_meter',
+    'tide:climate_gauge',
+    'tide:weather_radio',
 
-    // ENGINEER: "morevillagers:engineer"
+    // ENGINEER: "morevillagers:engineer" — Immersive Aircraft components
     'immersive_aircraft:propeller',
     'immersive_aircraft:industrial_gears',
     'immersive_aircraft:sturdy_pipes',
@@ -156,8 +160,11 @@ ServerEvents.recipes(event => {
     'immersive_aircraft:improved_landing_gear',
     'immersive_aircraft:steel_boiler',
     'immersive_aircraft:hull',
+    'immersive_aircraft:gyroscope',
+    'immersive_aircraft:gyroscope_hud',
+    'immersive_aircraft:gyroscope_dials',
 
-    // ENGINEER 2: "morevillagers:miner"
+    // MECHANIST: "morevillagers:miner" — Create components + Create Additions
     'create:schematic_table',
     'create:wrench',
     'create:belt_connector',
@@ -170,6 +177,8 @@ ServerEvents.recipes(event => {
     'create:track_signal',
     'create:mechanical_arm',
     'create:goggles',
+    'createadditions:electric_motor',
+    'createadditions:alternator',
     
 
     // CULTIST 'villagersplus:occultist'
@@ -345,20 +354,11 @@ ServerEvents.recipes(event => {
     // "minecraft:chorus_fruit",
 
 
-    // TINKERER
-    'immersive_aircraft:gyroscope',
-    'immersive_aircraft:gyroscope_hud',
-    'immersive_aircraft:gyroscope_dials',
-    'immersive_machinery:redstone_sheep',
-    'tide:depth_meter',
-    'tide:climate_gauge',
-    'tide:pocket_watch',
-    'tide:weather_radio',
-    'createadditions:electric_motor',
-    'createadditions:alternator',
+    // TINKERER: "minecraft:toolsmith" — exotic random gadgets
     'create:extendo_grip',
     'slideshow:projector',
     'supplementaries:spring_launcher',
+    'immersive_machinery:redstone_sheep',
 
     // 'infinitybuttons:red_emergency_button',
     // 'infinitybuttons:red_safe_emergency_button',
