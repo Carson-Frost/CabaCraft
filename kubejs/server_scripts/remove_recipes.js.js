@@ -25,9 +25,7 @@ ServerEvents.recipes(event => {
     'chessmod:game_piece',
 
 
-    // PRIEST: "paladins:monk"
-    //'paladins:priest_spell_book',
-    //'paladins:paladin_spell_book',
+    // PRIEST: "paladins:monk" — caster gear only (heavy plate moved to ARMORER)
     'paladins:acolyte_wand',
     'paladins:holy_wand',
     'paladins:diamond_holy_wand',
@@ -41,17 +39,6 @@ ServerEvents.recipes(event => {
     'paladins:prior_robe_chest',
     'paladins:prior_robe_legs',
     'paladins:prior_robe_feet',
-    'paladins:paladin_armor_head',
-    'paladins:paladin_armor_chest',
-    'paladins:paladin_armor_legs',
-    'paladins:paladin_armor_feet',
-    'paladins:crusader_armor_head',
-    'paladins:crusader_armor_chest',
-    'paladins:crusader_armor_legs',
-    'paladins:crusader_armor_feet',
-    'paladins:iron_kite_shield',
-    'paladins:golden_kite_shield',
-    'paladins:diamond_kite_shield',
 
 
     
@@ -236,13 +223,12 @@ ServerEvents.recipes(event => {
 
     
     
-    // NONE
+    // NONE — class workbenches stay locked (class gear is bought, not crafted)
     'spell_engine:spell_binding',
-    'runes:crafting_altar',
     'paladins:monk_workbench',
     'rogues:arms_workbench',
     'archers:archers_workbench',
-    'jewelry:jewelers_kit',
+    // jewelry:jewelers_kit and runes:crafting_altar are CRAFTABLE — players make their own jewelry/runes
 
     // WIZARD: "wizards:wizard_merchant"
     'wizards:wand_novice',
@@ -287,7 +273,7 @@ ServerEvents.recipes(event => {
     'musketmod:cartridge',
 
 
-    // ARMORER: "minecraft:armorer" — heavy armor merchant
+    // ARMORER: "minecraft:armorer" — heavy plate armor + kite shields
     'immersive_armors:heavy_helmet',
     'immersive_armors:heavy_chestplate',
     'immersive_armors:heavy_leggings',
@@ -300,6 +286,17 @@ ServerEvents.recipes(event => {
     'rogues:berserker_armor_chest',
     'rogues:berserker_armor_legs',
     'rogues:berserker_armor_feet',
+    'paladins:paladin_armor_head',
+    'paladins:paladin_armor_chest',
+    'paladins:paladin_armor_legs',
+    'paladins:paladin_armor_feet',
+    'paladins:crusader_armor_head',
+    'paladins:crusader_armor_chest',
+    'paladins:crusader_armor_legs',
+    'paladins:crusader_armor_feet',
+    'paladins:iron_kite_shield',
+    'paladins:golden_kite_shield',
+    'paladins:diamond_kite_shield',
 
     // TBD — immersive_armors sets awaiting trader assignment (recipes removed; unobtainable until reassigned)
     'immersive_armors:wooden_helmet',
