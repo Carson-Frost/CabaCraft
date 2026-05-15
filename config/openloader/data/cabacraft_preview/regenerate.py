@@ -58,32 +58,35 @@ for bi, biome in enumerate(BIOMES):
 with open(os.path.join(FNDIR, "all_textures.mcfunction"), "w") as f:
     f.write("\n".join(out) + "\n")
 
-# --- current_traders (scanned from trader_commands/) ---
+# --- current_traders: spawn the REAL traders (full NBT + Offers) at staggered
+#     positions so you can right-click each one and verify trades in-game.
+NAMETAG_BLOCK = ',CustomName:\'{"text":"%s"}\',CustomNameVisible:1b'
+SPACING_X = 3  # blocks between trader anchors (room to interact with each)
+
 traders = []
 for path in sorted(glob.glob(os.path.join(INSTANCE_ROOT, "trader_commands", "*.txt"))):
     name = os.path.basename(path).replace(".txt", "")
     if name.startswith("preview_"):
         continue
-    text = open(path).read()
-    prof = re.search(r'profession:"([^"]+)"', text)
-    vtype = re.search(r'type:"([^"]+)"', text)
-    if prof and vtype:
-        traders.append((name, prof.group(1), vtype.group(1)))
+    text = open(path).read().strip()
+    if not text.startswith("/summon"):
+        continue
+    # Drop leading `/`, replace the spawn offset, swap the anchor tag for the
+    # preview tag, and inject a nametag right after `Invulnerable:1b,`.
+    body = text[1:]
+    body = re.sub(r'~\s*~\s*~-?\d+', '~%d ~ ~0' % (len(traders) * SPACING_X), body, count=1)
+    body = body.replace('Tags:["trade_anchor"]', 'Tags:["trader_preview"]', 1)
+    body = body.replace('Invulnerable:1b,', 'Invulnerable:1b' + (NAMETAG_BLOCK % name) + ',', 1)
+    traders.append((name, body))
 
 out = [
-    "# Spawns one nametagged villager per current trader, in a row.",
+    "# Spawns the REAL traders (with full trade lists) at staggered positions.",
+    "# Each is nametagged so you can identify them; trades are intact for testing.",
     "# Run with: /function cabacraft:current_traders",
     "# Cleanup with: /function cabacraft:cleanup",
     "# Order: " + ", ".join(t[0] for t in traders),
 ]
-for i, (name, prof, vt) in enumerate(traders):
-    x = i * 2
-    out.append(
-        'summon minecraft:villager ~' + str(x) + ' ~ ~0 '
-        '{Tags:["trader_preview"],Invulnerable:1b,NoAI:1b,Silent:1b,PersistenceRequired:1b,'
-        'CustomName:\'{"text":"' + name + '"}\',CustomNameVisible:1b,'
-        'VillagerData:{profession:"' + prof + '",level:5,type:"' + vt + '"}}'
-    )
+out.extend(body for _, body in traders)
 with open(os.path.join(FNDIR, "current_traders.mcfunction"), "w") as f:
     f.write("\n".join(out) + "\n")
 
