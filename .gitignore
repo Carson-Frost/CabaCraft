@@ -39,8 +39,12 @@ emi.json
 irisUpdateInfo.json
 rhino.local.properties
 .curseclient
-data/
+/data/
 schematics/
+
+# --- Third-party datapack contents (keep manifests, drop bulk content) ---
+datapacks/William Wythers*/data/
+config/openloader/data/
 
 # --- KubeJS-generated diagnostic dumps ---
 kubejs/exports/
