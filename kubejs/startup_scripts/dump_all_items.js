@@ -1,12 +1,11 @@
 // dump_all_items.js — KubeJS startup script
 //
-// On game start, writes every registered item ID + display name to
-//   <gameDir>/kubejs/exports/all_items.txt
-// One "<itemid>\t<DisplayName>" entry per line, alphabetically sorted.
-// Runs once per launch. Prints the absolute path it wrote to.
-
-const Files = Java.loadClass('java.nio.file.Files')
-const Paths = Java.loadClass('java.nio.file.Paths')
+// Dumps every registered item ID + display name to logs/kubejs/startup.log
+// using a unique line prefix so the dump can be grepped out cleanly.
+//
+// Each line: "ITEMDUMP <itemid>\t<DisplayName>"
+// Bracketed by ITEMDUMP_START / ITEMDUMP_END markers.
+// Runs once per launch.
 
 StartupEvents.postInit(event => {
   const rows = []
@@ -15,9 +14,7 @@ StartupEvents.postInit(event => {
   })
   rows.sort()
 
-  const path = Paths.get('kubejs', 'exports', 'all_items.txt')
-  Files.createDirectories(path.getParent())
-  Files.writeString(path, rows.join('\n') + '\n')
-
-  console.info('Dumped ' + rows.length + ' items to ' + path.toAbsolutePath().toString())
+  console.info('ITEMDUMP_START count=' + rows.length)
+  rows.forEach(row => console.info('ITEMDUMP ' + row))
+  console.info('ITEMDUMP_END')
 })
