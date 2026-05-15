@@ -199,14 +199,6 @@ ServerEvents.recipes(event => {
     'death_knights:plaguebringer_armor_feet',
     'death_knights:unholy_dk_ring',
     'death_knights:unholy_dk_necklace',
-
-
-    'death_knights:iron_runeblade',
-    'death_knights:diamond_runeblade',
-    'death_knights:great_iron_runeblade',
-    'death_knights:great_diamond_runeblade',
-    'death_knights:great_iron_runeaxe',
-    'death_knights:great_diamond_runeaxe',
     
     
     
@@ -223,12 +215,21 @@ ServerEvents.recipes(event => {
 
 
     // FROST_KNIGHT: "villagersplus:occultist" + type:"minecraft:snow"
+    // Frost-themed merchant — armor, accessories, AND all DK runeblades/runeaxes.
+    // (The death_knight trader retired; its blade catalog folded in here.)
     'death_knights:frozen_champion_armor_head',
     'death_knights:frozen_champion_armor_chest',
     'death_knights:frozen_champion_armor_legs',
     'death_knights:frozen_champion_armor_feet',
     'death_knights:frost_dk_ring',
     'death_knights:frost_dk_necklace',
+    'death_knights:initiate_runeblade',
+    'death_knights:iron_runeblade',
+    'death_knights:diamond_runeblade',
+    'death_knights:great_iron_runeblade',
+    'death_knights:great_diamond_runeblade',
+    'death_knights:great_iron_runeaxe',
+    'death_knights:great_diamond_runeaxe',
 
     
     
