@@ -22,23 +22,29 @@ ServerEvents.recipes(event => {
     'xercapaint:item_canvas_tall',
     'xercapaint:item_canvas_large',
     'xercapaint:item_easel',
-    'chessmod:game_piece',
+    'chessmod:chess_piece',
 
 
-    // PRIEST: "paladins:monk" — caster gear only (heavy plate moved to ARMORER)
+    // PRIEST: "paladins:monk" — wands + priest robes (light caster)
     'paladins:acolyte_wand',
     'paladins:holy_wand',
     'paladins:diamond_holy_wand',
-    'paladins:holy_staff',
-    'paladins:diamond_holy_staff',
     'paladins:priest_robe_head',
     'paladins:priest_robe_chest',
     'paladins:priest_robe_legs',
     'paladins:priest_robe_feet',
+
+    // MONK: "morevillagers:enderian" — staves + prior robes + magnum torches
+    // (Mystic trader retired; torches folded in here as a "wardkeeper monk" theme.)
+    'paladins:holy_staff',
+    'paladins:diamond_holy_staff',
     'paladins:prior_robe_head',
     'paladins:prior_robe_chest',
     'paladins:prior_robe_legs',
     'paladins:prior_robe_feet',
+    'magnumtorch:diamond_magnum_torch',
+    'magnumtorch:emerald_magnum_torch',
+    'magnumtorch:amethyst_magnum_torch',
 
 
     
@@ -53,6 +59,7 @@ ServerEvents.recipes(event => {
     'archers:ranger_armor_chest',
     'archers:ranger_armor_legs',
     'archers:ranger_armor_feet',
+    'supplementaries:quiver',
     
 
     // MUSICIAN: cleric
@@ -177,8 +184,8 @@ ServerEvents.recipes(event => {
     'create:track_signal',
     'create:mechanical_arm',
     'create:goggles',
-    'createadditions:electric_motor',
-    'createadditions:alternator',
+    'createaddition:electric_motor',
+    'createaddition:alternator',
     
 
     // CULTIST 'villagersplus:occultist'
@@ -347,19 +354,21 @@ ServerEvents.recipes(event => {
     'immersive_armors:divine_boots',
 
 
-    // MYSTIC: "morevillagers:enderian"
-    'magnumtorch:diamond_magnum_torch',
-    'magnumtorch:emerald_magnum_torch',
-    'magnumtorch:amethyst_magnum_torch',
-    //"minecraft:end_stone",
-    // "minecraft:chorus_fruit",
 
 
-    // TINKERER: "minecraft:toolsmith" — exotic random gadgets
+    // TINKERER: "minecraft:toolsmith" — exotic mechanical gadgets
     'create:extendo_grip',
-    'slideshow:projector',
-    'supplementaries:spring_launcher',
+    'slide_show:projector',
     'immersive_machinery:redstone_sheep',
+    'supplementaries:slingshot',
+    'supplementaries:flute',
+    'supplementaries:hourglass',
+    'supplementaries:bomb',
+    'supplementaries:bomb_spiky',
+    'supplementaries:rope_arrow',
+    'supplementaries:spring_launcher',
+    'supplementaries:turn_table',
+    'supplementaries:pulley_block',
 
     // 'infinitybuttons:red_emergency_button',
     // 'infinitybuttons:red_safe_emergency_button',

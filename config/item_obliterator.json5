@@ -266,6 +266,7 @@
     "minecraft:shulker_shell",
     "minecraft:elytra",
     "supplementaries:altimeter",
+    "accents:quiver",
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
