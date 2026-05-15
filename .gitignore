@@ -42,9 +42,9 @@ rhino.local.properties
 /data/
 schematics/
 
-# --- Third-party datapack contents (keep manifests, drop bulk content) ---
+# --- Third-party datapack contents (keep our datapack folder, drop downloaded zips) ---
 datapacks/William Wythers*/data/
-config/openloader/data/
+config/openloader/data/*.zip
 
 # --- KubeJS-generated diagnostic dumps ---
 kubejs/exports/

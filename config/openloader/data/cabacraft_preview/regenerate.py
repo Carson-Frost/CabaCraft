@@ -33,7 +33,8 @@ PROFESSIONS = [
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 FNDIR = os.path.join(ROOT, "data", "cabacraft", "functions")
-INSTANCE_ROOT = os.path.abspath(os.path.join(ROOT, "..", ".."))
+# Datapack lives at config/openloader/data/cabacraft_preview/ — instance root is 4 levels up.
+INSTANCE_ROOT = os.path.abspath(os.path.join(ROOT, "..", "..", "..", ".."))
 
 os.makedirs(FNDIR, exist_ok=True)
 
