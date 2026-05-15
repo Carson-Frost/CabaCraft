@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
     'death_knights:blood_dk_necklace',
 
 
-    // TBD
+    // FROST_KNIGHT: "villagersplus:occultist" + type:"minecraft:snow"
     'death_knights:frozen_champion_armor_head',
     'death_knights:frozen_champion_armor_chest',
     'death_knights:frozen_champion_armor_legs',
