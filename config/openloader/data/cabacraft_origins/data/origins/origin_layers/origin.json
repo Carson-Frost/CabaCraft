@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "order": 0,
+  "enabled": true,
+  "origins": [
+    "cabacraft:tortle",
+    "cabacraft:ribbit",
+    "cabacraft:locathah",
+    "cabacraft:elf",
+    "cabacraft:aarakocra",
+    "cabacraft:tiefling",
+    "cabacraft:dragonborn",
+    "cabacraft:half_orc",
+    "cabacraft:dwarf",
+    "cabacraft:human"
+  ],
+  "allow_random": false,
+  "allow_random_unchoosable": false,
+  "hidden": false
+}

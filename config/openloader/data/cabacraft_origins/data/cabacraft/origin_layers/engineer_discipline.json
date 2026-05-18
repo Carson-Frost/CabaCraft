@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "order": 12,
+  "auto_choose": false,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "cabacraft:engineer",
+        "layer": "origins-classes:class"
+      },
+      "origins": [
+        "cabacraft:eng_aeronautical",
+        "cabacraft:eng_mechanical",
+        "cabacraft:eng_electrical"
+      ]
+    }
+  ]
+}

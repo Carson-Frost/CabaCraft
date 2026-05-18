@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "order": 2,
+  "auto_choose": false,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "cabacraft:elf",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "cabacraft:elf_high",
+        "cabacraft:elf_wood",
+        "cabacraft:elf_sea"
+      ]
+    }
+  ]
+}
