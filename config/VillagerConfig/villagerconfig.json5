@@ -1,7 +1,7 @@
 {
 	"features": {
 		// The highest possible price percent discount a villager can give on it's default trade price (100 = vanilla, 0 = none)
-		"max_discount": 50,
+		"max_discount": 0,
 		// The highest possible price percent raise a villager can give on it's default trade price (100 = vanilla, 0 = none)
 		"max_raise": 100,
 		// Chance for a villager to convert to a villager-zombie (-1 = vanilla behaviour, 100 = 100%)

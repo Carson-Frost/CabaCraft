@@ -42,9 +42,11 @@ os.makedirs(FNDIR, exist_ok=True)
 out = [
     "# Spawns one villager per (profession x biome) at relative offsets.",
     "# Run with: /function cabacraft:all_textures",
-    "# Cleanup with: /function cabacraft:cleanup",
-    "# Profession order (columns): " + ", ".join(p.split(":")[-1] for p in PROFESSIONS),
-    "# Biome order (rows): " + ", ".join(BIOMES),
+    "# Cleanup with: /function cabacraft:cleanup_textures",
+    "# Columns (+X, step 2): " + ", ".join(p.split(":")[-1] for p in PROFESSIONS),
+    "# Rows (+Z from where you stand, step 3) -- one biome per row:",
+] + [
+    "#   row %d  (~ ~ ~%d)  %s" % (i, i * 3, b) for i, b in enumerate(BIOMES)
 ]
 for bi, biome in enumerate(BIOMES):
     z = bi * 3
@@ -72,25 +74,37 @@ for path in sorted(glob.glob(os.path.join(INSTANCE_ROOT, "trader_commands", "*.t
     if not text.startswith("/summon"):
         continue
     # Drop leading `/`, replace the spawn offset, swap the anchor tag for the
-    # preview tag, and inject a nametag right after `Invulnerable:1b,`.
+    # preview tag, and inject a nametag + Silent + NoAI right after
+    # `Invulnerable:1b,`. Silent:1b alone does NOT fully mute villagers in this
+    # modpack (LibertyVillagers/guardvillagers re-drive villager AI/ambient);
+    # NoAI:1b halts the AI tick that produces those sounds, matching the
+    # known-quiet all_textures recipe. Both are added ONLY here (bulk preview);
+    # the source trader_commands/*.txt stay noisy for individual summons, and
+    # NoAI villagers are still right-clickable for trade testing.
     body = text[1:]
     body = re.sub(r'~\s*~\s*~-?\d+', '~%d ~ ~0' % (len(traders) * SPACING_X), body, count=1)
     body = body.replace('Tags:["trade_anchor"]', 'Tags:["trader_preview"]', 1)
-    body = body.replace('Invulnerable:1b,', 'Invulnerable:1b' + (NAMETAG_BLOCK % name) + ',', 1)
+    body = body.replace('Invulnerable:1b,', 'Invulnerable:1b' + (NAMETAG_BLOCK % name) + ',Silent:1b,NoAI:1b,', 1)
     traders.append((name, body))
 
 out = [
     "# Spawns the REAL traders (with full trade lists) at staggered positions.",
     "# Each is nametagged so you can identify them; trades are intact for testing.",
     "# Run with: /function cabacraft:current_traders",
-    "# Cleanup with: /function cabacraft:cleanup",
+    "# Cleanup with: /function cabacraft:cleanup_traders",
     "# Order: " + ", ".join(t[0] for t in traders),
 ]
 out.extend(body for _, body in traders)
 with open(os.path.join(FNDIR, "current_traders.mcfunction"), "w") as f:
     f.write("\n".join(out) + "\n")
 
-# --- cleanup ---
+# --- cleanup (three variants: textures-only, traders-only, both) ---
+with open(os.path.join(FNDIR, "cleanup_textures.mcfunction"), "w") as f:
+    f.write("# Removes only the all_textures grid villagers\n")
+    f.write("kill @e[tag=tex_preview]\n")
+with open(os.path.join(FNDIR, "cleanup_traders.mcfunction"), "w") as f:
+    f.write("# Removes only the current_traders lineup villagers\n")
+    f.write("kill @e[tag=trader_preview]\n")
 with open(os.path.join(FNDIR, "cleanup.mcfunction"), "w") as f:
     f.write("# Removes all preview villagers (both texture and trader previews)\n")
     f.write("kill @e[tag=tex_preview]\n")

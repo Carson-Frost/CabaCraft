@@ -1,8 +1,15 @@
 # Spawns one villager per (profession x biome) at relative offsets.
 # Run with: /function cabacraft:all_textures
-# Cleanup with: /function cabacraft:cleanup
-# Profession order (columns): armorer, butcher, cartographer, cleric, farmer, fisherman, fletcher, leatherworker, librarian, mason, nitwit, shepherd, toolsmith, weaponsmith, woodworker, engineer, netherian, enderian, hunter, florist, miner, oceanographer, occultist, alchemist, oceanographer, horticulturist, archery_artisan, monk, arms_merchant, wizard_merchant
-# Biome order (rows): plains, desert, savanna, jungle, swamp, taiga, snow
+# Cleanup with: /function cabacraft:cleanup_textures
+# Columns (+X, step 2): armorer, butcher, cartographer, cleric, farmer, fisherman, fletcher, leatherworker, librarian, mason, nitwit, shepherd, toolsmith, weaponsmith, woodworker, engineer, netherian, enderian, hunter, florist, miner, oceanographer, occultist, alchemist, oceanographer, horticulturist, archery_artisan, monk, arms_merchant, wizard_merchant
+# Rows (+Z from where you stand, step 3) -- one biome per row:
+#   row 0  (~ ~ ~0)  plains
+#   row 1  (~ ~ ~3)  desert
+#   row 2  (~ ~ ~6)  savanna
+#   row 3  (~ ~ ~9)  jungle
+#   row 4  (~ ~ ~12)  swamp
+#   row 5  (~ ~ ~15)  taiga
+#   row 6  (~ ~ ~18)  snow
 summon minecraft:villager ~0 ~ ~0 {Tags:["tex_preview"],Invulnerable:1b,NoAI:1b,Silent:1b,PersistenceRequired:1b,VillagerData:{profession:"minecraft:armorer",level:5,type:"minecraft:plains"}}
 summon minecraft:villager ~2 ~ ~0 {Tags:["tex_preview"],Invulnerable:1b,NoAI:1b,Silent:1b,PersistenceRequired:1b,VillagerData:{profession:"minecraft:butcher",level:5,type:"minecraft:plains"}}
 summon minecraft:villager ~4 ~ ~0 {Tags:["tex_preview"],Invulnerable:1b,NoAI:1b,Silent:1b,PersistenceRequired:1b,VillagerData:{profession:"minecraft:cartographer",level:5,type:"minecraft:plains"}}
