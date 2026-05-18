@@ -59,3 +59,6 @@ claude-*
 .DS_Store
 Thumbs.db
 *.swp
+
+# Texture-donor jar (never shipped in mods/, never commit)
+turtlearmor-*.jar
