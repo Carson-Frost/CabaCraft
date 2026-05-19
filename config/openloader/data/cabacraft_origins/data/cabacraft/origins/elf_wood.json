@@ -2,7 +2,7 @@
   "powers": [
     "cabacraft:elf_wood/fleet",
     "cabacraft:elf_wood/keen_shot",
-    "cabacraft:elf_wood/unseen"
+    "cabacraft:elf_wood/camouflage"
   ],
   "icon": {
     "item": "minecraft:bow"

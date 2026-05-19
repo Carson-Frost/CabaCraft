@@ -3,6 +3,6 @@
   "interval": 10,
   "entity_action": {
     "type": "origins:execute_command",
-    "command": "function cabacraft:tortle_breath"
+    "command": "function cabacraft:elf_sea_breath"
   }
 }

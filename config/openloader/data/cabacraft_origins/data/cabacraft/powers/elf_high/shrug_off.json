@@ -1,4 +1,8 @@
 {
-  "type": "origins:simple",
-  "hidden": true
+  "type": "origins:action_over_time",
+  "interval": 60,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function cabacraft:elf_shrug"
+  }
 }

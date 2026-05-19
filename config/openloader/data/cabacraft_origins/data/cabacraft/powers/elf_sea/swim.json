@@ -2,8 +2,8 @@
   "type": "origins:attribute",
   "modifier": {
     "attribute": "additionalentityattributes:generic.water_speed",
-    "name": "Swim speed",
-    "value": 1.0,
+    "name": "Sea Elf swim",
+    "value": 0.4,
     "operation": "multiply_base"
   }
 }

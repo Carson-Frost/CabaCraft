@@ -1,8 +1,8 @@
 {
   "powers": [
-    "cabacraft:elf_high/spell_affinity",
-    "cabacraft:elf_high/weak_melee",
+    "cabacraft:elf_high/spell_power",
     "cabacraft:elf_high/magic_ward",
+    "cabacraft:elf_high/weak_melee",
     "cabacraft:elf_high/shrug_off"
   ],
   "icon": {

@@ -2,16 +2,34 @@
   "type": "origins:modify_damage_dealt",
   "modifier": {
     "name": "Keen shot",
-    "value": 0.25,
+    "value": 0.2,
     "operation": "multiply_base"
   },
   "condition": {
-    "type": "origins:using_item",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "tag": "minecraft:bows"
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "minecraft:bows"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "items": [
+              "minecraft:crossbow"
+            ]
+          }
+        }
       }
-    }
+    ]
   }
 }

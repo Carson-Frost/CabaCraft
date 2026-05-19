@@ -1,8 +1,8 @@
 {
   "powers": [
-    "cabacraft:elf_sea/tides",
-    "cabacraft:elf_sea/sea_kin",
-    "cabacraft:elf_sea/hold_breath"
+    "cabacraft:elf_sea/gills",
+    "cabacraft:elf_sea/swim",
+    "cabacraft:elf_sea/sea_kin"
   ],
   "icon": {
     "item": "minecraft:trident"
