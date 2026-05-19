@@ -2,10 +2,9 @@
   "powers": [
     "cabacraft:elf/size",
     "cabacraft:elf/low_light",
-    "cabacraft:elf/fey_ancestry",
-    "cabacraft:elf/frail_health",
-    "cabacraft:elf/easily_shoved",
-    "cabacraft:elf/phantom_ward"
+    "cabacraft:elf/phantom_immunity",
+    "cabacraft:elf/frail",
+    "cabacraft:elf/easily_shoved"
   ],
   "icon": {
     "item": "minecraft:bow"

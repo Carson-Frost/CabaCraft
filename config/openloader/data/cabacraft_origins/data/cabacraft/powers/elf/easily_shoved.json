@@ -1,9 +1,9 @@
 {
   "type": "origins:attribute",
   "modifier": {
-    "name": "Knockback",
+    "name": "Easily shoved",
     "attribute": "minecraft:generic.knockback_resistance",
-    "value": -0.3,
+    "value": -0.1,
     "operation": "addition"
   }
 }
