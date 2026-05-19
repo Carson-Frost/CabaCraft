@@ -1,0 +1,12 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 1,
+  "condition": {
+    "type": "origins:sneaking",
+    "inverted": true
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function cabacraft:ribbit_leap"
+  }
+}

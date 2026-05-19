@@ -1,5 +1,6 @@
 scoreboard objectives add caba_air dummy
 scoreboard objectives add caba_breath dummy
+scoreboard objectives add caba_coil dummy
 scoreboard objectives add caba_wet dummy
 scoreboard objectives add caba_hp dummy
 scoreboard objectives add caba_relcd dummy

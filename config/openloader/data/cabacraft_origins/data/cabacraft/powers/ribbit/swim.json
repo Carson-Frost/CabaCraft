@@ -3,7 +3,7 @@
   "modifier": {
     "attribute": "additionalentityattributes:generic.water_speed",
     "name": "Swim speed",
-    "value": 0.5,
+    "value": 0.25,
     "operation": "multiply_base"
   }
 }

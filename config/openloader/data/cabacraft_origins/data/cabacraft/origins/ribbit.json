@@ -1,11 +1,13 @@
 {
   "powers": [
     "cabacraft:ribbit/size",
-    "cabacraft:ribbit/leap",
+    "cabacraft:ribbit/coil_charge",
+    "cabacraft:ribbit/coil_release",
     "cabacraft:ribbit/fall_immunity",
     "cabacraft:ribbit/poison_immunity",
     "cabacraft:ribbit/swim",
-    "cabacraft:ribbit/cold_drawback"
+    "cabacraft:ribbit/cold_drawback",
+    "cabacraft:ribbit/diet"
   ],
   "icon": {
     "item": "minecraft:slime_ball"

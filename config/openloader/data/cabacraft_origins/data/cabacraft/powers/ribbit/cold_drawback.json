@@ -1,12 +1,17 @@
 {
-  "type": "origins:attribute",
+  "type": "origins:conditioned_attribute",
   "modifier": {
     "name": "Cold-blooded sluggishness",
     "attribute": "minecraft:generic.movement_speed",
-    "value": -0.22,
+    "value": -0.25,
     "operation": "multiply_base"
   },
   "condition": {
-    "type": "origins:in_snow"
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:temperature",
+      "comparison": "<",
+      "compare_to": 0.15
+    }
   }
 }

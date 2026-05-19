@@ -1,0 +1,72 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:fishes",
+    {
+      "id": "#c:foods/raw_fish",
+      "required": false
+    },
+    {
+      "id": "#c:foods/cooked_fish",
+      "required": false
+    },
+    {
+      "id": "#c:raw_fish",
+      "required": false
+    },
+    {
+      "id": "#c:cooked_fish",
+      "required": false
+    },
+    {
+      "id": "#tide:fish",
+      "required": false
+    },
+    {
+      "id": "#tide:cooked_fish",
+      "required": false
+    },
+    "minecraft:slime_ball",
+    {
+      "id": "#c:slime_balls",
+      "required": false
+    },
+    {
+      "id": "#c:slimeballs",
+      "required": false
+    },
+    "minecraft:spider_eye",
+    {
+      "id": "farmersdelight:earthworm",
+      "required": false
+    },
+    {
+      "id": "naturalist:butterfly",
+      "required": false
+    },
+    {
+      "id": "naturalist:caterpillar",
+      "required": false
+    },
+    {
+      "id": "tide:bedrock_bug",
+      "required": false
+    },
+    {
+      "id": "tide:incandescent_larva",
+      "required": false
+    },
+    {
+      "id": "tide:bait",
+      "required": false
+    },
+    {
+      "id": "tide:lucky_bait",
+      "required": false
+    },
+    {
+      "id": "tide:magnetic_bait",
+      "required": false
+    }
+  ]
+}
