@@ -2,7 +2,8 @@
   "type": "origins:action_over_time",
   "interval": 1,
   "condition": {
-    "type": "origins:sneaking"
+    "type": "origins:power_active",
+    "power": "cabacraft:ribbit/coil_key"
   },
   "entity_action": {
     "type": "origins:execute_command",

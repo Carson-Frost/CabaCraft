@@ -1,6 +1,7 @@
 {
   "powers": [
     "cabacraft:ribbit/size",
+    "cabacraft:ribbit/coil_key",
     "cabacraft:ribbit/coil_charge",
     "cabacraft:ribbit/coil_release",
     "cabacraft:ribbit/fall_immunity",
