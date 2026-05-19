@@ -3,10 +3,10 @@
     "cabacraft:locathah/water_breathing",
     "cabacraft:locathah/swim",
     "cabacraft:locathah/water_vision",
-    "cabacraft:locathah/land_slow",
-    "cabacraft:locathah/scaled_hide",
     "cabacraft:locathah/leviathan_will",
-    "cabacraft:locathah/dry_out"
+    "cabacraft:locathah/tail_keeper",
+    "cabacraft:locathah/wet",
+    "cabacraft:locathah/dry"
   ],
   "icon": {
     "item": "minecraft:cod"
