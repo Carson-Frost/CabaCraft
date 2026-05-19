@@ -1,11 +1,12 @@
 {
   "type": "origins:modify_damage_taken",
   "modifier": {
-    "name": "Draconic fire resistance",
-    "value": -0.5,
+    "name": "Sure-footed",
+    "value": -0.6,
     "operation": "multiply_total"
   },
   "damage_condition": {
-    "type": "origins:fire"
+    "type": "origins:name",
+    "name": "fall"
   }
 }

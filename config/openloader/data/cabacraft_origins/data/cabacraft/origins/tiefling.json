@@ -2,10 +2,9 @@
   "powers": [
     "cabacraft:tiefling/darkvision",
     "cabacraft:tiefling/fire_immunity",
-    "cabacraft:tiefling/nether_spawn",
     "cabacraft:tiefling/hellish_rebuke",
-    "cabacraft:tiefling/water_vulnerability",
-    "cabacraft:tiefling/potion_harm"
+    "cabacraft:tiefling/nether_spawn",
+    "cabacraft:tiefling/water_vulnerability"
   ],
   "icon": {
     "item": "minecraft:blaze_powder"

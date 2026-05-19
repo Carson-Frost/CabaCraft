@@ -1,6 +1,6 @@
 {
   "type": "origins:active_self",
-  "cooldown": 200,
+  "cooldown": 300,
   "key": {
     "key": "key.origins.primary_active",
     "continuous": false

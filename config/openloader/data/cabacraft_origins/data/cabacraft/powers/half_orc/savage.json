@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "modifier": {
-    "name": "Racial attack",
+    "name": "Savage attacks",
     "attribute": "minecraft:generic.attack_damage",
     "value": 1.0,
     "operation": "addition"

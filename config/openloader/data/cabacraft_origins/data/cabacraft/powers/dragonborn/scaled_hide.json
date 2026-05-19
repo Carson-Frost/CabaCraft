@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
   "modifier": {
-    "name": "Natural armor",
+    "name": "Scaled hide",
     "attribute": "minecraft:generic.armor",
     "value": 2.0,
     "operation": "addition"

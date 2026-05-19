@@ -5,8 +5,8 @@
     "cabacraft:dwarf/stone_mining",
     "cabacraft:dwarf/barehand_stone",
     "cabacraft:dwarf/resilience",
-    "cabacraft:dwarf/dwarven_constitution",
-    "cabacraft:dwarf/slow",
+    "cabacraft:dwarf/poison_resist",
+    "cabacraft:dwarf/stout_legs",
     "cabacraft:dwarf/poor_swimmer"
   ],
   "icon": {

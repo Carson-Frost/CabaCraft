@@ -1,8 +1,8 @@
 {
   "powers": [
     "cabacraft:half_orc/size",
-    "cabacraft:half_orc/savage",
     "cabacraft:half_orc/low_light",
+    "cabacraft:half_orc/savage",
     "cabacraft:half_orc/poor_magic",
     "cabacraft:half_orc/relentless"
   ],

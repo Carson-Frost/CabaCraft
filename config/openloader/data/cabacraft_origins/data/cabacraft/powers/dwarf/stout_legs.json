@@ -1,9 +1,9 @@
 {
   "type": "origins:attribute",
   "modifier": {
-    "name": "Racial speed",
+    "name": "Stout (slow)",
     "attribute": "minecraft:generic.movement_speed",
-    "value": 0.08,
+    "value": -0.1,
     "operation": "multiply_base"
   }
 }
