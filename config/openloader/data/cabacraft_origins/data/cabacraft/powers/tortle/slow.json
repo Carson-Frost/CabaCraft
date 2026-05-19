@@ -3,7 +3,7 @@
   "modifier": {
     "name": "Racial speed",
     "attribute": "minecraft:generic.movement_speed",
-    "value": -0.22,
+    "value": -0.25,
     "operation": "multiply_base"
   }
 }

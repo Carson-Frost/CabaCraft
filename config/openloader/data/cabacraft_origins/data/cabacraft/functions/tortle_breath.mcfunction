@@ -1,6 +1,9 @@
-# extended (finite) breath: top up air while submerged, capped by counter
-execute if entity @s[nbt={Air:-20s}] run scoreboard players set @s caba_dive 0
+# Tortle extended-but-finite breath: ~60s (1200t) water_breathing budget per dive.
+# Runs every 10 ticks (hold_breath action_over_time interval=10).
 execute store result score @s caba_air run data get entity @s Air
-execute if score @s caba_air matches ..0 if score @s caba_dive matches 1.. run effect give @s minecraft:water_breathing 2 0 true
-execute if score @s caba_air matches ..0 if score @s caba_dive matches 1.. run scoreboard players remove @s caba_dive 1
-execute if score @s caba_air matches 60.. run scoreboard players set @s caba_dive 18
+# At/near surface (air refilled): refill the 60s budget for the next dive.
+execute if score @s caba_air matches 280.. run scoreboard players set @s caba_breath 1200
+# Submerged with budget left: sustain breathing and spend 10t of the budget.
+execute if score @s caba_air matches ..200 if score @s caba_breath matches 1.. run effect give @s minecraft:water_breathing 2 0 true
+execute if score @s caba_air matches ..200 if score @s caba_breath matches 1.. run scoreboard players remove @s caba_breath 10
+# Budget exhausted -> no grant -> vanilla drowning takes over.
