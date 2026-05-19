@@ -1,5 +1,14 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:dwarf/size",
+    "cabacraft:dwarf/darkvision",
+    "cabacraft:dwarf/stone_mining",
+    "cabacraft:dwarf/barehand_stone",
+    "cabacraft:dwarf/resilience",
+    "cabacraft:dwarf/dwarven_constitution",
+    "cabacraft:dwarf/slow",
+    "cabacraft:dwarf/poor_swimmer"
+  ],
   "icon": {
     "item": "minecraft:iron_pickaxe"
   },

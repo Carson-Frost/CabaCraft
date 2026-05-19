@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Phantom ward",
+    "value": -1.0,
+    "operation": "multiply_total"
+  },
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "mob"
+  }
+}

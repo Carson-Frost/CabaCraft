@@ -1,8 +1,12 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:elf_wood/fleet",
+    "cabacraft:elf_wood/keen_shot",
+    "cabacraft:elf_wood/unseen"
+  ],
   "icon": {
     "item": "minecraft:bow"
   },
-  "order": 4,
-  "impact": 0
+  "order": 1,
+  "impact": 1
 }

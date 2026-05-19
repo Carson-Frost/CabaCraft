@@ -1,0 +1,12 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Cold-blooded sluggishness",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": -0.22,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:in_snow"
+  }
+}

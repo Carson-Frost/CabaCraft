@@ -1,0 +1,8 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 40,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function cabacraft:locathah_dryout"
+  }
+}

@@ -1,5 +1,7 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:human_steadyaim/steady_aim"
+  ],
   "icon": {
     "item": "minecraft:arrow"
   },

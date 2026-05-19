@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "Reach",
+      "attribute": "reach-entity-attributes:reach",
+      "value": 1.0,
+      "operation": "addition"
+    },
+    {
+      "name": "Range",
+      "attribute": "reach-entity-attributes:attack_range",
+      "value": 1.0,
+      "operation": "addition"
+    }
+  ]
+}

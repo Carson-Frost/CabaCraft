@@ -1,5 +1,13 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:locathah/water_breathing",
+    "cabacraft:locathah/swim",
+    "cabacraft:locathah/water_vision",
+    "cabacraft:locathah/land_slow",
+    "cabacraft:locathah/scaled_hide",
+    "cabacraft:locathah/leviathan_will",
+    "cabacraft:locathah/dry_out"
+  ],
   "icon": {
     "item": "minecraft:cod"
   },

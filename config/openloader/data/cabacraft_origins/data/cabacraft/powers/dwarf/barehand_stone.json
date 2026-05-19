@@ -1,0 +1,8 @@
+{
+  "type": "origins:strong_arms_break_speed",
+  "modifier": {
+    "name": "Bare-hand stone",
+    "operation": "multiply_total",
+    "value": 1.0
+  }
+}

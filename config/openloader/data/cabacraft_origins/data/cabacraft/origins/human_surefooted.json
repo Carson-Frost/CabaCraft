@@ -1,5 +1,7 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:human_surefooted/sure_footed"
+  ],
   "icon": {
     "item": "minecraft:feather"
   },

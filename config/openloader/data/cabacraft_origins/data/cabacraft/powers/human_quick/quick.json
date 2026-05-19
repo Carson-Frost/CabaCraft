@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Racial speed",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.08,
+    "operation": "multiply_base"
+  }
+}

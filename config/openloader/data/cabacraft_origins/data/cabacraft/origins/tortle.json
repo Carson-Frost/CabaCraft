@@ -1,5 +1,11 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:tortle/size",
+    "cabacraft:tortle/claws",
+    "cabacraft:tortle/slow",
+    "cabacraft:tortle/shell_guard",
+    "cabacraft:tortle/hold_breath"
+  ],
   "icon": {
     "item": "minecraft:turtle_helmet"
   },

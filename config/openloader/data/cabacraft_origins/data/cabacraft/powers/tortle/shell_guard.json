@@ -1,0 +1,24 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Shell guards the body",
+    "value": -0.6,
+    "operation": "multiply_total"
+  },
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:projectile"
+      },
+      {
+        "type": "origins:name",
+        "name": "explosion"
+      },
+      {
+        "type": "origins:name",
+        "name": "explosion.player"
+      }
+    ]
+  }
+}

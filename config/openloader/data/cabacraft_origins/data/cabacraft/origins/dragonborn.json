@@ -1,5 +1,11 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:dragonborn/size",
+    "cabacraft:dragonborn/fire_resist",
+    "cabacraft:dragonborn/scaled_hide",
+    "cabacraft:dragonborn/breath",
+    "cabacraft:dragonborn/frost_vulnerability"
+  ],
   "icon": {
     "item": "minecraft:dragon_breath"
   },

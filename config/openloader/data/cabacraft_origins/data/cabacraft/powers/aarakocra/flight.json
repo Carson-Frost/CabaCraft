@@ -1,0 +1,35 @@
+{
+  "type": "origins:elytra_flight",
+  "render_elytra": false,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "medievalorigins:icarus_wings"
+          }
+        }
+      },
+      {
+        "type": "origins:and",
+        "inverted": true,
+        "conditions": [
+          {
+            "type": "origins:equipped_item",
+            "equipment_slot": "legs",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "c:iron_armor"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

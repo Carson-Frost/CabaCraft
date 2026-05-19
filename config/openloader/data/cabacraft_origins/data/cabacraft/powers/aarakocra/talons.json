@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Racial attack",
+    "attribute": "minecraft:generic.attack_damage",
+    "value": 0.5,
+    "operation": "addition"
+  }
+}

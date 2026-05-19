@@ -1,5 +1,12 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:elf/size",
+    "cabacraft:elf/low_light",
+    "cabacraft:elf/fey_ancestry",
+    "cabacraft:elf/frail_health",
+    "cabacraft:elf/easily_shoved",
+    "cabacraft:elf/phantom_ward"
+  ],
   "icon": {
     "item": "minecraft:bow"
   },

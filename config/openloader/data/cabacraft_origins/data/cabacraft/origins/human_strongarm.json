@@ -1,5 +1,7 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:human_strongarm/strong_arm"
+  ],
   "icon": {
     "item": "minecraft:iron_sword"
   },

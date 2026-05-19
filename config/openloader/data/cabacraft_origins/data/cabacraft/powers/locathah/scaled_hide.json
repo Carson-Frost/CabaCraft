@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Natural armor",
+    "attribute": "minecraft:generic.armor",
+    "value": 3.0,
+    "operation": "addition"
+  }
+}

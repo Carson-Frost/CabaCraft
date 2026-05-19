@@ -1,5 +1,11 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:aarakocra/size",
+    "cabacraft:aarakocra/flight",
+    "cabacraft:aarakocra/talons",
+    "cabacraft:aarakocra/dive",
+    "cabacraft:aarakocra/hollow_bones"
+  ],
   "icon": {
     "item": "minecraft:feather"
   },

@@ -1,5 +1,7 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:human_quick/quick"
+  ],
   "icon": {
     "item": "minecraft:sugar"
   },

@@ -1,5 +1,7 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:human_reach/far_reaching"
+  ],
   "icon": {
     "item": "minecraft:fishing_rod"
   },

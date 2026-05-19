@@ -1,8 +1,12 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:elf_sea/tides",
+    "cabacraft:elf_sea/sea_kin",
+    "cabacraft:elf_sea/hold_breath"
+  ],
   "icon": {
     "item": "minecraft:trident"
   },
-  "order": 5,
-  "impact": 0
+  "order": 2,
+  "impact": 1
 }
