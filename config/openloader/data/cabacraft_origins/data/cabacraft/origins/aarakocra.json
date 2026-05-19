@@ -1,13 +1,14 @@
 {
   "powers": [
     "cabacraft:aarakocra/size",
-    "cabacraft:aarakocra/flight",
+    "cabacraft:aarakocra/wings",
+    "cabacraft:aarakocra/flight_safety",
     "cabacraft:aarakocra/talons",
     "cabacraft:aarakocra/dive",
     "cabacraft:aarakocra/hollow_bones"
   ],
   "icon": {
-    "item": "minecraft:feather"
+    "item": "icarus:white_feathered_wings"
   },
   "order": 4,
   "impact": 2
