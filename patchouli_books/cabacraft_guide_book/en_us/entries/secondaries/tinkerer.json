@@ -1,0 +1,27 @@
+{
+  "name": "Tinkerer",
+  "icon": "tide:pocket_watch",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Tinkerer",
+      "text": "Tech gadgets. Sixteen items, hard recipes. Every gadget is built around a Redstone Mechanism — a class-gated intermediate at block-tier materials. Each gadget therefore takes two class-crafts: mechanism, then gadget."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Core",
+      "text": "$(bold)Redstone Mechanism.$(/) The intermediate. Redstone and copper at block tier.$(br2)$(bold)Redstone Sheep.$(/) Automated shearer, two mechanisms.$(br2)$(bold)Extendo Grip.$(/) Reach extender. In-grid here, not the 5x5 mechanical-crafting version."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Maritime gauges",
+      "text": "$(bold)Pocket Watch.$(/) Gilded clockwork.$(br2)$(bold)Depth Meter.$(/) Pressure gauge.$(br2)$(bold)Climate Gauge.$(/) Barometric.$(br2)$(bold)Weather Radio.$(/) Radio set.$(br2)$(bold)Lunar Calendar.$(/) Lunar dial."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tools and optics",
+      "text": "$(bold)Altimeter, Wrench.$(/) Supplementaries gear.$(br2)$(bold)Rope Arrow, Spring Launcher.$(/) Mobility.$(br2)$(bold)Camera, Color Film, Black-and-White Film, Projector.$(/) Plate photography and slide show.$(br2)Matching trader: the Tinkerer."
+    }
+  ]
+}

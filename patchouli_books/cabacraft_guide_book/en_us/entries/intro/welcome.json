@@ -1,0 +1,33 @@
+{
+  "name": "Welcome",
+  "icon": "minecells:guidebook",
+  "category": "patchouli:intro",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "CabaCraft",
+      "text": "Minecraft 1.20.1 Fabric pack built on top of Origins. Three picks at world creation, in order:$(br)$(li)A $(l:races/overview)race$(/l) (e.g. Tortle, Tiefling, Dwarf).$(li)A $(l:classes/overview)primary class$(/l) (e.g. Mage, Engineer).$(li)A $(l:secondaries/overview)secondary class$(/l) (e.g. Brewer, Bard)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What each pick does",
+      "text": "$(bold)Race$(/) decides what your body can do — shells, wings, breath, immunities, drawbacks.$(br2)$(bold)Primary class$(/) decides the large catalogue of items only you can craft — armor lines, vehicles, spell books, machines.$(br2)$(bold)Secondary class$(/) decides a smaller second catalogue — drinks, instruments, hats, gadgets."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Where items come from",
+      "text": "Three sources only:$(br)$(li)Vanilla — drops, loot, base recipes.$(li)Your class catalogue — gear only your class can craft.$(li)A $(l:traders/overview)trader$(/l) — the cross-class shortcut. Other classes can buy your gear there for $(l:traders/runes)runes$(/l) scavenged from Mine Cells dungeons.$(br2)Vanilla recipes for class-owned items have been removed; the only way is class craft or trader."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Factions",
+      "text": "Optional. After joining the world you may $(l:factions/overview)found or join a faction$(/l) — Desert, Island, or Knight. Faction leaders craft signature regalia no one else can.$(br2)A faction is bound to an FTB Teams party. The party owner is the leader."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Switching your origin",
+      "text": "Race and class are permanent. Switching either requires a server admin.$(br2)Faction membership is not permanent — your party leader can claim or release a faction at any time."
+    }
+  ]
+}

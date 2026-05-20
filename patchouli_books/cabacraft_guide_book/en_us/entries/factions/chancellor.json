@@ -1,0 +1,22 @@
+{
+  "name": "Chancellor",
+  "icon": "fantasy_armor:hero_chestplate",
+  "category": "patchouli:factions",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Chancellor",
+      "text": "Elected office. Caps at one holder. The Chancellor names the Treasurer and the Judge.$(br2)Election is social — there is no in-game ballot. Vote, dialog, whatever the server agrees on. An admin sets the office once decided."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Regalia (6 recipes)",
+      "text": "$(bold)Hero Helmet, Chestplate, Leggings, Boots.$(/)$(br2)$(bold)Hero Claymore.$(/)$(br2)$(bold)Crown.$(/) The Crown has no other source in CabaCraft — no trader sells it, no other recipe exists."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Banner",
+      "text": "The Chancellor flies the $(bold)King's Crest Flag$(/), crafted by $(l:secondaries/decorator)Decorator$(/l). Use it as your seat-of-government decoration."
+    }
+  ]
+}

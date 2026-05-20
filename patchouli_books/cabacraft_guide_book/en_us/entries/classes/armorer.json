@@ -1,0 +1,27 @@
+{
+  "name": "Armorer",
+  "icon": "minecraft:iron_chestplate",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Armorer",
+      "text": "Craft primary. Generic plate. Nineteen items.$(br2)Faction regalia (Desert, Island, Knight leader plate) does NOT live here — see $(l:factions/overview)Factions$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Plate cores",
+      "text": "$(bold)Iron Plate Armor$(/) — netherite-scrap accents.$(br2)$(bold)Heavy Armor$(/) — heavy plate with netherite-scrap rivets.$(br2)$(bold)Warrior Armor$(/) (the Viking lamellar; renamed in-game to disambiguate from the Rogues warrior set). Chain-mail lined, bone-block trim."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Shields and pirate plate",
+      "text": "$(bold)Iron, Golden, and Diamond Kite Shields.$(/) Matching-metal-block boss reinforcing the rim.$(br2)$(bold)Lady Maria set.$(/) Corsair-noble theme — iron-block frame, gold ingot, red wool. Head, chest, legs, feet."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Notes",
+      "text": "Forge theme — iron plus netherite scrap.$(br2)Wooden and stone armor tiers stay normally craftable. Netherite stays a smithing-table upgrade.$(br2)Matching trader: the Armorer."
+    }
+  ]
+}

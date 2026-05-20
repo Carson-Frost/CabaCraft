@@ -1,0 +1,27 @@
+{
+  "name": "Monk",
+  "icon": "paladins:holy_staff",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Monk",
+      "text": "Combat primary. The holy order — warrior-monk identity. Thirty items, self-contained.$(br2)Two blocks of gear: Bishop (armored) and Priest (caster), plus magnum torches and two spell books."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bishop block (armored)",
+      "text": "$(bold)Paladin Armor.$(/) Blessed plate. Gold and copper.$(br2)$(bold)Crusader Armor.$(/) Gold-block and diamond reinforcement, ghast-tear crown.$(br2)$(bold)Holy Armor.$(/) Radiant top tier, totem-anchored.$(br2)$(bold)Holy Staff$(/) and $(bold)Diamond Holy Staff.$(/) Two-handed melee."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Priest block (caster)",
+      "text": "$(bold)Acolyte, Holy, and Diamond Holy Wands.$(/) Casting focuses across three tiers.$(br2)$(bold)Priest Robe$(/) and $(bold)Prior Robe.$(/) Chainmail-lined, gold-trimmed.$(br2)$(bold)Magnum Torches.$(/) Diamond, emerald, and amethyst. Wide-area mob-spawn suppression."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Notes",
+      "text": "Theme is gold-block, glowstone, and totem of undying.$(br2)Matching trader: the Bishop and the Priest."
+    }
+  ]
+}

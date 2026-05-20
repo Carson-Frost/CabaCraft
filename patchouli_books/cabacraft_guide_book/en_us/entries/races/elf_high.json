@@ -1,0 +1,17 @@
+{
+  "name": "High Elf",
+  "icon": "wizards:wand_arcane",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "High Elf",
+      "text": "Stacks on the shared $(l:races/elf)Elf$(/l) base. Built for spellcasting; weak with a sword."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Traits",
+      "text": "$(bold)Arcane Affinity.$(/) +10% spell power across arcane, fire, frost, and healing.$(br2)$(bold)Magic Ward.$(/) Incoming magic damage reduced 15%.$(br2)$(bold)Fey Resilience.$(/) Harmful status effects wear off faster.$(br2)$(bold)Frail Strike.$(/) Melee damage -25%."
+    }
+  ]
+}

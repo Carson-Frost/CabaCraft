@@ -1,0 +1,22 @@
+{
+  "name": "Gunsmith",
+  "icon": "musketmod:musket",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Gunsmith",
+      "text": "Firearms. Five items, hard recipes. None of these guns has a recipe in the source mod — the Gunsmith class is the only crafting path.$(br2)Theme is 19th-century — iron-block barrels and breeches, a powder seat."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapons and ammo",
+      "text": "$(bold)Pistol.$(/) Flintlock, iron-block breech.$(br2)$(bold)Musket.$(/) Long iron-block barrel.$(br2)$(bold)Blunderbuss.$(/) Flared bore.$(br2)$(bold)Cartridge.$(/) Paper-wrapped powder and iron-nugget shot. Yields 4."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Upgrade template",
+      "text": "$(bold)Musket Upgrade Smithing Template.$(/) Gilded etched template on an iron-block die.$(br2)Used at a smithing table to upgrade a musket into the Bayonet or Scope variant. The upgraded variants are smithing-only — they are not class-crafted.$(br2)Matching trader: the Arms Merchant. The Pistol is also cheaper at the Pirate trader."
+    }
+  ]
+}

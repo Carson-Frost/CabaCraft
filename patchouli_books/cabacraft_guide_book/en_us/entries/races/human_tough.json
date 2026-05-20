@@ -1,0 +1,12 @@
+{
+  "name": "Boon: Tough",
+  "icon": "minecraft:golden_apple",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Tough",
+      "text": "+4 max health (+2 hearts). Always on. The most defensive of the boons."
+    }
+  ]
+}

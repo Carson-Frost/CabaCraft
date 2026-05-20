@@ -1,0 +1,23 @@
+{
+  "name": "Tortle",
+  "icon": "kubejs:turtle_shell",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Tortle",
+      "text": "Shelled. Height 0.85, width 1.3. Slow on land, durable, holds breath underwater for longer than the others.$(br2)The shell is part of you and occupies your chest slot. No other chestplate fits. Defense is roughly equivalent to a diamond chestplate."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "kubejs:turtle_shell",
+      "title": "Turtle Shell",
+      "text": "Permanent chest-slot armor. Cannot be removed, replaced, or damaged off you."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Traits",
+      "text": "$(bold)Shell Guard.$(/) Strikes that land on your back deal 60% less damage.$(br2)$(bold)Claws.$(/) Bare-hand attacks gain +1 damage.$(br2)$(bold)Deep Lungs.$(/) Hold breath underwater for roughly 60 seconds. Not true water-breathing.$(br2)$(bold)Plodding.$(/) Movement speed reduced 25%."
+    }
+  ]
+}

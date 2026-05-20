@@ -22,7 +22,8 @@ replay_pid*.log
 downloads/
 moddata/
 slideshow/
-patchouli_books/
+patchouli_books/*
+!patchouli_books/cabacraft_guide_book/
 patchouli_data.json
 local/
 Distant_Horizons_server_data/

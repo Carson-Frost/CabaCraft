@@ -1,0 +1,47 @@
+{
+  "name": "Dimensional Runes",
+  "icon": "minecells:prison_dimensional_rune",
+  "category": "patchouli:traders",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Dimensional Runes",
+      "text": "The trader currency. Five flavors, all dropped from Mine Cells dungeons. Every trade is priced in Prison runes (the baseline) plus an optional thematic secondary."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecells:prison_dimensional_rune",
+      "title": "Prison Rune",
+      "text": "Baseline. Every trader takes it. Cheap trades are Prison-only."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecells:promenade_dimensional_rune",
+      "title": "Promenade Rune",
+      "text": "Nature theme. Used by Archer, Musician, Fisherman, Flag Maker."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecells:insufferable_crypt_dimensional_rune",
+      "title": "Insufferable Crypt Rune",
+      "text": "Tech and industry theme. Used by Banker, Engineer, Mechanist, Tinkerer."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecells:ramparts_dimensional_rune",
+      "title": "Ramparts Rune",
+      "text": "Military and magic theme. Used by Priest, Wizard, Rogue."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecells:black_bridge_dimensional_rune",
+      "title": "Black Bridge Rune",
+      "text": "Cursed and dark theme. Used by Cultist, Scientist, Blight. The most expensive single trade in the pack — the Mechanical Drill at the Mechanist — costs 60 Prison plus 10 Black Bridge."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Price tiers",
+      "text": "Indicative Prison amounts per tier:$(br)$(li)Trivial 1, Cheap 2, Entry 5, Low-Mid 10.$(li)Mid 18, Shop 20, High 28.$(li)Engine Basic 30, Top 40, Pinnacle 50.$(li)Engine Advanced 60, Elite 64.$(br)Secondary runes scale at roughly Prison divided by five. Trades inside a trader sort by total weighted cost."
+    }
+  ]
+}

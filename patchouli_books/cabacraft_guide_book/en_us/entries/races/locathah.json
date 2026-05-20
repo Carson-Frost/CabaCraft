@@ -1,0 +1,22 @@
+{
+  "name": "Locathah",
+  "icon": "minecraft:cod",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Locathah",
+      "text": "Fish-folk. Permanent tail — part of you, not equipment. Apex aquatic; weak on land. The only race whose signature isn't equip-gated."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "In water",
+      "text": "$(bold)Aquatic Lungs.$(/) Infinite breath. You never drown.$(br2)$(bold)Current-Born.$(/) Swim speed +40%.$(br2)$(bold)Deep Sight.$(/) Underwater view is clear — no blur.$(br2)$(bold)Leviathan's Will.$(/) Immune to poison and nausea."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "On land",
+      "text": "$(bold)Dry-Out.$(/) Out of water for roughly 90 seconds you start accumulating weakness, slowness, and a mining penalty. No damage — just penalties.$(br2)Submerge to reset. Plan colonies near water."
+    }
+  ]
+}

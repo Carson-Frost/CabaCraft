@@ -1,0 +1,17 @@
+{
+  "name": "Human",
+  "icon": "minecraft:player_head",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Human",
+      "text": "Normal size. No innate traits. No drawback.$(br2)At world creation a second screen asks you to pick one $(bold)boon$(/) from seven. The boon is your identity."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The seven boons",
+      "text": "$(li)$(l:races/human_tough)Tough$(/l) — +4 max health.$(li)$(l:races/human_quick)Quick$(/l) — +5% movement speed.$(li)$(l:races/human_reach)Far-Reaching$(/l) — +1 block reach and attack range.$(li)$(l:races/human_hardy)Hardy$(/l) — immune to the Hunger effect.$(li)$(l:races/human_surefooted)Sure-Footed$(/l) — fall damage cut 60%.$(li)$(l:races/human_strongarm)Strong Arm$(/l) — +1 melee damage.$(li)$(l:races/human_steadyaim)Steady Aim$(/l) — bow and crossbow damage +15%.$(br)Each boon is no-drawback. Pick the one that fits your class."
+    }
+  ]
+}

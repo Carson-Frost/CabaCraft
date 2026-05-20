@@ -1,0 +1,27 @@
+{
+  "name": "Fisher",
+  "icon": "tide:diamond_fishing_rod",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Fisher",
+      "text": "Tide-mod tackle. Forty-six items. Mod-original recipes preserved; the class is the only delta. Bait stays open to all."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Rods",
+      "text": "$(bold)Stone, Iron, Golden, Diamond, Crystal Fishing Rods.$(/) Five tiers.$(br2)Netherite and Midas rods stay smithing-table upgrades from these bases."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Line and hook",
+      "text": "$(bold)Lines.$(/) Fishing Line, Braided Line, Golden Line, Reinforced Line.$(br2)$(bold)Hooks.$(/) Fishing Hook, Iron, Lavaproof, Void."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Storage and bobbers",
+      "text": "$(bold)Fish Satchel, Fish Display.$(/) Stowage and presentation.$(br2)$(bold)33 bobbers.$(/) The white base plus dye variants, metallic variants (gold/iron/diamond/netherite/amethyst/echo/pearl/chorus), and specials (apple, golden apple, enchanted, feather, duck, grassy, lichen, heart, nautilus). Color variants are dye recipes from the base.$(br2)Matching trader: the Fisherman."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Half-Orc",
+  "icon": "minecraft:iron_axe",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Half-Orc",
+      "text": "Brawny. Slightly large and broad. Height 1.08, width 1.08. Built for melee."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Traits",
+      "text": "$(bold)Low-Light Vision.$(/) Faint light is enough.$(br2)$(bold)Savage Attacks.$(/) +1 flat melee damage.$(br2)$(bold)Relentless Endurance.$(/) When a hit would drop you very low, you get brief Resistance and Regeneration. Long cooldown before it can re-trigger."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Drawback",
+      "text": "$(bold)Dull to Magic.$(/) Spell power -20% across arcane, fire, frost, and healing. The mirror of the High Elf's weak melee.$(br2)Do not pick Half-Orc and then try to play $(l:classes/mage)Mage$(/l). The math fights you."
+    }
+  ]
+}

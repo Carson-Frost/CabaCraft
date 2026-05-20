@@ -1,0 +1,22 @@
+{
+  "name": "Knight Faction",
+  "icon": "fantasy_armor:dragonslayer_chestplate",
+  "category": "patchouli:factions",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Knight Faction",
+      "text": "The Knight Order of the taiga. Twenty-three ultra-hard recipes. Claim with $(l:factions/overview)/cabafaction claim knight$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor sets",
+      "text": "$(bold)Old Knight, Silver Knight, Dragonslayer, Spark of Dawn, Fog Guard.$(/) Each is helmet, chestplate, leggings, boots."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Signature weapons",
+      "text": "$(bold)Dragonslayer Halberd, Fog Guard Sword, Spark of Dawn Polearm.$(/)$(br2)These three blades also exist on $(l:classes/blacksmith)Blacksmith$(/l) at standard difficulty. The Knight faction recipe is the ultra-hard regalia version — same item, different signature."
+    }
+  ]
+}

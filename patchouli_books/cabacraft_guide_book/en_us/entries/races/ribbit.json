@@ -1,0 +1,22 @@
+{
+  "name": "Ribbit",
+  "icon": "minecraft:slime_ball",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Ribbit",
+      "text": "Frog-folk. Small and lean. Eats only bugs, fish, and slime. Coils when grounded, launches when released."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Traits",
+      "text": "$(bold)Spring Leap.$(/) Hold the Origins primary key while standing on the ground to coil; release for a leap up to roughly six blocks. Normal jumps are unaffected.$(br2)$(bold)Soft Landing.$(/) Falls do nothing. Any height.$(br2)$(bold)Grung Hide.$(/) Immune to poison.$(br2)$(bold)Webbed Feet.$(/) Swim speed +25%, hold breath longer than the others. Not true water-breathing."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Drawbacks",
+      "text": "$(bold)Insectivore.$(/) Only fish, slimeballs, spider eyes, and the pack's bug foods give nutrition. Everything else does nothing.$(br2)$(bold)Cold-Blooded.$(/) Movement reduced 25% in cold biomes."
+    }
+  ]
+}

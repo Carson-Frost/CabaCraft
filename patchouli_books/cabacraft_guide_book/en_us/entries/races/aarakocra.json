@@ -1,0 +1,23 @@
+{
+  "name": "Aarakocra",
+  "icon": "icarus:white_feathered_wings",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Aarakocra",
+      "text": "Bird-folk. Small and light. Height 0.92. The flying race — but flight requires equipped wings, and heavy armor grounds you."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "icarus:white_feathered_wings",
+      "title": "Icarus Wings",
+      "text": "Equip wings in the chest slot to fly. Without them you cannot. Iron or netherite chest or leg armor blocks flight until removed — leather, chain, or light fantasy armor only."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Traits",
+      "text": "$(bold)Sky-Born.$(/) While flying, fall damage and wall-crash damage do nothing.$(br2)$(bold)Talons.$(/) Bare-hand attacks gain +1 damage.$(br2)$(bold)Dive Attack.$(/) While gliding or falling with wings out, melee damage +100%.$(br2)$(bold)Hollow Bones.$(/) -2 max health (-1 heart)."
+    }
+  ]
+}

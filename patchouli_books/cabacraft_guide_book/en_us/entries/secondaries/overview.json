@@ -1,0 +1,23 @@
+{
+  "name": "Secondary Classes",
+  "icon": "accents:item_satchel",
+  "category": "patchouli:secondaries",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Secondary Classes",
+      "text": "Pick exactly one. Smaller catalogue than a primary, lighter per-item depth. You are still the only legal source — every secondary item is class-gated.$(br2)Each secondary maps to one trader. Other classes buy your work there for runes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Functional (harder recipes)",
+      "text": "$(li)$(l:secondaries/tinkerer)Tinkerer$(/l) — clockwork instruments and tech tools.$(li)$(l:secondaries/gunsmith)Gunsmith$(/l) — firearms, cartridges, the musket upgrade template."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Class-gate only",
+      "text": "Mod-original recipes preserved; the class is the only delta.$(br)$(li)$(l:secondaries/fisher)Fisher$(/l) — fishing tackle (rods, lines, hooks, satchels, bobbers).$(li)$(l:secondaries/brewer)Brewer$(/l) — drinks, foods, brewing infrastructure.$(li)$(l:secondaries/bard)Bard$(/l) — instruments, books, music discs, chess.$(li)$(l:secondaries/decorator)Decorator$(/l) — wallpapers, skirting boards, themed banners.$(li)$(l:secondaries/tailor)Tailor$(/l) — hats, masks, plushies, cosmetic wearables.$(li)$(l:secondaries/herbalist)Herbalist$(/l) — hemp, burlap, smoking gear, herbal salves."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Custom Traders",
+  "icon": "numismatics:sun",
+  "category": "patchouli:traders",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Custom Traders",
+      "text": "Invulnerable villagers placed around the world. They sell mod content that has been pulled from normal crafting.$(br2)They are the cross-class shortcut. If your class can't craft a Mage robe, the Wizard sells it for $(l:traders/runes)runes$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "How trades work",
+      "text": "$(li)Trades never run out.$(li)Trades never go on sale — no reputation or demand discount.$(li)Within a trader, trades sort cheapest to most expensive by total rune-cost.$(li)Each trader caps at 35 trades; bigger themes split into a second trader.$(br2)Each trader has one tight theme — Wizard sells Wizards gear, Bishop sells holy plate, Engineer sells aircraft parts. Find a trader village; learn its specialty."
+    }
+  ]
+}

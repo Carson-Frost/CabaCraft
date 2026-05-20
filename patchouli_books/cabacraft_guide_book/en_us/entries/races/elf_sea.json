@@ -1,0 +1,17 @@
+{
+  "name": "Sea Elf",
+  "icon": "minecraft:trident",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Sea Elf",
+      "text": "Stacks on the shared $(l:races/elf)Elf$(/l) base. Amphibious — full function on land, comfortable in water. Not water-dominant like $(l:races/locathah)Locathah$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Traits",
+      "text": "$(bold)Sea Lungs.$(/) Hold breath underwater for roughly 45 seconds. Not infinite.$(br2)$(bold)Tidewalker.$(/) Swim speed +40%.$(br2)$(bold)Sea-Kin.$(/) Drowned and guardians treat you as one of theirs and ignore you.$(br2)No extra drawback."
+    }
+  ]
+}

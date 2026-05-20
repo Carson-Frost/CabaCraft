@@ -1,0 +1,27 @@
+{
+  "name": "Mechanical Engineer",
+  "icon": "create:mechanical_drill",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Mechanical Engineer",
+      "text": "Discipline 2 of $(l:classes/engineer)Engineer$(/l). The Create machine tier. Twenty-two items — nine core tools and thirteen mid-tier machines."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Core tools",
+      "text": "$(bold)Wrench, Goggles, Schematic Table, Belt Connector, Empty Blaze Burner.$(/) The basics every Create build needs.$(br2)$(bold)Mechanical Saw, Deployer, Mechanical Arm.$(/) Automation primitives.$(br2)$(bold)Mechanical Drill.$(/) The Aero interlock part."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mid-tier machines",
+      "text": "$(bold)Mechanical Press$(/) — the Electrical interlock hub.$(br2)$(bold)Mechanical Mixer, Millstone, Crushing Wheel.$(/) Processing.$(br2)$(bold)Mechanical Piston, Encased Fan, Gearbox, Clutch, Gearshift.$(/) Kinetics.$(br2)$(bold)Water Wheel, Hand Crank, Basin, Depot.$(/) Generators and stations."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hub role",
+      "text": "Self-contained — you do not need the other two disciplines.$(br2)But Aero needs a Mechanical Drill for its top-tier engines and drills, and Electrical needs a Mechanical Press for its top-tier storage. Mech is the most-asked-for engineer on any server.$(br2)Matching trader: the Mechanist."
+    }
+  ]
+}

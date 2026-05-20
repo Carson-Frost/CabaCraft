@@ -1,0 +1,12 @@
+{
+  "name": "Boon: Far-Reaching",
+  "icon": "minecraft:fishing_rod",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Far-Reaching",
+      "text": "+1 block of interaction reach. +1 block of attack range. Place blocks further, hit mobs sooner. Pairs well with polearms."
+    }
+  ]
+}

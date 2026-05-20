@@ -1,0 +1,22 @@
+{
+  "name": "Dragonborn",
+  "icon": "minecraft:dragon_breath",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Dragonborn",
+      "text": "Scaled. Slightly larger than human. Height 1.08, width 1.05. The only race with an active keybound power."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Breath Weapon",
+      "text": "$(bold)Active.$(/) Press the Origins primary key (default $(o)G$(/)) for a short-range fire-breath cone. Roughly 5 damage, 3-block range, ignites for ~4 seconds. Cooldown: 15 seconds.$(br2)A small HUD bar tracks the cooldown."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Passive traits",
+      "text": "$(bold)Dragon Blood.$(/) Fire damage taken halved. Not full immunity.$(br2)$(bold)Scaled Hide.$(/) +2 armor at all times.$(br2)$(bold)Frostbane.$(/) Freeze damage takes +3 per tick. Avoid powder snow; dress for the cold."
+    }
+  ]
+}

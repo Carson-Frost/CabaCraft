@@ -1,0 +1,27 @@
+{
+  "name": "Blacksmith",
+  "icon": "minecraft:iron_sword",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Blacksmith",
+      "text": "Craft primary. Generic melee weapons. Twenty-five items.$(br2)Paladin big-melee and Rogues utility blades at iron / gold / diamond tiers, plus four un-paired fantasy blades."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Paladin melee (9)",
+      "text": "$(bold)Claymore, Mace, Great Hammer.$(/) Three weapons across three tiers — iron, gold, diamond.$(br2)Standard pattern: matching metal-block forte and head, chain-wrapped haft."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Rogue utility blades (12)",
+      "text": "$(bold)Dagger, Double Axe, Glaive, Sickle.$(/) Four weapons across three tiers — iron, gold, diamond."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fantasy blades (4)",
+      "text": "$(li)$(bold)Sharp Curved Sword$(/) — pirate cutlass.$(li)$(bold)Fog Guard Sword$(/) — misty-knight theme.$(li)$(bold)Dragonslayer Halberd$(/).$(li)$(bold)Spark of Dawn Polearm$(/) — radiant theme.$(br)Netherite, aeternium, and ruby variants stay vanilla smithing upgrades.$(br2)Matching trader: the Blacksmith."
+    }
+  ]
+}

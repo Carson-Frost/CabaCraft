@@ -1,0 +1,27 @@
+{
+  "name": "Tailor",
+  "icon": "accents:top_hat",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Tailor",
+      "text": "All Accents wearables. Twenty-eight items. Class-gate only.$(br2)Accents items are dyeable — one base item, many colors via a tag on the item. The trader sells specific color variants; Tailor crafts the base, the player dyes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hats",
+      "text": "Captain, Christmas, Cowboy, Kasa, Overtop, Pickelhaube, Pirate, Pumpkin, Sombrero, Straw, Top, Tundra Hood, Wide Brim.$(br2)The Wizard Hat is removed from the game entirely — not craftable, not in JEI."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Belts, satchels, quivers",
+      "text": "Bandolier, Holstered Belt, Item Satchel, Quiver, Sewing Kit, Sheathed Katana."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Masks, plushies, regalia",
+      "text": "Dragon Skull, Skull, King Mask, Horns.$(br2)Cakeman Plushie. Wings, Hermes Boots, Scarf.$(br2)$(bold)Crown$(/) — Chancellor regalia, locked behind the office. See $(l:factions/chancellor)Chancellor$(/l).$(br2)Matching trader: the Tailor."
+    }
+  ]
+}

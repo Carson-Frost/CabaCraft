@@ -1,0 +1,22 @@
+{
+  "name": "Aeronautical Engineer",
+  "icon": "immersive_aircraft:hull",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Aeronautical Engineer",
+      "text": "Discipline 1 of $(l:classes/engineer)Engineer$(/l). Builds aircraft and drilling vehicles. Twenty-six items: all twenty Immersive Aircraft components plus six Immersive Machinery vehicles."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Signature parts",
+      "text": "$(bold)Propellers, hulls, sails.$(/) The frame of every aircraft.$(br2)$(bold)Boilers and engines.$(/) Boiler, Steel Boiler, Engine, Eco Engine, Nether Engine. The top-tier engines need a Mechanical drill (interlock); Nether Engine also needs two Electrical motors.$(br2)$(bold)Armaments.$(/) Rotary Cannon, Bomb Bay, Heavy Crossbow.$(br2)$(bold)Vehicles.$(/) Iron Drill, Diamond Drill, Netherite Drill, Tunnel Digger, Copperfin sub, Bamboo Bee."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Vehicle assembly",
+      "text": "$(bold)You make parts.$(/) The biplane, airship, gyrodyne, quadrocopter, cargo airship, warship, and bamboo hopper are not class-gated. Anyone holding the parts can assemble the vehicle.$(br2)Pack rule: sell foundations, not products.$(br2)Matching trader: the Engineer."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Finding Traders",
+  "icon": "minecraft:filled_map",
+  "category": "patchouli:traders",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Finding Traders",
+      "text": "Traders are hand-placed by an admin. They don't generate naturally — on a fresh server you may need to ask where they live, or wait until one is set up.$(br2)They are invulnerable, anchored (no walking, no knockback), and never take damage."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Combat gear traders",
+      "text": "$(bold)Wizard$(/) — wands, staves, robes, books.$(br2)$(bold)Bishop, Priest$(/) — holy plate, holy wands.$(br2)$(bold)Archer$(/) — bows, crossbows, spears, quiver.$(br2)$(bold)Rogue$(/) — rogue and assassin armor, grave-sentinel set.$(br2)$(bold)Blacksmith$(/) — generic iron, gold, diamond weapons.$(br2)$(bold)Armorer, Frost Knight$(/) — generic plate, death-knight gear."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Themed armor and engineers",
+      "text": "$(bold)Nomad, Ronin, Centurion, Wanderer, Pirate$(/) — themed plate.$(br2)$(bold)Engineer$(/) — Immersive Aircraft parts.$(br2)$(bold)Mechanist$(/) — Create machines, Create Additions electrics.$(br2)$(bold)Tinkerer$(/) — tech gadgets.$(br2)$(bold)Fisherman$(/) — fishing tackle.$(br2)$(bold)Arms Merchant$(/) — firearms. The Pistol is cheaper at the Pirate trader."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cosmetic and infrastructure",
+      "text": "$(bold)Musician$(/) — instruments.$(br2)$(bold)Banker$(/) — Numismatics infrastructure (cards, terminals, vendor, depositors). Raw cogs come from $(l:factions/treasurer)Treasurer$(/l) only.$(br2)$(bold)Flag Maker$(/) — the six themed Mine Cells flags.$(br2)$(bold)Decorator, Tailor, Curiosities$(/) — cosmetics.$(br2)$(bold)Librarian$(/) — spell books, journals, canvases.$(br2)$(bold)Grandmaster$(/) — chess set.$(br2)$(bold)Cultist, Scientist, Blight$(/) — black-bridge-priced death-knight gear.$(br2)$(bold)Dealer$(/) — Nirvana fun trader, Prison-only, items also normally craftable."
+    }
+  ]
+}
