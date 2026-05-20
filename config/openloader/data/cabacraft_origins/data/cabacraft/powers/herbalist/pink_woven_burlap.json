@@ -1,0 +1,20 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/pink_woven_burlap",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:woven_burlap"
+      },
+      {
+        "tag": "c:pink_dyes"
+      }
+    ],
+    "result": {
+      "item": "nirvana:pink_woven_burlap",
+      "count": 1
+    }
+  }
+}

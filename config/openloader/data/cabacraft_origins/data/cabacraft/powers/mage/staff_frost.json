@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/staff_frost",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " CP",
+      "ISI",
+      "IC "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:prismarine_crystals"
+      },
+      "P": {
+        "item": "minecraft:prismarine_shard"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "wizards:staff_frost",
+      "count": 1
+    }
+  }
+}

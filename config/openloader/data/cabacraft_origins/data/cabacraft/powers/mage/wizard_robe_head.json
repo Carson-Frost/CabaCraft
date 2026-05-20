@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/wizard_robe_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " G ",
+      "WMW",
+      "WWW"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "M": {
+        "item": "minecraft:lapis_block"
+      }
+    },
+    "result": {
+      "item": "wizards:wizard_robe_head",
+      "count": 1
+    }
+  }
+}

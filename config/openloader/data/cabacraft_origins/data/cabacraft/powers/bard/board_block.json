@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/board_block",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#O#",
+      "OOO",
+      "#O#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:cobblestone"
+      },
+      "O": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "chessmod:board_block",
+      "count": 1
+    }
+  }
+}

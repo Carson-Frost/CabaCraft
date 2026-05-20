@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/archer_armor_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LLL",
+      "CLC",
+      "C C"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "C": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "archers:archer_armor_head",
+      "count": 1
+    }
+  }
+}

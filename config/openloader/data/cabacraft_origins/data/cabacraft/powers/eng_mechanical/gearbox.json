@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/gearbox",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " C ",
+      "CBC",
+      " C "
+    ],
+    "key": {
+      "C": {
+        "item": "create:cogwheel"
+      },
+      "B": {
+        "item": "create:brass_casing"
+      }
+    },
+    "result": {
+      "item": "create:gearbox",
+      "count": 1
+    }
+  }
+}

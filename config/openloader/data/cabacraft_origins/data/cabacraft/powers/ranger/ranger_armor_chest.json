@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/ranger_armor_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "S S",
+      "RSR",
+      "LSL"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:scute"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "R": {
+        "item": "minecraft:rabbit_hide"
+      }
+    },
+    "result": {
+      "item": "archers:ranger_armor_chest",
+      "count": 1
+    }
+  }
+}

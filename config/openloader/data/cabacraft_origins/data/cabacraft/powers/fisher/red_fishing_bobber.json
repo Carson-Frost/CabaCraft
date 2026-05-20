@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/red_fishing_bobber",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "c:slime_balls"
+      },
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "tag": "c:dyes/red"
+      }
+    ],
+    "result": {
+      "item": "tide:red_fishing_bobber",
+      "count": 1
+    }
+  }
+}

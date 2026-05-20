@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/enhanced_propeller",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "CPC",
+      "CBC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "P": {
+        "item": "immersive_aircraft:propeller"
+      },
+      "B": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:enhanced_propeller",
+      "count": 1
+    }
+  }
+}

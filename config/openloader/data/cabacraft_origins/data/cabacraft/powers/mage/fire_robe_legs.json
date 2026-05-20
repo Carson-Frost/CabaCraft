@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/fire_robe_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "MMM",
+      "WGW",
+      "W W"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:magma_block"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "G": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "result": {
+      "item": "wizards:fire_robe_legs",
+      "count": 1
+    }
+  }
+}

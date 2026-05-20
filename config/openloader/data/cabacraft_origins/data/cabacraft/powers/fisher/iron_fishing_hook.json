@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/iron_fishing_hook",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  #",
+      "I I",
+      " I "
+    ],
+    "key": {
+      "#": {
+        "tag": "c:nuggets/iron"
+      },
+      "I": {
+        "tag": "c:ingots/iron"
+      }
+    },
+    "result": {
+      "item": "tide:iron_fishing_hook",
+      "count": 1
+    }
+  }
+}

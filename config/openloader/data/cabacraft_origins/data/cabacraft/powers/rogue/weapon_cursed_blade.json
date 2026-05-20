@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/weapon_cursed_blade",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " R ",
+      " N ",
+      "WSW"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:wither_rose"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "W": {
+        "item": "minecraft:wither_skeleton_skull"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "fantasy_weapons:weapon_cursed_blade",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/bliss_bloom",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:hemp"
+      },
+      {
+        "item": "nirvana:hemp"
+      },
+      {
+        "item": "nirvana:hemp"
+      }
+    ],
+    "result": {
+      "item": "nirvana:bliss_bloom",
+      "count": 1
+    }
+  }
+}

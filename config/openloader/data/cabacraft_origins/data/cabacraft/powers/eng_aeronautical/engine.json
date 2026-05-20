@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/engine",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PCP",
+      "PBP",
+      "ICI"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:piston"
+      },
+      "C": {
+        "item": "minecraft:cobblestone"
+      },
+      "B": {
+        "item": "immersive_aircraft:boiler"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:engine",
+      "count": 1
+    }
+  }
+}

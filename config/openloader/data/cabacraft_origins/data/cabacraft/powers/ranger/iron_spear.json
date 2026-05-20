@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/iron_spear",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  P",
+      " #P",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "tag": "c:wood_sticks"
+      },
+      "P": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "archers:iron_spear",
+      "count": 1
+    }
+  }
+}

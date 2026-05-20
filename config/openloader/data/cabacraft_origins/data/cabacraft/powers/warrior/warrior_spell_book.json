@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:warrior/warrior_spell_book",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IGI",
+      "NKN",
+      "IGI"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "G": {
+        "item": "minecraft:goat_horn"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "K": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "result": {
+      "item": "rogues:warrior_spell_book",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:gunsmith/blunderbuss",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " II",
+      "IBI",
+      "GB "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      },
+      "G": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "result": {
+      "item": "musketmod:blunderbuss",
+      "count": 1
+    }
+  }
+}

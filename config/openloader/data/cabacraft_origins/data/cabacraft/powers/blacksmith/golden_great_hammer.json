@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/golden_great_hammer",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LBL",
+      "LBL",
+      "H  "
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:gold_block"
+      },
+      "B": {
+        "item": "minecraft:gold_ingot"
+      },
+      "H": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "paladins:golden_great_hammer",
+      "count": 1
+    }
+  }
+}

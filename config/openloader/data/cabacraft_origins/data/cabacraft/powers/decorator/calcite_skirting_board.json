@@ -1,0 +1,24 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:decorator/calcite_skirting_board",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " C ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:calcite"
+      },
+      "C": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    "result": {
+      "item": "wallpapers:calcite_skirting_board",
+      "count": 12
+    }
+  }
+}

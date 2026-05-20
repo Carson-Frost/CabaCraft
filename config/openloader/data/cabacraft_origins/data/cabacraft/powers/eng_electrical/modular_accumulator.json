@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/modular_accumulator",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BCB",
+      "CMC",
+      "BCB"
+    ],
+    "key": {
+      "B": {
+        "tag": "c:brass_plates"
+      },
+      "C": {
+        "item": "createaddition:accumulator"
+      },
+      "M": {
+        "item": "create:mechanical_press"
+      }
+    },
+    "result": {
+      "item": "createaddition:modular_accumulator",
+      "count": 1
+    }
+  }
+}

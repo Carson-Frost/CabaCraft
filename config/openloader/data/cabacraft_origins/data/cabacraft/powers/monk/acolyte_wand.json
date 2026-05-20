@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/acolyte_wand",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " GG",
+      " SG",
+      "H  "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:glowstone"
+      },
+      "S": {
+        "item": "minecraft:string"
+      },
+      "H": {
+        "tag": "c:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "paladins:acolyte_wand",
+      "count": 1
+    }
+  }
+}

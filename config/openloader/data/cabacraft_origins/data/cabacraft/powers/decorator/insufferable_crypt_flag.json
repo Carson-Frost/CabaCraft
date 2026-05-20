@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:decorator/insufferable_crypt_flag",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WWW",
+      "W W",
+      "P P"
+    ],
+    "key": {
+      "W": {
+        "tag": "minecraft:wool"
+      },
+      "P": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "minecells:insufferable_crypt_flag",
+      "count": 1
+    }
+  }
+}

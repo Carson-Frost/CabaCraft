@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tailor/hermes_boots",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " S ",
+      "LWL",
+      " L "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "W": {
+        "tag": "minecraft:wool"
+      }
+    },
+    "result": {
+      "item": "accents:hermes_boots",
+      "count": 1
+    }
+  }
+}

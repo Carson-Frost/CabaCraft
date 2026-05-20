@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/fish_satchel",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " L ",
+      "L#L",
+      " L "
+    ],
+    "key": {
+      "#": {
+        "tag": "tide:fish"
+      },
+      "L": {
+        "tag": "c:leathers"
+      }
+    },
+    "result": {
+      "item": "tide:fish_satchel",
+      "count": 1
+    }
+  }
+}

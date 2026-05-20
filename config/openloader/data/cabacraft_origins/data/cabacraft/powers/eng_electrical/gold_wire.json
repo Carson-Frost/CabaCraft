@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/gold_wire",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "I",
+      "I",
+      "I"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "_count": 3,
+    "result": {
+      "item": "createaddition:gold_wire",
+      "count": 3
+    }
+  }
+}

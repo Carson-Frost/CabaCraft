@@ -1,0 +1,26 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/digital_adapter",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "createaddition:connector"
+      },
+      {
+        "tag": "c:brass_plates"
+      },
+      {
+        "item": "minecraft:redstone_torch"
+      },
+      {
+        "item": "create:electron_tube"
+      }
+    ],
+    "result": {
+      "item": "createaddition:digital_adapter",
+      "count": 1
+    }
+  }
+}

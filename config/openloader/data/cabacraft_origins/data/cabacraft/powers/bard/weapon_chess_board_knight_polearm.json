@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/weapon_chess_board_knight_polearm",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " Q ",
+      "QSQ",
+      " S "
+    ],
+    "key": {
+      "Q": {
+        "item": "minecraft:quartz_block"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "fantasy_weapons:weapon_chess_board_knight_polearm",
+      "count": 1
+    }
+  }
+}

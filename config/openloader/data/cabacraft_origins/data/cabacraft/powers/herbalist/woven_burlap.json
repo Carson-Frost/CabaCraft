@@ -1,0 +1,21 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/woven_burlap",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SS",
+      "SS"
+    ],
+    "key": {
+      "S": {
+        "item": "nirvana:hemp_burlap"
+      }
+    },
+    "result": {
+      "item": "nirvana:woven_burlap",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/warrior_chestplate",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ICI",
+      "ILI",
+      "BIB"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:leather_chestplate"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:bone_block"
+      },
+      "C": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "immersive_armors:warrior_chestplate",
+      "count": 1
+    }
+  }
+}

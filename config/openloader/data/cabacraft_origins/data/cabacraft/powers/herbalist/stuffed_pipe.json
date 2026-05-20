@@ -1,0 +1,26 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/stuffed_pipe",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:old_pipe"
+      },
+      {
+        "item": "nirvana:weed"
+      },
+      {
+        "item": "nirvana:weed"
+      },
+      {
+        "item": "nirvana:weed"
+      }
+    ],
+    "result": {
+      "item": "nirvana:stuffed_pipe",
+      "count": 1
+    }
+  }
+}

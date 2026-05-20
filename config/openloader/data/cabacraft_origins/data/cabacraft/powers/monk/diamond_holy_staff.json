@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/diamond_holy_staff",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " DA",
+      " HD",
+      "TH "
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond_block"
+      },
+      "A": {
+        "item": "minecraft:glowstone"
+      },
+      "H": {
+        "item": "minecraft:iron_block"
+      },
+      "T": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "result": {
+      "item": "paladins:diamond_holy_staff",
+      "count": 1
+    }
+  }
+}

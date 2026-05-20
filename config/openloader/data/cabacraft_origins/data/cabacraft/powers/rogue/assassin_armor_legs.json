@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/assassin_armor_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SGS",
+      "RTR",
+      "R R"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:ink_sac"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "R": {
+        "item": "minecraft:rabbit_hide"
+      },
+      "T": {
+        "item": "minecraft:sculk"
+      }
+    },
+    "result": {
+      "item": "rogues:assassin_armor_legs",
+      "count": 1
+    }
+  }
+}

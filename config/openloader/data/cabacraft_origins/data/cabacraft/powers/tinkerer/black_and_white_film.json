@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/black_and_white_film",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "PMP",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "M": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "result": {
+      "item": "exposure:black_and_white_film",
+      "count": 1
+    }
+  }
+}

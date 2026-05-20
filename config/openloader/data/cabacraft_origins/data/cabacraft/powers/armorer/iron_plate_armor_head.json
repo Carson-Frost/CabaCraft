@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/iron_plate_armor_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "TOT",
+      "IiI",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "i": {
+        "item": "minecraft:iron_helmet"
+      },
+      "O": {
+        "item": "minecraft:feather"
+      },
+      "T": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "armoroftheages:iron_plate_armor_head",
+      "count": 1
+    }
+  }
+}

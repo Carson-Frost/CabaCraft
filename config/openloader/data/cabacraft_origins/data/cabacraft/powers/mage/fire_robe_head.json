@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/fire_robe_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " G ",
+      "WMW",
+      "WWW"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:blaze_rod"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "M": {
+        "item": "minecraft:magma_block"
+      }
+    },
+    "result": {
+      "item": "wizards:fire_robe_head",
+      "count": 1
+    }
+  }
+}

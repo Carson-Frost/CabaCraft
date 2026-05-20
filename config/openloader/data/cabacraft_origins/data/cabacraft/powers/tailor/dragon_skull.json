@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tailor/dragon_skull",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " S ",
+      "LWL",
+      " L "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "W": {
+        "tag": "minecraft:wool"
+      }
+    },
+    "result": {
+      "item": "accents:dragon_skull",
+      "count": 1
+    }
+  }
+}

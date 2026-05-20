@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/paladin_armor_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "III",
+      "GCG",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "paladins:paladin_armor_legs",
+      "count": 1
+    }
+  }
+}

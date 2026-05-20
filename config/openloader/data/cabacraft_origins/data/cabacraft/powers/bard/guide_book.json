@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/guide_book",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LPL",
+      "PBP",
+      "LPL"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "B": {
+        "item": "minecraft:book"
+      }
+    },
+    "result": {
+      "item": "patchouli:guide_book",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/duck_fishing_bobber",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "c:slime_balls"
+      },
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "item": "minecraft:chicken"
+      }
+    ],
+    "result": {
+      "item": "tide:duck_fishing_bobber",
+      "count": 1
+    }
+  }
+}

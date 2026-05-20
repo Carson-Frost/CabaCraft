@@ -1,0 +1,20 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/fishing_journal",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "tide:fish"
+      },
+      {
+        "item": "minecraft:book"
+      }
+    ],
+    "result": {
+      "item": "tide:fishing_journal",
+      "count": 1
+    }
+  }
+}

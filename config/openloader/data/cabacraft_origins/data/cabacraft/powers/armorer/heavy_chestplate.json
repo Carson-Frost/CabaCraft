@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/heavy_chestplate",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "I I",
+      "iTi",
+      "iIi"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "i": {
+        "item": "minecraft:iron_ingot"
+      },
+      "T": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "immersive_armors:heavy_chestplate",
+      "count": 1
+    }
+  }
+}

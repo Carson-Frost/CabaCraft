@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/golden_claymore",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  L",
+      "BB ",
+      "HB "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:gold_ingot"
+      },
+      "L": {
+        "item": "minecraft:gold_block"
+      },
+      "H": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "paladins:golden_claymore",
+      "count": 1
+    }
+  }
+}

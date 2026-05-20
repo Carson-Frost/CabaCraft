@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/telescope",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "T  ",
+      "CC ",
+      "CC "
+    ],
+    "key": {
+      "T": {
+        "item": "minecraft:spyglass"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:telescope",
+      "count": 1
+    }
+  }
+}

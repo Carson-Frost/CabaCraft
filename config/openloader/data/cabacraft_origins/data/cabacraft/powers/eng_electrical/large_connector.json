@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/large_connector",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BSB",
+      "SES",
+      "BCB"
+    ],
+    "key": {
+      "B": {
+        "tag": "c:brass_plates"
+      },
+      "S": {
+        "item": "createaddition:gold_spool"
+      },
+      "E": {
+        "item": "create:electron_tube"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      }
+    },
+    "result": {
+      "item": "createaddition:large_connector",
+      "count": 1
+    }
+  }
+}

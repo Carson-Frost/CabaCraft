@@ -1,0 +1,24 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:decorator/broken_quartz_skirting_board",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "PPP"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "wallpapers:broken_quartz_skirting_board",
+      "count": 3
+    }
+  }
+}

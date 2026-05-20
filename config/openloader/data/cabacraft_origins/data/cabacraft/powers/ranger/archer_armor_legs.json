@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/archer_armor_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LCL",
+      "C C",
+      "L L"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "C": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "archers:archer_armor_legs",
+      "count": 1
+    }
+  }
+}

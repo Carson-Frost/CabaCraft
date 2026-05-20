@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/sturdy_pipes",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CIC",
+      "ICI",
+      "CIC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:sturdy_pipes",
+      "count": 1
+    }
+  }
+}

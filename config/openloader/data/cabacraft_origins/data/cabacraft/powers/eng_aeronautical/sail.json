@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/sail",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WCS",
+      "WCS",
+      "WCS"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:white_wool"
+      },
+      "C": {
+        "item": "minecraft:white_carpet"
+      },
+      "S": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:sail",
+      "count": 1
+    }
+  }
+}

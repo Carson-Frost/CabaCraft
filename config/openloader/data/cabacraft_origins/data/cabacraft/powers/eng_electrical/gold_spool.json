@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/gold_spool",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "CSC",
+      "CCC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:gold_ingot"
+      },
+      "S": {
+        "item": "create:shaft"
+      }
+    },
+    "result": {
+      "item": "createaddition:gold_spool",
+      "count": 1
+    }
+  }
+}

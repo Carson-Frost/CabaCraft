@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/electrum_spool",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "CSC",
+      "CCC"
+    ],
+    "key": {
+      "C": {
+        "item": "createaddition:electrum_ingot"
+      },
+      "S": {
+        "item": "create:shaft"
+      }
+    },
+    "result": {
+      "item": "createaddition:electrum_spool",
+      "count": 1
+    }
+  }
+}

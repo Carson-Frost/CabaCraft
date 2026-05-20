@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/copper_spool",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "CSC",
+      "CCC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "S": {
+        "item": "create:shaft"
+      }
+    },
+    "result": {
+      "item": "createaddition:copper_spool",
+      "count": 1
+    }
+  }
+}

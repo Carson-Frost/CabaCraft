@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/basin",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "A A",
+      "ACA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "create:andesite_alloy"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      }
+    },
+    "result": {
+      "item": "create:basin",
+      "count": 1
+    }
+  }
+}

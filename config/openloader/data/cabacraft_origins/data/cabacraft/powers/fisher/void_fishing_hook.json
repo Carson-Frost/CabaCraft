@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/void_fishing_hook",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  #",
+      "#D#",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "D": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+    "result": {
+      "item": "tide:void_fishing_hook",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:citizen/island/o_yoroi_armor_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ACA",
+      "BCB",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:prismarine_bricks"
+      },
+      "B": {
+        "item": "minecraft:bamboo_block"
+      },
+      "C": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "result": {
+      "item": "armoroftheages:o_yoroi_armor_chest",
+      "count": 1
+    }
+  },
+  "condition": {
+    "type": "apoli:scoreboard",
+    "objective": "cabacraft_faction",
+    "comparison": "==",
+    "compare_to": 2
+  }
+}

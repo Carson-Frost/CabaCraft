@@ -1,0 +1,27 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/fire_robe_feet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "G G",
+      "WMW"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:magma_block"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "G": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "result": {
+      "item": "wizards:fire_robe_feet",
+      "count": 1
+    }
+  }
+}

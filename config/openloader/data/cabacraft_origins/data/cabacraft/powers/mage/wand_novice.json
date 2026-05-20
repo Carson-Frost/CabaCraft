@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/wand_novice",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " GC",
+      "GS ",
+      "S  "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "C": {
+        "item": "minecraft:coal_block"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "wizards:wand_novice",
+      "count": 1
+    }
+  }
+}

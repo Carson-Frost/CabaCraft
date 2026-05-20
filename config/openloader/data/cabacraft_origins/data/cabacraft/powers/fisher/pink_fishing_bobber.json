@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/pink_fishing_bobber",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "c:slime_balls"
+      },
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "tag": "c:dyes/pink"
+      }
+    ],
+    "result": {
+      "item": "tide:pink_fishing_bobber",
+      "count": 1
+    }
+  }
+}

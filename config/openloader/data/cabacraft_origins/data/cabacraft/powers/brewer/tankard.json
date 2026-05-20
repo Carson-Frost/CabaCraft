@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:brewer/tankard",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "p p",
+      "i i",
+      "ppp"
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:iron_nugget"
+      },
+      "p": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "brewinandchewin:tankard",
+      "count": 4
+    }
+  }
+}

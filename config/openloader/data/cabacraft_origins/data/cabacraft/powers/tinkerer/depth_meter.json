@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/depth_meter",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CGC",
+      "GMG",
+      "CRC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "M": {
+        "item": "immersive_machinery:redstone_mechanism"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "tide:depth_meter",
+      "count": 1
+    }
+  }
+}

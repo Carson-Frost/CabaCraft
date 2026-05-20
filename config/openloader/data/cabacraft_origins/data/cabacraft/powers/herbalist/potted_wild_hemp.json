@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/potted_wild_hemp",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:hemp"
+      },
+      {
+        "item": "nirvana:hemp"
+      },
+      {
+        "item": "nirvana:hemp"
+      }
+    ],
+    "result": {
+      "item": "nirvana:potted_wild_hemp",
+      "count": 1
+    }
+  }
+}

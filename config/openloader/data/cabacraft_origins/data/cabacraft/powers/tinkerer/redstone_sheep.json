@@ -1,0 +1,37 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/redstone_sheep",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CER",
+      "HPH",
+      "RMR"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "E": {
+        "item": "immersive_aircraft:engine"
+      },
+      "R": {
+        "item": "immersive_machinery:redstone_mechanism"
+      },
+      "H": {
+        "item": "immersive_aircraft:hull"
+      },
+      "P": {
+        "item": "immersive_aircraft:propeller"
+      },
+      "M": {
+        "item": "immersive_machinery:redstone_mechanism"
+      }
+    },
+    "result": {
+      "item": "immersive_machinery:redstone_sheep",
+      "count": 1
+    }
+  }
+}

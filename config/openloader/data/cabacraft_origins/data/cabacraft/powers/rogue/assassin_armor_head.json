@@ -1,0 +1,30 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/assassin_armor_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SGS",
+      "RTR"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:ink_sac"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "R": {
+        "item": "minecraft:rabbit_hide"
+      },
+      "T": {
+        "item": "minecraft:sculk"
+      }
+    },
+    "result": {
+      "item": "rogues:assassin_armor_head",
+      "count": 1
+    }
+  }
+}

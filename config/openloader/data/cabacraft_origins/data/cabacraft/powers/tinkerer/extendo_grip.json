@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/extendo_grip",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  M",
+      "SS ",
+      "SR "
+    ],
+    "key": {
+      "M": {
+        "item": "immersive_machinery:redstone_mechanism"
+      },
+      "S": {
+        "item": "create:andesite_alloy"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "create:extendo_grip",
+      "count": 1
+    }
+  }
+}

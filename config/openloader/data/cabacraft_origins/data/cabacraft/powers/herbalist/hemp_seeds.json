@@ -1,0 +1,17 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/hemp_seeds",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:hemp"
+      }
+    ],
+    "result": {
+      "item": "nirvana:hemp_seeds",
+      "count": 2
+    }
+  }
+}

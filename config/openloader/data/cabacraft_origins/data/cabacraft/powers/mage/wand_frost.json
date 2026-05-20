@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/wand_frost",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " IP",
+      "IPI",
+      "S  "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "P": {
+        "item": "minecraft:prismarine_crystals"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "wizards:wand_frost",
+      "count": 1
+    }
+  }
+}

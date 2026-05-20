@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:citizen/chancellor/hero_helmet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ACA",
+      "BCB",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_block"
+      },
+      "B": {
+        "item": "minecraft:gold_block"
+      },
+      "C": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "fantasy_armor:hero_helmet",
+      "count": 1
+    }
+  },
+  "condition": {
+    "type": "apoli:scoreboard",
+    "objective": "cabacraft_office_chancellor",
+    "comparison": ">=",
+    "compare_to": 1
+  }
+}

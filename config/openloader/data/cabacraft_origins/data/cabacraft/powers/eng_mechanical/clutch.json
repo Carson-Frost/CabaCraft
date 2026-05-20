@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/clutch",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "create:brass_casing"
+      },
+      {
+        "item": "create:shaft"
+      },
+      {
+        "item": "minecraft:redstone_block"
+      }
+    ],
+    "result": {
+      "item": "create:clutch",
+      "count": 1
+    }
+  }
+}

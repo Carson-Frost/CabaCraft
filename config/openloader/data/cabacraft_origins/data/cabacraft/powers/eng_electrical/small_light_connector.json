@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/small_light_connector",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "G",
+      "S",
+      "C"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:glowstone"
+      },
+      "S": {
+        "item": "createaddition:copper_spool"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      }
+    },
+    "result": {
+      "item": "createaddition:small_light_connector",
+      "count": 1
+    }
+  }
+}

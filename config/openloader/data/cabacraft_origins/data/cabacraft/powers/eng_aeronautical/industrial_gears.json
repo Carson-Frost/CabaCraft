@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/industrial_gears",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CIC",
+      "ILI",
+      "CIC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "L": {
+        "item": "minecraft:lever"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:industrial_gears",
+      "count": 1
+    }
+  }
+}

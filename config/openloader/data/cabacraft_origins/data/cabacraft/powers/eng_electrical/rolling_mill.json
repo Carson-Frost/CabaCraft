@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/rolling_mill",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PSP",
+      "ASA",
+      "ACA"
+    ],
+    "key": {
+      "P": {
+        "tag": "c:iron_plates"
+      },
+      "S": {
+        "item": "create:shaft"
+      },
+      "A": {
+        "item": "create:andesite_alloy"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      }
+    },
+    "result": {
+      "item": "createaddition:rolling_mill",
+      "count": 1
+    }
+  }
+}

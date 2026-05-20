@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/camera",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IGI",
+      "BMB",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "B": {
+        "item": "minecraft:black_dye"
+      },
+      "M": {
+        "item": "immersive_machinery:redstone_mechanism"
+      }
+    },
+    "result": {
+      "item": "exposure:camera",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/gyroscope_hud",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "NPN",
+      "LGL",
+      "SIS"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:gold_ingot"
+      },
+      "P": {
+        "item": "minecraft:glass_pane"
+      },
+      "L": {
+        "item": "minecraft:redstone_lamp"
+      },
+      "G": {
+        "item": "immersive_aircraft:gyroscope"
+      },
+      "S": {
+        "item": "minecraft:note_block"
+      },
+      "I": {
+        "item": "minecraft:sea_lantern"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:gyroscope_hud",
+      "count": 1
+    }
+  }
+}

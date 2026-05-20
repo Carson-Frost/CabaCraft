@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:warrior/warrior_armor_feet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "I I",
+      "ILI",
+      "C C"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "C": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "rogues:warrior_armor_feet",
+      "count": 1
+    }
+  }
+}

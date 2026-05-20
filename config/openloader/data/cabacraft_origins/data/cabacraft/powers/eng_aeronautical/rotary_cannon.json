@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/rotary_cannon",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IDI",
+      "XGX",
+      "IMI"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "D": {
+        "item": "minecraft:dispenser"
+      },
+      "G": {
+        "item": "immersive_aircraft:industrial_gears"
+      },
+      "X": {
+        "item": "createaddition:electric_motor"
+      },
+      "M": {
+        "item": "create:mechanical_drill"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:rotary_cannon",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/alternator",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ISI",
+      "SRS",
+      "ICI"
+    ],
+    "key": {
+      "I": {
+        "tag": "c:iron_plates"
+      },
+      "S": {
+        "item": "createaddition:copper_spool"
+      },
+      "R": {
+        "tag": "c:iron_rods"
+      },
+      "C": {
+        "item": "createaddition:capacitor"
+      }
+    },
+    "result": {
+      "item": "createaddition:alternator",
+      "count": 1
+    }
+  }
+}

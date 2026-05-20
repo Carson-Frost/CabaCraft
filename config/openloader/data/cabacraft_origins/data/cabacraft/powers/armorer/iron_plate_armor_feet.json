@@ -1,0 +1,30 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/iron_plate_armor_feet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ixi",
+      "ITI"
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:iron_block"
+      },
+      "x": {
+        "item": "minecraft:iron_boots"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "T": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "armoroftheages:iron_plate_armor_feet",
+      "count": 1
+    }
+  }
+}

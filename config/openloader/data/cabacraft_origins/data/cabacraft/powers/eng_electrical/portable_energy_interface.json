@@ -1,0 +1,26 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/portable_energy_interface",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "create:brass_casing"
+      },
+      {
+        "item": "create:chute"
+      },
+      {
+        "item": "createaddition:copper_spool"
+      },
+      {
+        "item": "create:mechanical_press"
+      }
+    ],
+    "result": {
+      "item": "createaddition:portable_energy_interface",
+      "count": 1
+    }
+  }
+}

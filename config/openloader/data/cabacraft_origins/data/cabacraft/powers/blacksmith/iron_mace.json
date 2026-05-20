@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/iron_mace",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " L",
+      "BB",
+      "H "
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:iron_block"
+      },
+      "B": {
+        "item": "minecraft:iron_ingot"
+      },
+      "H": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "paladins:iron_mace",
+      "count": 1
+    }
+  }
+}

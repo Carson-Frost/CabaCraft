@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/fish_display",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "S#S",
+      "SSS"
+    ],
+    "key": {
+      "#": {
+        "tag": "minecraft:logs"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "tide:fish_display",
+      "count": 1
+    }
+  }
+}

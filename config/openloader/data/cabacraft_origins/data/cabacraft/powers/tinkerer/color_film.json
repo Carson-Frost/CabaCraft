@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/color_film",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "PMP",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "M": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "exposure:color_film",
+      "count": 1
+    }
+  }
+}

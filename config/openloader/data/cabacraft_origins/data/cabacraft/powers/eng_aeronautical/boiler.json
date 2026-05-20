@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/boiler",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "CFC",
+      "CBC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "F": {
+        "item": "minecraft:furnace"
+      },
+      "B": {
+        "item": "minecraft:blast_furnace"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:boiler",
+      "count": 1
+    }
+  }
+}

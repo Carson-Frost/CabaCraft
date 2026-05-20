@@ -1,0 +1,20 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/lime_woven_burlap",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:woven_burlap"
+      },
+      {
+        "tag": "c:lime_dyes"
+      }
+    ],
+    "result": {
+      "item": "nirvana:lime_woven_burlap",
+      "count": 1
+    }
+  }
+}

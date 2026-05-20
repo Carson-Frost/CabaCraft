@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/pocket_watch",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GCG",
+      "CMC",
+      "GCG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "M": {
+        "item": "immersive_machinery:redstone_mechanism"
+      }
+    },
+    "result": {
+      "item": "tide:pocket_watch",
+      "count": 1
+    }
+  }
+}

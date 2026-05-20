@@ -1,0 +1,30 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/crusader_armor_feet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GTG",
+      "IDI"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "T": {
+        "item": "minecraft:ghast_tear"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "paladins:crusader_armor_feet",
+      "count": 1
+    }
+  }
+}

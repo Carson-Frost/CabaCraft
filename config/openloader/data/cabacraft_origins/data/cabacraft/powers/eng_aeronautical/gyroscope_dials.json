@@ -1,0 +1,37 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/gyroscope_dials",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "SGV",
+      "IRI"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:clock"
+      },
+      "S": {
+        "item": "minecraft:note_block"
+      },
+      "G": {
+        "item": "immersive_aircraft:gyroscope"
+      },
+      "V": {
+        "item": "minecraft:lever"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:gyroscope_dials",
+      "count": 1
+    }
+  }
+}

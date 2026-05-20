@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:citizen/island/wind_worshipper_helmet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ACA",
+      "BCB",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:prismarine_bricks"
+      },
+      "B": {
+        "item": "minecraft:bamboo_block"
+      },
+      "C": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "result": {
+      "item": "fantasy_armor:wind_worshipper_helmet",
+      "count": 1
+    }
+  },
+  "condition": {
+    "type": "apoli:scoreboard",
+    "objective": "cabacraft_faction",
+    "comparison": "==",
+    "compare_to": 2
+  }
+}

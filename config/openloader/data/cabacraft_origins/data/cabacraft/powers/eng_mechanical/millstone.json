@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/millstone",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "C",
+      "S",
+      "I"
+    ],
+    "key": {
+      "C": {
+        "item": "create:cogwheel"
+      },
+      "S": {
+        "item": "create:brass_casing"
+      },
+      "I": {
+        "tag": "c:stone"
+      }
+    },
+    "result": {
+      "item": "create:millstone",
+      "count": 1
+    }
+  }
+}

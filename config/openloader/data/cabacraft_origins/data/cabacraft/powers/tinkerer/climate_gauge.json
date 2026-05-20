@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/climate_gauge",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CGC",
+      "GMG",
+      "CPC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "M": {
+        "item": "immersive_machinery:redstone_mechanism"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": {
+      "item": "tide:climate_gauge",
+      "count": 1
+    }
+  }
+}

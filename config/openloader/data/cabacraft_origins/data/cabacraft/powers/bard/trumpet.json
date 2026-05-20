@@ -1,0 +1,29 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/trumpet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ICC",
+      " IC",
+      "   "
+    ],
+    "key": {
+      "I": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "minecraft:copper_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "immersive_melodies:trumpet",
+      "count": 1
+    }
+  }
+}

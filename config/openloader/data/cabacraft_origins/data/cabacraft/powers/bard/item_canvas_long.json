@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/item_canvas_long",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "WWW",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "W": {
+        "tag": "minecraft:wool"
+      }
+    },
+    "result": {
+      "item": "xercapaint:item_canvas_long",
+      "count": 1
+    }
+  }
+}

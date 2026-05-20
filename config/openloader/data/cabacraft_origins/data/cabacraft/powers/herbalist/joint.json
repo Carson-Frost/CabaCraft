@@ -1,0 +1,20 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/joint",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:paper"
+      },
+      {
+        "item": "nirvana:weed"
+      }
+    ],
+    "result": {
+      "item": "nirvana:joint",
+      "count": 1
+    }
+  }
+}

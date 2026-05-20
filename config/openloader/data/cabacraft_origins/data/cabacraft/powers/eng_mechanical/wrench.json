@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/wrench",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GBG",
+      "GPG",
+      " S "
+    ],
+    "key": {
+      "G": {
+        "tag": "c:gold_plates"
+      },
+      "B": {
+        "tag": "c:brass_plates"
+      },
+      "P": {
+        "item": "create:precision_mechanism"
+      },
+      "S": {
+        "tag": "c:wooden_rods"
+      }
+    },
+    "result": {
+      "item": "create:wrench",
+      "count": 1
+    }
+  }
+}

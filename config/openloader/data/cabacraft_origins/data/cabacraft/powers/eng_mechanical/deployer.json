@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/deployer",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "E",
+      "C",
+      "I"
+    ],
+    "key": {
+      "E": {
+        "item": "create:electron_tube"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      },
+      "I": {
+        "item": "create:precision_mechanism"
+      }
+    },
+    "result": {
+      "item": "create:deployer",
+      "count": 1
+    }
+  }
+}

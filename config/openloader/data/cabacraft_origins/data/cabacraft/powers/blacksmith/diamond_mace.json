@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/diamond_mace",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " L",
+      "BB",
+      "H "
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:diamond_block"
+      },
+      "B": {
+        "item": "minecraft:diamond"
+      },
+      "H": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "paladins:diamond_mace",
+      "count": 1
+    }
+  }
+}

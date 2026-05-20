@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/emerald_magnum_torch",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "G#G",
+      "#T#",
+      "#L#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:emerald"
+      },
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "T": {
+        "item": "minecraft:totem_of_undying"
+      },
+      "L": {
+        "tag": "minecraft:logs"
+      }
+    },
+    "result": {
+      "item": "magnumtorch:emerald_magnum_torch",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/wand_fire",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " BP",
+      "GPG",
+      "S  "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:blaze_rod"
+      },
+      "P": {
+        "item": "minecraft:blaze_powder"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "wizards:wand_fire",
+      "count": 1
+    }
+  }
+}

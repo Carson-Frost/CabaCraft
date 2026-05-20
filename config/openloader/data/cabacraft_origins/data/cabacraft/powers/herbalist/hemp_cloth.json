@@ -1,0 +1,21 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/hemp_cloth",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XX",
+      "XX"
+    ],
+    "key": {
+      "X": {
+        "item": "nirvana:hemp"
+      }
+    },
+    "result": {
+      "item": "nirvana:hemp_cloth",
+      "count": 1
+    }
+  }
+}

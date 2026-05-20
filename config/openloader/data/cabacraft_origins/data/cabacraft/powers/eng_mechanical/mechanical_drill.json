@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/mechanical_drill",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " A ",
+      "AIA",
+      "BCB"
+    ],
+    "key": {
+      "A": {
+        "item": "create:andesite_alloy"
+      },
+      "I": {
+        "tag": "c:iron_blocks"
+      },
+      "B": {
+        "tag": "c:iron_plates"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      }
+    },
+    "result": {
+      "item": "create:mechanical_drill",
+      "count": 1
+    }
+  }
+}

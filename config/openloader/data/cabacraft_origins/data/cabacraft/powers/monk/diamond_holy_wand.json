@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/diamond_holy_wand",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " DA",
+      "HD ",
+      "H  "
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond_block"
+      },
+      "A": {
+        "item": "minecraft:glowstone"
+      },
+      "H": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "paladins:diamond_holy_wand",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/fire_robe_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "M M",
+      "WMW",
+      "GWG"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:magma_block"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "G": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "result": {
+      "item": "wizards:fire_robe_chest",
+      "count": 1
+    }
+  }
+}

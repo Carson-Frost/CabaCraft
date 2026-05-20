@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/netherite_drill",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "NNN",
+      "NDN",
+      "NMN"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "D": {
+        "item": "immersive_machinery:diamond_drill"
+      },
+      "M": {
+        "item": "create:mechanical_drill"
+      }
+    },
+    "result": {
+      "item": "immersive_machinery:netherite_drill",
+      "count": 1
+    }
+  }
+}

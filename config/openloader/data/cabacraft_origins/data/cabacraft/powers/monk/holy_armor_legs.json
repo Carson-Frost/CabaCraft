@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/holy_armor_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IiI",
+      "ITI",
+      "o o"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "i": {
+        "item": "minecraft:netherite_leggings"
+      },
+      "T": {
+        "item": "minecraft:totem_of_undying"
+      },
+      "o": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    "result": {
+      "item": "armoroftheages:holy_armor_legs",
+      "count": 1
+    }
+  }
+}

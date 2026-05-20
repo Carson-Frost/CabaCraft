@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:brewer/keg",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ipi",
+      "ihi",
+      "ppp"
+    ],
+    "key": {
+      "h": {
+        "item": "minecraft:honeycomb"
+      },
+      "i": {
+        "item": "minecraft:iron_ingot"
+      },
+      "p": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "brewinandchewin:keg",
+      "count": 1
+    }
+  }
+}

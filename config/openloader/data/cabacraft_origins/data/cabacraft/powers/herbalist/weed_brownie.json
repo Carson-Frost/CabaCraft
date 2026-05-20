@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/weed_brownie",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:hemp_seeds"
+      },
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:cocoa_beans"
+      }
+    ],
+    "result": {
+      "item": "nirvana:weed_brownie",
+      "count": 2
+    }
+  }
+}

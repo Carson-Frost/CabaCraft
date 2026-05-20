@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/bomb_bay",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ITI",
+      "IBI",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "T": {
+        "item": "minecraft:tnt"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:bomb_bay",
+      "count": 1
+    }
+  }
+}

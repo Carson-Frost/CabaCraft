@@ -1,0 +1,30 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/priest_robe_feet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LGL",
+      "W W"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "L": {
+        "item": "minecraft:chain"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "paladins:priest_robe_feet",
+      "count": 1
+    }
+  }
+}

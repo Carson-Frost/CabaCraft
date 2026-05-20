@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/golden_spear",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  P",
+      " #P",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "tag": "c:wood_sticks"
+      },
+      "P": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "archers:golden_spear",
+      "count": 1
+    }
+  }
+}

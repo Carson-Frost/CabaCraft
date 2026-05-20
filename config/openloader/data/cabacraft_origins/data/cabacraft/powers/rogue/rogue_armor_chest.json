@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/rogue_armor_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "P P",
+      "LWL",
+      "LPL"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:phantom_membrane"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      }
+    },
+    "result": {
+      "item": "rogues:rogue_armor_chest",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/electrum_wire",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "I",
+      "I",
+      "I"
+    ],
+    "key": {
+      "I": {
+        "item": "createaddition:electrum_ingot"
+      }
+    },
+    "_count": 3,
+    "result": {
+      "item": "createaddition:electrum_wire",
+      "count": 3
+    }
+  }
+}
