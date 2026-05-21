@@ -1,0 +1,17 @@
+{
+  "language": "en_us",
+  "join": {},
+  "request": {},
+  "providers": {
+    "custom": [
+      {
+        "type": "username-url",
+        "name": "caba_origin_skin",
+        "enabled": true,
+        "useProviderSignature": false,
+        "cache": { "enabled": true, "expirationSeconds": 86400 },
+        "urlTemplate": "file:///C:/Users/carso/curseforge/minecraft/Instances/CabaCraft/config/skinrestorer/skins/{username}.png"
+      }
+    ]
+  }
+}

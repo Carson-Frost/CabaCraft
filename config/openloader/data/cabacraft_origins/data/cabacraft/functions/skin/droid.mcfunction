@@ -1,12 +1,3 @@
-# droid skin (auto-applied via SkinRestorer when this origin is picked).
-#
-# To enable: pick ONE form below, replace the placeholder, and uncomment the line.
-#
-# URL form (any 64x64 PNG accessible to the server):
-#   execute as @s run skin set web classic "https://example.com/droid.png"
-# (or "slim" instead of "classic" for Alex-model skins)
-#
-# Mojang-account form (an existing MC account whose skin you want):
-#   execute as @s run skin set mojang <username>
-#
-# Until enabled this function is a no-op; the player keeps their previous skin.
+# droid skin (auto-applied via SkinRestorer on origin pick).
+# Uses the caba_origin_skin custom provider; resolves to config/skinrestorer/skins/droid.png.
+execute as @s run skin set caba_origin_skin droid
