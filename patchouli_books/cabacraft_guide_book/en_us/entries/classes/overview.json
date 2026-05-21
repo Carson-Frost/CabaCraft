@@ -6,23 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Primary Classes",
-      "text": "Eight primary classes. You pick exactly one at world creation. Every item the class owns has had its normal recipe removed; the class recipe is the only legal way to craft it."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Combat (5)",
-      "text": "Flat catalogues. No subclasses. Self-contained.$(br)$(li)$(l:classes/mage)Mage$(/l) — three schools, one caster.$(li)$(l:classes/monk)Monk$(/l) — holy plate, holy staves, magnum torches.$(li)$(l:classes/warrior)Warrior$(/l) — the leanest catalogue, signature plate only.$(li)$(l:classes/ranger)Ranger$(/l) — bows, crossbows, spears, scout armor.$(li)$(l:classes/rogue)Rogue$(/l) — shadow armor, daggers, grave-sentinel set."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Craft (3)",
-      "text": "$(li)$(l:classes/engineer)Engineer$(/l) — pick a discipline: $(l:classes/eng_aeronautical)Aero$(/l), $(l:classes/eng_mechanical)Mech$(/l), $(l:classes/eng_electrical)Elec$(/l).$(li)$(l:classes/armorer)Armorer$(/l) — generic plate, shields, themed sets.$(li)$(l:classes/blacksmith)Blacksmith$(/l) — generic melee weapons, claymores, daggers, polearms."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Recipes are harder",
-      "text": "Class recipes are strictly harder than the mod's original — extra steps, higher tier, or rarer materials. JEI shows the exact grid.$(br2)Each class has a matching trader who sells the same catalogue for $(l:traders/runes)runes$(/l). Other classes use the trader as their cross-class shortcut."
+      "text": "Eight primary classes. One is picked at world creation. Every item the class owns has had its normal recipe removed; the class recipe is the only source.$(br2)$(l:classes/mage)Mage.$(/l) Combat spellcaster — wands, staves, robes, spell books.$(br2)$(l:classes/monk)Monk.$(/l) Combat holy-warrior — plate, staves, wands, magnum torches.$(br2)$(l:classes/warrior)Warrior.$(/l) Combat heavy-melee — Warrior and Berserker plate.$(br2)$(l:classes/ranger)Ranger.$(/l) Combat ranged — bows, crossbows, spears, scout armor.$(br2)$(l:classes/rogue)Rogue.$(/l) Combat stealth — shadow armor, daggers, grave-sentinel set.$(br2)$(l:classes/engineer)Engineer.$(/l) Craft industrial — picks a discipline: $(l:classes/eng_aeronautical)Aero$(/l), $(l:classes/eng_mechanical)Mech$(/l), $(l:classes/eng_electrical)Elec$(/l).$(br2)$(l:classes/armorer)Armorer.$(/l) Craft plate-armor — generic plate, kite shields, themed sets.$(br2)$(l:classes/blacksmith)Blacksmith.$(/l) Craft melee-weapons — claymores, maces, hammers, daggers, glaives, polearms."
     }
   ]
 }

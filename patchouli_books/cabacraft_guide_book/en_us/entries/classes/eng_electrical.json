@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Electrical Engineer",
-      "text": "Discipline 3 of $(l:classes/engineer)Engineer$(/l). The Create Additions FE power economy — generation, storage, transmission. Twenty-one items."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Generation and transmission",
-      "text": "$(bold)Electric Motor, Alternator.$(/) Generation. Electric Motor is also the Aero interlock anchor.$(br2)$(bold)Connectors$(/) — small, large, and small-light. Plus Redstone Relay, Digital Adapter, Barbed Wire."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Storage",
-      "text": "$(bold)Capacitor, Accumulator.$(/) Base storage.$(br2)$(bold)Modular Accumulator, Tesla Coil, Portable Energy Interface.$(/) Top tier — each requires a Mechanical Press (hub interlock).$(br2)Electrum ingots, sheets, and rods stay open as base alloy. Spools and wires are class-gated.$(br2)Matching trader: the Mechanist."
+      "text": "Elec discipline of Engineer. Crafts the Create Additions FE power economy — electric motor (the Aero interlock anchor), alternator, connectors (small, large, light), redstone relay, digital adapter, barbed wire, capacitor, accumulator.$(br2)Top-tier storage (Modular Accumulator, Tesla Coil, Portable Energy Interface) requires a Mechanical Engineer press.$(br2)Electrum ingots, sheets, and rods stay open as base alloy. Spools and wires are class-gated."
     }
   ]
 }

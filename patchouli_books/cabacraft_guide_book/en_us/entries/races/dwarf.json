@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Dwarf",
-      "text": "Stout. Short and broad. Height 0.85, width 1.15. Mining-built and stubborn."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Mining traits",
-      "text": "$(bold)Stonecunning.$(/) +50% break speed on anything mined with a pickaxe.$(br2)$(bold)Strong Arms.$(/) Mine stone-tier blocks bare-handed. Correct tool tier is still required for drops.$(br2)$(bold)Darkvision.$(/) Full strength, at all times."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Resilience",
-      "text": "$(bold)Dwarven Resilience.$(/) +0.30 flat knockback resistance.$(br2)$(bold)Dwarven Constitution.$(/) Immune to poison.$(br2)$(bold)Short Legs.$(/) Movement speed -10%.$(br2)$(bold)Stone Sinks.$(/) Swim speed -50%. Avoid open ocean."
+      "text": "Stout humanoid. Bipedal mountain-folk, short and broad. Built around mining and resilience.$(br2)Height: 0.85$(br)Width: 1.15$(br2)$(bold)Darkvision.$(/) Full night vision at all times.$(br2)$(bold)Stonecunning.$(/) Break speed +150% on any block in the pickaxe tag.$(br2)$(bold)Strong Arms.$(/) Stone-tier blocks can be mined bare-handed. Drops still require the correct pickaxe tier.$(br2)$(bold)Dwarven Constitution.$(/) Immune to the Poison effect.$(br2)$(bold)Dwarven Resilience.$(/) Knockback resistance +0.30.$(br2)$(bold)Short Legs.$(/) Movement speed -10%.$(br2)$(bold)Stone Sinks.$(/) Swim speed -50%."
     }
   ]
 }

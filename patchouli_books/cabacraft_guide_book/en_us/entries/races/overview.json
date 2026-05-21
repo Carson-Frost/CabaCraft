@@ -6,23 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "The Races",
-      "text": "Ten races. Pick one at world creation; the choice is permanent. Every race is passive — no keybound abilities — except Dragonborn, which has a fire-breath cone on cooldown."
+      "text": "Ten races. One is picked at world creation; the choice is permanent except by admin override.$(br2)$(l:races/tortle)Tortle.$(/l) Shelled humanoid. Slow, durable, holds breath underwater.$(br2)$(l:races/ribbit)Ribbit.$(/l) Frog-folk. Coil-charged leaps, strict insect diet.$(br2)$(l:races/locathah)Locathah.$(/l) Fish-folk. Native to water; weakens on land.$(br2)$(l:races/elf)Elf.$(/l) Slender, sleepless. Picks one of three lineages: $(l:races/elf_high)High$(/l), $(l:races/elf_wood)Wood$(/l), $(l:races/elf_sea)Sea$(/l).$(br2)$(l:races/aarakocra)Aarakocra.$(/l) Bird-folk. Innate flight."
     },
     {
       "type": "patchouli:text",
-      "title": "Aquatic and amphibious",
-      "text": "$(l:races/tortle)Tortle$(/l). Shelled, slow on land, durable.$(br)$(l:races/ribbit)Ribbit$(/l). Frog-folk. Charged jumps, eats only bugs and fish, slows in cold biomes.$(br)$(l:races/locathah)Locathah$(/l). Fish-folk. Permanent tail, never drowns, weakens on land."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Fey, fiend, dragon, beast",
-      "text": "$(l:races/elf)Elf$(/l). Long-lived, no sleep. Pick a lineage: $(l:races/elf_high)High$(/l), $(l:races/elf_wood)Wood$(/l), $(l:races/elf_sea)Sea$(/l).$(br)$(l:races/aarakocra)Aarakocra$(/l). Bird-folk. Flies with equipped wings; heavy armor grounds you.$(br)$(l:races/tiefling)Tiefling$(/l). Fiend-blooded. Fire-immune, water-vulnerable, spawns in the Nether.$(br)$(l:races/dragonborn)Dragonborn$(/l). Scaled. Active fire-breath cone on a 15-second cooldown."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Mortal stock",
-      "text": "$(l:races/half_orc)Half-Orc$(/l). Brawny. +1 melee, near-death recovery, dull at magic.$(br)$(l:races/dwarf)Dwarf$(/l). Stout. Stone-mining specialist, full darkvision, sinks in water.$(br)$(l:races/human)Human$(/l). No innate traits, no drawbacks. Pick one of seven boons at world entry."
+      "text": "$(l:races/tiefling)Tiefling.$(/l) Fiend-blooded. Fire-immune, water-vulnerable, born in the Nether.$(br2)$(l:races/dragonborn)Dragonborn.$(/l) Scaled. Active fire-breath on cooldown.$(br2)$(l:races/half_orc)Half-Orc.$(/l) Brawny. Near-death recovery, dull at magic.$(br2)$(l:races/dwarf)Dwarf.$(/l) Stout. Mining specialist, full darkvision, sinks in water.$(br2)$(l:races/human)Human.$(/l) Picks one of seven boons at world entry."
     }
   ]
 }

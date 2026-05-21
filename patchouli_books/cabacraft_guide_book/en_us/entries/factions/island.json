@@ -5,23 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Island Faction",
-      "text": "Eastern lamellar and wanderer mystic. Forty-two ultra-hard recipes. Claim with $(l:factions/overview)/cabafaction claim island$(/l)."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Ronin armor sets",
-      "text": "$(bold)Bamboo Hat$(/) — the iconic kasa.$(br2)$(bold)Japanese Light Armor$(/) (Do-maru), $(bold)O-Yoroi$(/), $(bold)Raijin$(/).$(br2)Fantasy: $(bold)Ronin$(/) set."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Wanderer armor sets",
-      "text": "$(bold)Thief, Wandering Wizard, Wind Worshipper, Forgotten Trace, Evening Ghost.$(/) Each is helmet, chestplate, leggings, boots."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Katana-family weapons",
-      "text": "$(bold)Wakizashi, Black Katana, Nagakiba, Marai Executioner Sword.$(/)$(br2)$(bold)Thief Dagger, Wandering Wizard Sword, Forgotten Trace Spear.$(/)"
+      "text": "Eastern lamellar and wanderer mystic. Claimed via $(bold)/cabafaction claim island$(/).$(br2)Unlocks 42 leader-only regalia recipes — Bamboo Hat (kasa), Japanese Light Armor, O-Yoroi, and Raijin ronin armor sets; Thief, Wandering Wizard, Wind Worshipper, Forgotten Trace, and Evening Ghost wanderer sets; and katana-family weapons (Wakizashi, Black Katana, Nagakiba, Marai Executioner Sword), Thief Dagger, Wandering Wizard Sword, Forgotten Trace Spear."
     }
   ]
 }

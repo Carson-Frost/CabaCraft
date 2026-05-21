@@ -6,18 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Secondary Classes",
-      "text": "Pick exactly one. Smaller catalogue than a primary, lighter per-item depth. You are still the only legal source — every secondary item is class-gated.$(br2)Each secondary maps to one trader. Other classes buy your work there for runes."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Functional (harder recipes)",
-      "text": "$(li)$(l:secondaries/tinkerer)Tinkerer$(/l) — clockwork instruments and tech tools.$(li)$(l:secondaries/gunsmith)Gunsmith$(/l) — firearms, cartridges, the musket upgrade template."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Class-gate only",
-      "text": "Mod-original recipes preserved; the class is the only delta.$(br)$(li)$(l:secondaries/fisher)Fisher$(/l) — fishing tackle (rods, lines, hooks, satchels, bobbers).$(li)$(l:secondaries/brewer)Brewer$(/l) — drinks, foods, brewing infrastructure.$(li)$(l:secondaries/bard)Bard$(/l) — instruments, books, music discs, chess.$(li)$(l:secondaries/decorator)Decorator$(/l) — wallpapers, skirting boards, themed banners.$(li)$(l:secondaries/tailor)Tailor$(/l) — hats, masks, plushies, cosmetic wearables.$(li)$(l:secondaries/herbalist)Herbalist$(/l) — hemp, burlap, smoking gear, herbal salves."
+      "text": "Eight secondary classes. One is picked at world creation as a second, lighter craft on top of the primary. Smaller catalogues; the player is the only legal source for each.$(br2)$(l:secondaries/tinkerer)Tinkerer.$(/l) Clockwork instruments and tech tools.$(br2)$(l:secondaries/gunsmith)Gunsmith.$(/l) Firearms, cartridges, the musket upgrade template.$(br2)$(l:secondaries/fisher)Fisher.$(/l) Fishing tackle — rods, lines, hooks, satchels, bobbers.$(br2)$(l:secondaries/brewer)Brewer.$(/l) Drinks, foods, brewing infrastructure.$(br2)$(l:secondaries/bard)Bard.$(/l) Instruments, books, music discs, chess, paint canvases.$(br2)$(l:secondaries/decorator)Decorator.$(/l) Wallpapers, skirting boards, themed flags.$(br2)$(l:secondaries/tailor)Tailor.$(/l) Hats, masks, plushies, belts, cosmetic wearables.$(br2)$(l:secondaries/herbalist)Herbalist.$(/l) Hemp, burlap, smoking gear, herbal salves."
     }
   ]
 }

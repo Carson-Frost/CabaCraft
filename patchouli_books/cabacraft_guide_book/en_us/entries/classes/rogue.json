@@ -5,23 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Rogue",
-      "text": "Combat primary. Fifteen items. Two shadow armor sets, the grave-sentinel set, two paired weapons, and the rogue spell book."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Shadow armor",
-      "text": "$(bold)Rogue Armor.$(/) Phantom-membrane cowl, sculk-vein dye.$(br2)$(bold)Assassin Armor.$(/) Sculk-darkened hood, netherite-scrap edged coat.$(br2)Phantom membrane is the signature material. Head, chest, legs, feet for each set."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Grave-sentinel set",
-      "text": "$(bold)Grave-Sentinel Helmet, Chestplate, Leggings, Boots.$(/) Netherite, soul soil, bone block, wither rose.$(br2)Paired weapons:$(br)$(li)$(bold)Cursed Blade$(/) — wither-rose tip, wither-skull pommel.$(li)$(bold)Crimson Reaper$(/) — redstone-block scythe, netherite head."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Notes",
-      "text": "$(bold)Rogue Spell Book.$(/) Ink and sculk bound around an enchanted book.$(br2)Matching trader: the Rogue."
+      "text": "Combat stealth class. Crafts two shadow armor sets (Rogue, with phantom-membrane and sculk-vein dye; and Assassin, with sculk-darkened hood and netherite-scrap), the Grave-Sentinel armor set, the Cursed Blade and Crimson Reaper paired weapons, and the Rogue spell book.$(br2)Phantom membrane is the signature material for the shadow sets."
     }
   ]
 }

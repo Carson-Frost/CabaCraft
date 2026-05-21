@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Warrior",
-      "text": "Combat primary. Nine items — the leanest catalogue. Combat classes are balanced against each other, not against the craft classes.$(br2)Generic weapons and plate live with $(l:classes/armorer)Armorer$(/l) and $(l:classes/blacksmith)Blacksmith$(/l). Warrior owns only its signature gear."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Catalogue",
-      "text": "$(bold)Warrior Armor.$(/) Iron-block plastron, chain pauldrons. Head, chest, legs, feet.$(br2)$(bold)Berserker Armor.$(/) Netherite-ingot torso, full netherite reinforcement. Head, chest, legs, feet.$(br2)$(bold)Warrior Spell Book.$(/) Iron-block and goat horns bound around an enchanted book. No other source."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Notes",
-      "text": "Netherite Warrior and Berserker variants stay vanilla smithing upgrades from the bases you craft.$(br2)Matching trader: the Armorer."
+      "text": "Combat heavy-melee class. The leanest catalogue — nine items. Crafts the Warrior armor set (iron-block plastron, chain pauldrons), the Berserker armor set (netherite-ingot torso), and the Warrior spell book. Netherite Warrior and Berserker variants stay vanilla smithing-table upgrades from the base sets.$(br2)Generic plate and generic melee weapons live with the Armorer and Blacksmith classes."
     }
   ]
 }

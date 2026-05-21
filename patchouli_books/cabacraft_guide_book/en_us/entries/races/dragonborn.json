@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Dragonborn",
-      "text": "Scaled. Slightly larger than human. Height 1.08, width 1.05. The only race with an active keybound power."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Breath Weapon",
-      "text": "$(bold)Active.$(/) Press the Origins primary key (default $(o)G$(/)) for a short-range fire-breath cone. Roughly 5 damage, 3-block range, ignites for ~4 seconds. Cooldown: 15 seconds.$(br2)A small HUD bar tracks the cooldown."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Passive traits",
-      "text": "$(bold)Dragon Blood.$(/) Fire damage taken halved. Not full immunity.$(br2)$(bold)Scaled Hide.$(/) +2 armor at all times.$(br2)$(bold)Frostbane.$(/) Freeze damage takes +3 per tick. Avoid powder snow; dress for the cold."
+      "text": "Scaled humanoid. Bipedal draconid; larger and broader than human. Carries draconic ancestry in its skin and breath.$(br2)Height: 1.08$(br)Width: 1.05$(br2)$(bold)Breath Weapon.$(/) Active. Press the Origins primary key to exhale a fire cone — 5 damage to targets within 3 blocks, ignites for 4 seconds. Cooldown 15 seconds; tracked on a HUD bar.$(br2)$(bold)Dragon Blood.$(/) Fire damage taken reduced 50%.$(br2)$(bold)Scaled Hide.$(/) Armor +2 at all times.$(br2)$(bold)Frostbane.$(/) Freeze damage taken increased by 3 per tick."
     }
   ]
 }

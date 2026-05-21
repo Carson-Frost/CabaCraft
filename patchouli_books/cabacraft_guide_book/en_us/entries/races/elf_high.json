@@ -5,13 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "High Elf",
-      "text": "Stacks on the shared $(l:races/elf)Elf$(/l) base. Built for spellcasting; weak with a sword."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Traits",
-      "text": "$(bold)Arcane Affinity.$(/) +10% spell power across arcane, fire, frost, and healing.$(br2)$(bold)Magic Ward.$(/) Incoming magic damage reduced 15%.$(br2)$(bold)Fey Resilience.$(/) Harmful status effects wear off faster.$(br2)$(bold)Frail Strike.$(/) Melee damage -25%."
+      "text": "Arcane lineage of the Elf race. Stacks on top of the shared Elf traits.$(br2)$(bold)Arcane Affinity.$(/) Spell power +10% in arcane, fire, frost, and healing.$(br2)$(bold)Magic Ward.$(/) Magic-typed damage taken reduced 15%.$(br2)$(bold)Fey Resilience.$(/) Every 3 seconds, clears most harmful status effects (Slowness, Weakness, Poison, Mining Fatigue, Nausea, Blindness, Wither, Hunger, Levitation, Unluck).$(br2)$(bold)Frail Strike.$(/) Melee attack damage reduced 25%."
     }
   ]
 }

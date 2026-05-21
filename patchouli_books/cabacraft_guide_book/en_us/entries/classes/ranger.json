@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Ranger",
-      "text": "Combat primary. Bow-and-spear specialist. Twenty-three items, self-contained."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Catalogue",
-      "text": "$(bold)Bows and crossbows.$(/) Composite, crystal, mechanic, royal, plus heavy and rapid crossbows.$(br2)$(bold)Spears.$(/) Flint, iron, gold, diamond, aeternium. Each with a reinforced socket and double haft.$(br2)$(bold)Armor.$(/) Archer (chain-reinforced leather) and Ranger (extra scute). Head, chest, legs, feet for each.$(br2)$(bold)Kit.$(/) Auto-fire hook, quiver, archer spell book."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Notes",
-      "text": "Netherite and ruby spear variants stay vanilla smithing upgrades from the bases you craft.$(br2)Matching trader: the Archer."
+      "text": "Combat ranged class. Crafts all the Archers mod ranged kit — composite, crystal, mechanic, and royal bows; heavy and rapid crossbows; flint through aeternium spears; the Archer and Ranger scout armor sets; the auto-fire hook; the quiver; and the Archer spell book.$(br2)Netherite and ruby spear variants stay vanilla smithing-table upgrades from the bases."
     }
   ]
 }

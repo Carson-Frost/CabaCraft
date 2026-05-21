@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Elf",
-      "text": "Tall, slim. Height 1.05, width 0.95. Sleepless, fey-touched. Picking Elf opens a second screen where you also pick a lineage."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Shared traits",
-      "text": "$(bold)Low-Light Vision.$(/) Faint light is enough. Not full darkvision; disabled underwater.$(br2)$(bold)Trance.$(/) You do not sleep, and phantoms ignore you.$(br2)$(bold)Frail.$(/) -2 max health (-1 heart).$(br2)$(bold)Light-Footed.$(/) Reduced knockback resistance."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Pick a lineage",
-      "text": "After choosing Elf, a second screen offers three lineages:$(br)$(li)$(l:races/elf_high)High Elf$(/l) — arcane caster.$(li)$(l:races/elf_wood)Wood Elf$(/l) — ranged scout.$(li)$(l:races/elf_sea)Sea Elf$(/l) — amphibious diver.$(br)Lineage traits stack on top of the shared elf traits."
+      "text": "Long-lived humanoid. Slender, fey-touched. After picking Elf, the player picks a lineage — High, Wood, or Sea — on a second screen.$(br2)Height: 1.05$(br)Width: 0.95$(br2)$(bold)Low-Light Vision.$(/) Faint night vision (strength 0.3). Does not function underwater.$(br2)$(bold)Trance.$(/) Phantom attacks deal no damage.$(br2)$(bold)Frail.$(/) Maximum health 18 (9 hearts).$(br2)$(bold)Light-Footed.$(/) Knockback resistance reduced by 0.10."
     }
   ]
 }

@@ -5,19 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Aarakocra",
-      "text": "Bird-folk. Small and light. Height 0.92. The flying race — but flight requires equipped wings, and heavy armor grounds you."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "icarus:white_feathered_wings",
-      "title": "Icarus Wings",
-      "text": "Equip wings in the chest slot to fly. Without them you cannot. Iron or netherite chest or leg armor blocks flight until removed — leather, chain, or light fantasy armor only."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Traits",
-      "text": "$(bold)Sky-Born.$(/) While flying, fall damage and wall-crash damage do nothing.$(br2)$(bold)Talons.$(/) Bare-hand attacks gain +1 damage.$(br2)$(bold)Dive Attack.$(/) While gliding or falling with wings out, melee damage +100%.$(br2)$(bold)Hollow Bones.$(/) -2 max health (-1 heart)."
+      "text": "Avian humanoid. Bipedal bird-folk with feathered wings, hollow bones, and talons.$(br2)Height: 0.92$(br)Width: 0.90$(br2)$(bold)Feathered Wings.$(/) Press jump while airborne to take off and glide. Heavy armor slows flight.$(br2)$(bold)Sky-Born.$(/) While flying, falls and wall-crashes deal no damage.$(br2)$(bold)Talons.$(/) Bare-hand attacks deal +1 damage.$(br2)$(bold)Dive Attack.$(/) Melee attacks deal +100% damage while gliding or falling.$(br2)$(bold)Hollow Bones.$(/) Maximum health 18 (9 hearts)."
     }
   ]
 }

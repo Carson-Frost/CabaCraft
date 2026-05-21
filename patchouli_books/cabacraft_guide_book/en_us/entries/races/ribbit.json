@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Ribbit",
-      "text": "Frog-folk. Small and lean. Eats only bugs, fish, and slime. Coils when grounded, launches when released."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Traits",
-      "text": "$(bold)Spring Leap.$(/) Hold the Origins primary key while standing on the ground to coil; release for a leap up to roughly six blocks. Normal jumps are unaffected.$(br2)$(bold)Soft Landing.$(/) Falls do nothing. Any height.$(br2)$(bold)Grung Hide.$(/) Immune to poison.$(br2)$(bold)Webbed Feet.$(/) Swim speed +25%, hold breath longer than the others. Not true water-breathing."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Drawbacks",
-      "text": "$(bold)Insectivore.$(/) Only fish, slimeballs, spider eyes, and the pack's bug foods give nutrition. Everything else does nothing.$(br2)$(bold)Cold-Blooded.$(/) Movement reduced 25% in cold biomes."
+      "text": "Amphibian humanoid. Bipedal frog-folk with webbed digits and a strict diet of bugs, fish, and slime.$(br2)Height: 0.90$(br)Width: 0.95$(br2)$(bold)Spring Leap.$(/) Hold the Origins primary key while standing on the ground to coil, then release to launch. Up to roughly 6 blocks at full charge (2 seconds).$(br2)$(bold)Soft Landing.$(/) Takes no fall damage, at any height.$(br2)$(bold)Grung Hide.$(/) Immune to the Poison effect.$(br2)$(bold)Webbed Feet.$(/) Swim speed +25%.$(br2)$(bold)Insectivore.$(/) Only items tagged as Ribbit food (fish, slimeballs, spider eyes, and the pack's bug foods) restore hunger. Everything else cannot be eaten.$(br2)$(bold)Cold-Blooded.$(/) Movement speed reduced 25% in biomes with temperature below 0.15 (snow, taiga, ice spikes)."
     }
   ]
 }

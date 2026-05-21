@@ -5,23 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Brewer",
-      "text": "The full Brewin' and Chewin' catalogue. Fifty-nine items — every drink, food, and infrastructure block.$(br2)Class-gate only. Mod-original recipes preserved on items that have one; items without a 3x3 (most drinks use fermenting kegs) get a simple class-gated grid recipe."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Infrastructure",
-      "text": "$(bold)Keg.$(/) The main fermenter.$(br2)$(bold)Fermentation Controller, Tankard, Item Coaster.$(/) Supporting blocks."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Drinks",
-      "text": "Every drink has both a loose form and a tankard variant.$(br2)$(bold)Beers and ales.$(/) Beer, Mead, Pale Jane, Strongroot Ale, Steel Toe Stout.$(br2)$(bold)Spirits.$(/) Vodka, Red Rum, Saccharine Rum, Rice Wine.$(br2)$(bold)Cocktails.$(/) Bloody Mary, Glittering Grenadine, Salty Folly, Dread Nog, Egg Grog, Kombucha, Withering Dross.$(br2)Drinks give the mod's in-mod buff effects — no vanilla potions gated here."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Food",
-      "text": "$(bold)Cheese.$(/) Flaxen and Scarlet — wedge, wheel, unripe variants.$(br2)$(bold)Hot dishes.$(/) Pizza, Quiche, Cheesy Pasta, Horror Lasagna, Scarlet Pierogies, Fiery Fondue, Creamy Onion Soup, Vegetable Omelet, Ham-and-Cheese Sandwich.$(br2)$(bold)Cured.$(/) Jerky, Kippers, Kimchi, Pickled Pickles, Cocoa Fudge.$(br2)Matching trader: the Brewer."
+      "text": "Drinks-and-food secondary. Crafts the full Brewin' and Chewin' catalogue — fermenting infrastructure (Keg, Fermentation Controller, Tankard, Item Coaster), beers and ales, spirits, cocktails, cheeses, hot dishes (pizza, quiche, lasagna, fondue, soup, omelet, sandwich), and cured foods (jerky, kimchi, pickles, fudge).$(br2)Drinks grant the mod's own buff effects; no vanilla potions are gated through Brewer."
     }
   ]
 }

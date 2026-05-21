@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Mage",
-      "text": "Combat primary. Built around the Wizards mod. Twenty-seven items, flat — one Mage casts all three schools: arcane, fire, frost."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Catalogue",
-      "text": "$(bold)Wands and staves.$(/) Apprentice-tier focuses and two-handed casters across all three schools.$(br2)$(bold)Robes.$(/) Four sets — Wizard, Arcane, Fire, Frost — head, chest, legs, feet. Each set's recipe uses its school's signature block (lapis, amethyst, magma, prismarine).$(br2)$(bold)Spell books.$(/) Arcane, Fire, Frost. The Mage class is the only source — these have no recipe outside it."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Notes",
-      "text": "Netherite, ruby, and smaragdant wand and staff variants stay vanilla smithing upgrades from the bases you craft.$(br2)The matching trader is the Wizard. Non-Mages who want this gear pay runes there."
+      "text": "Combat spellcaster class. Crafts wands, staves, robes, and spell books across three schools: arcane, fire, and frost. One Mage casts all three; the class does not subdivide.$(br2)Robes use the school's signature block — lapis (Wizard), amethyst (Arcane), magma (Fire), prismarine (Frost). Netherite, ruby, and smaragdant wand and staff variants stay vanilla smithing-table upgrades from the base wands."
     }
   ]
 }

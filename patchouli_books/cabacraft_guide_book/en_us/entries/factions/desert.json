@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Desert Faction",
-      "text": "Sun-gold and legion. Forty-seven ultra-hard recipes — the hardest in the pack. Claim with $(l:factions/overview)/cabafaction claim desert$(/l)."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Nomad armor sets",
-      "text": "$(bold)Pharaoh$(/), $(bold)Anubis$(/), $(bold)Exalted Aurum$(/), $(bold)Quetzalcoatl$(/).$(br2)Plus $(bold)Centurion$(/) sub-style.$(br2)Fantasy sets: $(bold)Golden Horns$(/), $(bold)Golden Execution$(/), $(bold)Eclipse Soldier$(/)."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Signature weapons",
-      "text": "$(bold)Desert Wind, Golden Halberd, Marika Hammer, Kingslayer.$(/)$(br2)$(bold)Golden Horns Battleaxe, Golden Execution Battleaxe, Eclipse Soldier Spear.$(/)$(br2)$(bold)Weathered blades.$(/) Old Blade, Old Broadsword, Old Dagger, Sharp Sword, Savage Sword, Sharp Spear, Savage Spear, Savage Hammer, Hefty Club."
+      "text": "Sun-gold and legion. Claimed via $(bold)/cabafaction claim desert$(/).$(br2)Unlocks 47 leader-only regalia recipes — Pharaoh, Anubis, Exalted Aurum, Quetzalcoatl, and Centurion armor sets; the Golden Horns, Golden Execution, and Eclipse Soldier fantasy sets; and signature weapons including Desert Wind, Golden Halberd, Marika Hammer, and Kingslayer, plus a weathered-blade collection (Old Blade, Sharp Sword, Savage Sword, Hefty Club, and related variants)."
     }
   ]
 }

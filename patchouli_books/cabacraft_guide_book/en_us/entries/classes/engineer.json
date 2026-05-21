@@ -5,18 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Engineer",
-      "text": "Craft primary. The industrial class. After picking Engineer, a second screen asks you to choose one of three disciplines.$(br2)Trains and Create base materials (andesite alloy, casings, precision mechanism, train tracks) stay open to everyone. Engineer is about the machines built on top of that supply chain."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "The three disciplines",
-      "text": "$(li)$(l:classes/eng_aeronautical)Aeronautical Engineer$(/l) — aircraft and mining vehicles.$(li)$(l:classes/eng_mechanical)Mechanical Engineer$(/l) — gears, presses, mills, mid-tier machines.$(li)$(l:classes/eng_electrical)Electrical Engineer$(/l) — motors, batteries, wires, electric tools."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Hub interlock",
-      "text": "Mechanical is the hub. Both Aero and Electrical top-tier items require a Mechanical-made part as an ingredient.$(br2)Picking Mech is a useful service on any server."
+      "text": "Industrial craft class. After picking Engineer, a second screen offers one of three disciplines: $(l:classes/eng_aeronautical)Aero$(/l), $(l:classes/eng_mechanical)Mech$(/l), or $(l:classes/eng_electrical)Elec$(/l).$(br2)Trains, andesite alloy, casings, precision mechanisms, and train tracks stay open to all players. Engineer is about the machines built on top of that supply chain. Mech is the hub — Aero and Elec top-tier items require a Mech-made part."
     }
   ]
 }

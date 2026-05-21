@@ -5,23 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Bard",
-      "text": "Bard plus Scribe. Class-gate only — mod-original recipes preserved.$(br2)Cosmetic by intent, but the only source of music, the chess set, paint canvases, and the guide book in your hand."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Instruments (11)",
-      "text": "Bagpipe, Didgeridoo, Ender Bass, Flute, Handpan, Lute, Piano, Tiny Drum, Triangle, Trumpet, Vielle."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Chess set",
-      "text": "Crafted whole-set by Bard. Overrides the paired-fantasy rule (the matching polearm would normally live with $(l:classes/blacksmith)Blacksmith$(/l)).$(br2)$(bold)Chess Piece, Board Block.$(/)$(br2)$(bold)Chess Board Knight$(/) helmet, chestplate, leggings, boots.$(br2)$(bold)Chess Board Knight Polearm.$(/)"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Books, paint, music discs",
-      "text": "$(bold)Guide Book$(/) — this book.$(br2)$(bold)Fishing Journal.$(/)$(br2)$(bold)Canvases$(/) — long, tall, and large variants; plus Easel and Palette.$(br2)$(bold)Music Disc — Jam.$(/)$(br2)Matching trader: the Musician (instruments) and the Librarian (books and canvases)."
+      "text": "Performer-and-scribe secondary. Crafts eleven instruments (bagpipe, didgeridoo, ender bass, flute, handpan, lute, piano, tiny drum, triangle, trumpet, vielle); the full chess set including the Chess Board Knight armor and polearm; the Guide Book itself; the Fishing Journal; paint canvases, easel, and palette; and the Jam music disc."
     }
   ]
 }

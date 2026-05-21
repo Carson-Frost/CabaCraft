@@ -5,23 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Decorator",
-      "text": "Class-gate only. The Wallpapers mod plus six themed Mine Cells flags. Eighty-nine items — the largest cosmetic catalogue."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Wallpaper rolls",
-      "text": "Standard 16-color set, dye-matched: white, orange, magenta, light blue, yellow, lime, pink, gray, light gray, cyan, purple, blue, brown, green, red, black.$(br2)Plus 30+ themed rolls (acorn, action, amber, ash, banana, beige, and on through the alphabet). The full list lives in JEI."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Skirting boards",
-      "text": "Stone-tier trim:$(br)Andesite, Blackstone, Calcite, Dark Prismarine, Deepslate, Diorite, Dripstone, Gold, Granite, Prismarine, Quartz, Stone, Tuff."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Themed flags (6)",
-      "text": "$(bold)King's Crest$(/) — Chancellor's banner.$(br2)$(bold)Torn King's Crest, Black Bridge, Insufferable Crypt, Promenade of the Condemned, Ramparts.$(/)$(br2)Generic colored ribbon flags and the flag pole stay normally craftable, not gated.$(br2)Matching trader: the Flag Maker (flags) and the Decorator (wallpapers and skirting)."
+      "text": "Wall-coverings secondary. Crafts the full Wallpapers catalogue (16 standard dye-matched rolls plus 30+ themed variants), thirteen stone-tier skirting boards (andesite, blackstone, calcite, dark prismarine, deepslate, diorite, dripstone, gold, granite, prismarine, quartz, stone, tuff), and the six themed Mine Cells flags (King's Crest, Torn King's Crest, Black Bridge, Insufferable Crypt, Promenade of the Condemned, Ramparts).$(br2)Generic colored ribbon flags and the flag pole stay vanilla-craftable."
     }
   ]
 }

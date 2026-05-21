@@ -5,23 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Herbalist",
-      "text": "The entire Nirvana catalogue. Fifty-seven items. Class-gate only — mod-original recipes preserved where the mod provides one.$(br2)No other herb mod in the pack; Herbalist is the only botanic identity."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Hemp and burlap",
-      "text": "$(bold)Hemp.$(/) The base crop, plus Hemp Seeds, Wild Hemp, Potted Wild Hemp.$(br2)$(bold)Cloth.$(/) Hemp Cloth, Hemp Burlap, Woven Burlap, Hemp Crate, Weed Crate.$(br2)16 colored hemp burlap and 16 colored woven burlap variants."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Smoking gear",
-      "text": "Joint, Bong, Potion Bong.$(br2)Old Pipe, Stuffed Pipe, Suspicious Pipe.$(br2)Weed, Weed Brownie, THC, THC Minecart, Bliss Bloom, Herbal Salve."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Cosmetic and curio",
-      "text": "Deerstalker hat, Peace Banner Pattern, Reefer Head, Reefer Spawn Egg.$(br2)Matching trader: the Herbalist."
+      "text": "Botanical secondary. Crafts the full Nirvana catalogue — hemp crops and seeds, hemp cloth and burlap (with 16 dyed variants each), smoking gear (joint, bong, pipes), edibles (weed, brownie, salve, bliss bloom), the Deerstalker hat, the Peace Banner Pattern, and the Reefer head and spawn egg."
     }
   ]
 }

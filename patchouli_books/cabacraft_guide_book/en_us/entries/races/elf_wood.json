@@ -5,13 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Wood Elf",
-      "text": "Stacks on the shared $(l:races/elf)Elf$(/l) base. Built for ranged ambush."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Traits",
-      "text": "$(bold)Fleet of Foot.$(/) Movement speed +10%.$(br2)$(bold)Keen Shot.$(/) Bow and crossbow damage +20%.$(br2)$(bold)Forest Camouflage.$(/) While crouched and standing in foliage (tall grass, leaves), mobs lose sight of you. Armor stays visible.$(br2)No extra drawback. Only the shared elf frailty applies."
+      "text": "Forest lineage of the Elf race. Stacks on top of the shared Elf traits.$(br2)$(bold)Fleet of Foot.$(/) Movement speed +10%.$(br2)$(bold)Keen Shot.$(/) Bow and crossbow damage +20%.$(br2)$(bold)Forest Camouflage.$(/) While sneaking on a block tagged as foliage (tall grass, leaves), the player turns invisible. Armor is hidden as well."
     }
   ]
 }
