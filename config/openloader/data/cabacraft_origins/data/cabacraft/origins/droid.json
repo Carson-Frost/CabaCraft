@@ -3,6 +3,7 @@
     "cabacraft:droid/size",
     "cabacraft:droid/constructed_body",
     "cabacraft:droid/no_hunger",
+    "cabacraft:droid/hud_skin",
     "cabacraft:droid/repair_core",
     "cabacraft:droid/battery",
     "cabacraft:droid/battery_drain",

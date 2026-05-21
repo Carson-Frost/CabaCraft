@@ -5,7 +5,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "items": ["minecraft:coal"]
+        "items": ["minecraft:coal", "minecraft:charcoal"]
       }
     },
     "food_component": {
@@ -14,9 +14,18 @@
       "always_edible": true
     },
     "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "cabacraft:droid/battery",
-      "change": 4
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "cabacraft:droid/battery",
+          "change": 4
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:block.anvil.use player @s ~ ~ ~ 0.4 1.4"
+        }
+      ]
     }
   },
   "coal_block": {
@@ -33,9 +42,18 @@
       "always_edible": true
     },
     "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "cabacraft:droid/battery",
-      "change": 20
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "cabacraft:droid/battery",
+          "change": 20
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:block.anvil.use player @s ~ ~ ~ 0.7 1.0"
+        }
+      ]
     }
   }
 }
