@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/holy_staff",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " GA",
+      " HG",
+      "TH "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "A": {
+        "item": "minecraft:glowstone"
+      },
+      "H": {
+        "item": "minecraft:iron_ingot"
+      },
+      "T": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "result": {
+      "item": "paladins:holy_staff",
+      "count": 1
+    }
+  }
+}

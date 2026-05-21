@@ -1,0 +1,23 @@
+{
+  "type": "origins:modify_break_speed",
+  "modifier": {
+    "name": "Sunlight sensitivity (mining)",
+    "operation": "multiply_total",
+    "value": -0.25
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sky"
+      },
+      {
+        "type": "origins:daytime"
+      },
+      {
+        "type": "origins:in_rain",
+        "inverted": true
+      }
+    ]
+  }
+}

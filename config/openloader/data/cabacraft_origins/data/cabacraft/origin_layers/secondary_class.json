@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "order": 11,
+  "enabled": true,
+  "origins": [
+    "cabacraft:tinkerer",
+    "cabacraft:fisher",
+    "cabacraft:gunsmith",
+    "cabacraft:brewer",
+    "cabacraft:bard",
+    "cabacraft:decorator",
+    "cabacraft:tailor",
+    "cabacraft:herbalist"
+  ],
+  "allow_random": false,
+  "hidden": false
+}

@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/mechanical_saw",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " P ",
+      "AIA",
+      " C "
+    ],
+    "key": {
+      "P": {
+        "tag": "c:iron_plates"
+      },
+      "A": {
+        "tag": "c:iron_plates"
+      },
+      "I": {
+        "item": "create:precision_mechanism"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      }
+    },
+    "result": {
+      "item": "create:mechanical_saw",
+      "count": 1
+    }
+  }
+}

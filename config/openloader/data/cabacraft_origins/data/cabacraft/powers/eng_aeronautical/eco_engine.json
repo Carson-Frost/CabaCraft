@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/eco_engine",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GNG",
+      "NEN",
+      "MRM"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "N": {
+        "item": "minecraft:slime_block"
+      },
+      "E": {
+        "item": "immersive_aircraft:engine"
+      },
+      "R": {
+        "item": "minecraft:brick"
+      },
+      "M": {
+        "item": "create:mechanical_drill"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:eco_engine",
+      "count": 1
+    }
+  }
+}

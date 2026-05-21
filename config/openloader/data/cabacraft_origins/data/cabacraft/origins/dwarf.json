@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "cabacraft:dwarf/size",
+    "cabacraft:dwarf/darkvision",
+    "cabacraft:dwarf/stone_mining",
+    "cabacraft:dwarf/barehand_stone",
+    "cabacraft:dwarf/resilience",
+    "cabacraft:dwarf/poison_resist",
+    "cabacraft:dwarf/stout_legs",
+    "cabacraft:dwarf/poor_swimmer",
+    "cabacraft:dwarf/skin"
+  ],
+  "icon": {
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1009}"
+  },
+  "order": 8,
+  "impact": 2
+}

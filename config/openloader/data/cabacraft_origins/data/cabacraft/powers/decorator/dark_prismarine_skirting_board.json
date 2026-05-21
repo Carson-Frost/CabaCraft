@@ -1,0 +1,24 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:decorator/dark_prismarine_skirting_board",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " C ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:dark_prismarine"
+      },
+      "C": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    "result": {
+      "item": "wallpapers:dark_prismarine_skirting_board",
+      "count": 12
+    }
+  }
+}

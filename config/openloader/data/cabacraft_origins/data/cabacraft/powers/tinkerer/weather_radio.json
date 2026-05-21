@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/weather_radio",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IRI",
+      "CMC",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "M": {
+        "item": "immersive_machinery:redstone_mechanism"
+      }
+    },
+    "result": {
+      "item": "tide:weather_radio",
+      "count": 1
+    }
+  }
+}

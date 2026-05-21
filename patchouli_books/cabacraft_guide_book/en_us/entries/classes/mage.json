@@ -1,0 +1,11 @@
+{
+  "name": "Mage",
+  "icon": "wizards:wand_arcane",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Combat spellcaster class. Crafts wands, staves, robes, and spell books across three schools: arcane, fire, and frost. One Mage casts all three; the class does not subdivide.$(br2)Robes use the school's signature block — lapis (Wizard), amethyst (Arcane), magma (Fire), prismarine (Frost). Netherite, ruby, and smaragdant wand and staff variants stay vanilla smithing-table upgrades from the base wands."
+    }
+  ]
+}

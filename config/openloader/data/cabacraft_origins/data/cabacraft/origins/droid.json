@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "cabacraft:droid/size",
+    "cabacraft:droid/constructed_body",
+    "cabacraft:droid/repair_core",
+    "cabacraft:droid/sealed_systems",
+    "cabacraft:droid/plated_hide",
+    "cabacraft:droid/lightning_rod",
+    "cabacraft:droid/heavy_frame",
+    "cabacraft:droid/skin"
+  ],
+  "icon": {
+    "item": "minecraft:iron_block"
+  },
+  "order": 10,
+  "impact": 3
+}

@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Sure-footed",
+    "value": -0.6,
+    "operation": "multiply_total"
+  },
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  }
+}

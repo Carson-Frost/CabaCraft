@@ -1,0 +1,12 @@
+{
+  "name": "Secondary Classes",
+  "icon": "accents:item_satchel",
+  "category": "patchouli:secondaries",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Eight secondary classes. One is picked at world creation as a second, lighter craft on top of the primary. Smaller catalogues; the player is the only legal source for each.$(br2)$(l:secondaries/tinkerer)Tinkerer.$(/l) Clockwork instruments and tech tools.$(br2)$(l:secondaries/gunsmith)Gunsmith.$(/l) Firearms, cartridges, the musket upgrade template.$(br2)$(l:secondaries/fisher)Fisher.$(/l) Fishing tackle — rods, lines, hooks, satchels, bobbers.$(br2)$(l:secondaries/brewer)Brewer.$(/l) Drinks, foods, brewing infrastructure.$(br2)$(l:secondaries/bard)Bard.$(/l) Instruments, books, music discs, chess, paint canvases.$(br2)$(l:secondaries/decorator)Decorator.$(/l) Wallpapers, skirting boards, themed flags.$(br2)$(l:secondaries/tailor)Tailor.$(/l) Hats, masks, plushies, belts, cosmetic wearables.$(br2)$(l:secondaries/herbalist)Herbalist.$(/l) Hemp, burlap, smoking gear, herbal salves."
+    }
+  ]
+}

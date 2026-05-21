@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "cabacraft:locathah/water_breathing",
+    "cabacraft:locathah/swim",
+    "cabacraft:locathah/water_vision",
+    "cabacraft:locathah/leviathan_will",
+    "cabacraft:locathah/tail_keeper",
+    "cabacraft:locathah/wet",
+    "cabacraft:locathah/dry",
+    "cabacraft:locathah/skin"
+  ],
+  "icon": {
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1003}"
+  },
+  "order": 2,
+  "impact": 2
+}

@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/aeternium_spear",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  P",
+      " #P",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "tag": "c:wood_sticks"
+      },
+      "P": {
+        "item": "betterend:aeternium_ingot"
+      }
+    },
+    "result": {
+      "item": "archers:aeternium_spear",
+      "count": 1
+    }
+  }
+}

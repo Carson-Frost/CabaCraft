@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/diamond_spear",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  P",
+      " #P",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "tag": "c:wood_sticks"
+      },
+      "P": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "archers:diamond_spear",
+      "count": 1
+    }
+  }
+}

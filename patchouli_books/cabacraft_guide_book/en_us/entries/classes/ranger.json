@@ -1,0 +1,11 @@
+{
+  "name": "Ranger",
+  "icon": "archers:archer_armor_chest",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Combat ranged class. Crafts all the Archers mod ranged kit — composite, crystal, mechanic, and royal bows; heavy and rapid crossbows; flint through aeternium spears; the Archer and Ranger scout armor sets; the auto-fire hook; the quiver; and the Archer spell book.$(br2)Netherite and ruby spear variants stay vanilla smithing-table upgrades from the bases."
+    }
+  ]
+}

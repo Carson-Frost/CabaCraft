@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/schematic_table",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WWW",
+      "SPS",
+      " S "
+    ],
+    "key": {
+      "W": {
+        "tag": "minecraft:wooden_slabs"
+      },
+      "S": {
+        "item": "minecraft:smooth_stone"
+      },
+      "P": {
+        "item": "create:precision_mechanism"
+      }
+    },
+    "result": {
+      "item": "create:schematic_table",
+      "count": 1
+    }
+  }
+}

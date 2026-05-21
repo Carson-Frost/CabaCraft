@@ -1,0 +1,11 @@
+{
+  "name": "Brewer",
+  "icon": "brewinandchewin:strongroot_ale",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Drinks-and-food secondary. Crafts the full Brewin' and Chewin' catalogue — fermenting infrastructure (Keg, Fermentation Controller, Tankard, Item Coaster), beers and ales, spirits, cocktails, cheeses, hot dishes (pizza, quiche, lasagna, fondue, soup, omelet, sandwich), and cured foods (jerky, kimchi, pickles, fudge).$(br2)Drinks grant the mod's own buff effects; no vanilla potions are gated through Brewer."
+    }
+  ]
+}

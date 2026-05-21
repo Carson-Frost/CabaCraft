@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/holy_armor_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "oTo",
+      "IiI",
+      "oIo"
+    ],
+    "key": {
+      "o": {
+        "item": "minecraft:gold_block"
+      },
+      "T": {
+        "item": "minecraft:totem_of_undying"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "i": {
+        "item": "minecraft:netherite_chestplate"
+      }
+    },
+    "result": {
+      "item": "armoroftheages:holy_armor_chest",
+      "count": 1
+    }
+  }
+}

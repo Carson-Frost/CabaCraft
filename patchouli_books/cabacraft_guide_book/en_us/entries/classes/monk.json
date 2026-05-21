@@ -1,0 +1,11 @@
+{
+  "name": "Monk",
+  "icon": "paladins:holy_staff",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Combat holy-warrior class. Crafts the Paladin and Crusader armor sets, the Holy Armor top tier, holy staves and wands across three tiers, the Priest and Prior robes, and the Magnum Torch line of wide-area mob-spawn suppression beacons.$(br2)Theme materials are gold-block, glowstone, and totem of undying."
+    }
+  ]
+}

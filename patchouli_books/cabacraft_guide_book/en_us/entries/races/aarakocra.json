@@ -1,0 +1,11 @@
+{
+  "name": "Aarakocra",
+  "icon": "icarus:white_feathered_wings",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Avian humanoid. Bipedal bird-folk with feathered wings, hollow bones, and talons.$(br2)Height: 0.92$(br)Width: 0.90$(br2)$(bold)Feathered Wings.$(/) Press jump while airborne to take off and glide. Heavy armor slows flight.$(br2)$(bold)Sky-Born.$(/) While flying, falls and wall-crashes deal no damage.$(br2)$(bold)Talons.$(/) Bare-hand attacks deal +1 damage.$(br2)$(bold)Dive Attack.$(/) Melee attacks deal +100% damage while gliding or falling.$(br2)$(bold)Hollow Bones.$(/) Maximum health 18 (9 hearts)."
+    }
+  ]
+}

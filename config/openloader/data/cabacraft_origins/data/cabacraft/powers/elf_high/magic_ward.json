@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Magic ward",
+    "value": -0.15,
+    "operation": "multiply_total"
+  },
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "magic"
+  }
+}

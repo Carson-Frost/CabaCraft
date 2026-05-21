@@ -1,0 +1,29 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/crushing_wheel",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "AAA",
+      "APA",
+      "ASA"
+    ],
+    "key": {
+      "A": {
+        "item": "create:andesite_alloy"
+      },
+      "P": {
+        "item": "create:precision_mechanism"
+      },
+      "S": {
+        "tag": "c:stone"
+      }
+    },
+    "_count": 2,
+    "result": {
+      "item": "create:crushing_wheel",
+      "count": 2
+    }
+  }
+}

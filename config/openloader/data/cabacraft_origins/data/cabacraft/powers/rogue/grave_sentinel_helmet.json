@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/grave_sentinel_helmet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BSB",
+      "NWN",
+      " N "
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "S": {
+        "item": "minecraft:soul_soil"
+      },
+      "B": {
+        "item": "minecraft:bone_block"
+      },
+      "W": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "result": {
+      "item": "fantasy_armor:grave_sentinel_helmet",
+      "count": 1
+    }
+  }
+}

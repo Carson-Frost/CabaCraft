@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/auto_fire_hook",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CC ",
+      "CIR",
+      " RR"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "archers:auto_fire_hook",
+      "count": 1
+    }
+  }
+}

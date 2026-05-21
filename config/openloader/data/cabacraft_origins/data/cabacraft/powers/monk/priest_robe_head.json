@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/priest_robe_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "W W",
+      "WLW",
+      "GGG"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "L": {
+        "item": "minecraft:chain"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "paladins:priest_robe_head",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:gunsmith/musket",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  I",
+      " BI",
+      "GB "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      },
+      "G": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "result": {
+      "item": "musketmod:musket",
+      "count": 1
+    }
+  }
+}

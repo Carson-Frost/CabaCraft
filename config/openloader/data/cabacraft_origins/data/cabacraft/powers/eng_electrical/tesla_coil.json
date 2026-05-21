@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/tesla_coil",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      " A ",
+      "CMC"
+    ],
+    "key": {
+      "S": {
+        "item": "createaddition:copper_spool"
+      },
+      "A": {
+        "item": "create:andesite_alloy"
+      },
+      "C": {
+        "item": "createaddition:capacitor"
+      },
+      "M": {
+        "item": "create:mechanical_press"
+      }
+    },
+    "result": {
+      "item": "createaddition:tesla_coil",
+      "count": 1
+    }
+  }
+}

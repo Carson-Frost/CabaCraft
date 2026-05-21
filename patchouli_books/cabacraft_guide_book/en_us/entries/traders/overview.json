@@ -1,0 +1,12 @@
+{
+  "name": "Custom Traders",
+  "icon": "numismatics:sun",
+  "category": "patchouli:traders",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Custom villagers placed by hand around the world. They sell mod content whose normal recipes have been removed.$(br2)Traders are invulnerable, anchored in place, never run out of stock, never go on sale, and cap at 35 trades each. Each trader has a tight theme — Wizard sells Wizards gear, Bishop sells holy plate, Engineer sells aircraft parts.$(br2)Traders are the cross-class shortcut: items your class cannot craft are buyable at the matching trader for $(l:traders/runes)runes$(/l)."
+    }
+  ]
+}

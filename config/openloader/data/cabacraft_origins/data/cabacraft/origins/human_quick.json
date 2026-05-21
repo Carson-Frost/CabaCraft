@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "cabacraft:human_quick/boon"
+  ],
+  "icon": {
+    "item": "minecraft:sugar"
+  },
+  "order": 1,
+  "impact": 0
+}

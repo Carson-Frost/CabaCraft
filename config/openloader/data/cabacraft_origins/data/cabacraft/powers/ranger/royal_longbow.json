@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/royal_longbow",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DGX",
+      "GSX",
+      "DGX"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      },
+      "X": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "archers:royal_longbow",
+      "count": 1
+    }
+  }
+}

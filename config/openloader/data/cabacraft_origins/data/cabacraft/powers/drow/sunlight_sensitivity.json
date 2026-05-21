@@ -1,0 +1,27 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifiers": [
+    {
+      "name": "Sunlight sensitivity (melee)",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -0.25,
+      "operation": "multiply_base"
+    }
+  ],
+  "tick_rate": 20,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sky"
+      },
+      {
+        "type": "origins:daytime"
+      },
+      {
+        "type": "origins:in_rain",
+        "inverted": true
+      }
+    ]
+  }
+}

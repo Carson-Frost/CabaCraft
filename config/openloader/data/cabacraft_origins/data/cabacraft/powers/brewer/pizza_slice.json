@@ -1,0 +1,20 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:brewer/pizza_slice",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "item": "minecraft:wheat"
+      }
+    ],
+    "result": {
+      "item": "brewinandchewin:pizza_slice",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:decorator/ocean_wallpaper_roll",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "PDP",
+      "PSP"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:nautilus_shell"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "S": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "result": {
+      "item": "wallpapers:ocean_wallpaper_roll",
+      "count": 16
+    }
+  }
+}

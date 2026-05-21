@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/diamond_dagger",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " L",
+      "BS",
+      "S "
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:diamond_block"
+      },
+      "B": {
+        "item": "minecraft:diamond"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "rogues:diamond_dagger",
+      "count": 1
+    }
+  }
+}

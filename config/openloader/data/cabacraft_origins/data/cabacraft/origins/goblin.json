@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "cabacraft:goblin/size",
+    "cabacraft:goblin/tinkers_touch",
+    "cabacraft:goblin/quick_reflexes",
+    "cabacraft:goblin/light_step",
+    "cabacraft:goblin/frail_frame",
+    "cabacraft:goblin/small_arms",
+    "cabacraft:goblin/skin"
+  ],
+  "icon": {
+    "item": "minecraft:emerald"
+  },
+  "order": 11,
+  "impact": 2
+}

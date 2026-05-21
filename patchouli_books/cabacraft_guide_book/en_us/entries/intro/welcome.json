@@ -1,0 +1,12 @@
+{
+  "name": "Welcome",
+  "icon": "minecells:guidebook",
+  "category": "patchouli:intro",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "CabaCraft is a Minecraft 1.20.1 Fabric modpack built on Origins. At world creation the player picks a $(l:races/overview)race$(/l), a $(l:classes/overview)primary class$(/l), and a $(l:secondaries/overview)secondary class$(/l), in order, on three screens. The picks are permanent except by admin override.$(br2)Every item in CabaCraft comes from one of three sources:$(br)$(li)Vanilla — drops, loot, base recipes.$(li)The player's class catalogue.$(li)A custom $(l:traders/overview)trader$(/l), bought with $(l:traders/runes)runes$(/l) dropped from Mine Cells dungeons.$(br2)Vanilla recipes for class-owned items are removed; the matching trader is the cross-class shortcut.$(br2)$(l:factions/overview)Factions$(/l) are optional and joined after world entry. A faction binds an FTB Teams party to a region; the party owner crafts regalia other members cannot."
+    }
+  ]
+}

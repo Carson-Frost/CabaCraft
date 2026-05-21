@@ -22,7 +22,8 @@ replay_pid*.log
 downloads/
 moddata/
 slideshow/
-patchouli_books/
+patchouli_books/*
+!patchouli_books/cabacraft_guide_book/
 patchouli_data.json
 local/
 Distant_Horizons_server_data/
@@ -39,8 +40,12 @@ emi.json
 irisUpdateInfo.json
 rhino.local.properties
 .curseclient
-data/
+/data/
 schematics/
+
+# --- Third-party datapack contents (keep our datapack folder, drop downloaded zips) ---
+datapacks/William Wythers*/data/
+config/openloader/data/*.zip
 
 # --- KubeJS-generated diagnostic dumps ---
 kubejs/exports/
@@ -55,3 +60,6 @@ claude-*
 .DS_Store
 Thumbs.db
 *.swp
+
+# Texture-donor jar (never shipped in mods/, never commit)
+turtlearmor-*.jar

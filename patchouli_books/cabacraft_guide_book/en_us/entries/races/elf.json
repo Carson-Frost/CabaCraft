@@ -1,0 +1,11 @@
+{
+  "name": "Elf",
+  "icon": "minecraft:bow",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Long-lived humanoid. Slender, fey-touched. After picking Elf, the player picks a lineage — High, Wood, or Sea — on a second screen.$(br2)Height: 1.05$(br)Width: 0.95$(br2)$(bold)Low-Light Vision.$(/) Faint night vision (strength 0.3). Does not function underwater.$(br2)$(bold)Trance.$(/) Phantom attacks deal no damage.$(br2)$(bold)Frail.$(/) Maximum health 18 (9 hearts).$(br2)$(bold)Light-Footed.$(/) Knockback resistance reduced by 0.10."
+    }
+  ]
+}

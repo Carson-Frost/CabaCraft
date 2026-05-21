@@ -1,0 +1,11 @@
+{
+  "name": "Dimensional Runes",
+  "icon": "minecells:prison_dimensional_rune",
+  "category": "patchouli:traders",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The trader currency. Five flavors — Prison, Promenade, Insufferable Crypt, Ramparts, Black Bridge — all dropped from the matching Mine Cells dungeons.$(br2)Every trade is priced in Prison runes; some also require a thematic secondary rune. Each trader accepts only the runes that match its theme; the trade UI shows the exact cost."
+    }
+  ]
+}

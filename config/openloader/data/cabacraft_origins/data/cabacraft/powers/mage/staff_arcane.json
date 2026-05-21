@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/staff_arcane",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " EA",
+      "ASA",
+      "GA "
+    ],
+    "key": {
+      "E": {
+        "item": "minecraft:ender_pearl"
+      },
+      "A": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      },
+      "G": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    "result": {
+      "item": "wizards:staff_arcane",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "cabacraft:human_hardy/boon"
+  ],
+  "icon": {
+    "item": "minecraft:bread"
+  },
+  "order": 3,
+  "impact": 0
+}

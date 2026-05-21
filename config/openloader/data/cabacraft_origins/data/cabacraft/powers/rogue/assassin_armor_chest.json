@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/assassin_armor_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "S S",
+      "RGR",
+      "RTR"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:ink_sac"
+      },
+      "R": {
+        "item": "minecraft:rabbit_hide"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "T": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "rogues:assassin_armor_chest",
+      "count": 1
+    }
+  }
+}

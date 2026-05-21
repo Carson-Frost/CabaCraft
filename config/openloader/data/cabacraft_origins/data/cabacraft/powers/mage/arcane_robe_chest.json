@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/arcane_robe_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "M M",
+      "WMW",
+      "GWG"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:amethyst_block"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "G": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "result": {
+      "item": "wizards:arcane_robe_chest",
+      "count": 1
+    }
+  }
+}

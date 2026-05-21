@@ -1,0 +1,37 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/tunnel_digger",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CGC",
+      "DED",
+      "RMR"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "G": {
+        "item": "immersive_aircraft:industrial_gears"
+      },
+      "D": {
+        "item": "immersive_machinery:iron_drill"
+      },
+      "E": {
+        "item": "immersive_aircraft:engine"
+      },
+      "R": {
+        "item": "minecraft:rail"
+      },
+      "M": {
+        "item": "create:mechanical_drill"
+      }
+    },
+    "result": {
+      "item": "immersive_machinery:tunnel_digger",
+      "count": 1
+    }
+  }
+}

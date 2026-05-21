@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:citizen/knight/weapon_fog_guard_sword",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ACA",
+      "BCB",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_block"
+      },
+      "B": {
+        "item": "minecraft:diamond_block"
+      },
+      "C": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "result": {
+      "item": "fantasy_weapons:weapon_fog_guard_sword",
+      "count": 1
+    }
+  },
+  "condition": {
+    "type": "apoli:scoreboard",
+    "objective": "cabacraft_faction",
+    "comparison": "==",
+    "compare_to": 3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/iron_sickle",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LB",
+      "BS",
+      "H "
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:iron_block"
+      },
+      "B": {
+        "item": "minecraft:iron_ingot"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      },
+      "H": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "rogues:iron_sickle",
+      "count": 1
+    }
+  }
+}

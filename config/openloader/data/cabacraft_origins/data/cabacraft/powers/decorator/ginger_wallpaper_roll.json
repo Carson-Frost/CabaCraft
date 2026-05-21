@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:decorator/ginger_wallpaper_roll",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "PDP",
+      "PSP"
+    ],
+    "key": {
+      "D": {
+        "item": "dye_depot:ginger_dye"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "S": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "result": {
+      "item": "wallpapers:ginger_wallpaper_roll",
+      "count": 16
+    }
+  }
+}

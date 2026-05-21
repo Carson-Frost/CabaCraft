@@ -1,0 +1,11 @@
+{
+  "name": "Armorer",
+  "icon": "minecraft:iron_chestplate",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Craft plate-armor class. Crafts the Iron Plate, Heavy, and Warrior (Viking lamellar) armor sets; the iron, gold, and diamond kite shields; and the Lady Maria corsair-noble plate set.$(br2)Forge theme — iron plus netherite scrap. Wooden and stone armor tiers stay vanilla-craftable; netherite stays a smithing-table upgrade. Faction regalia plate is handled by the faction system, not the Armorer class."
+    }
+  ]
+}

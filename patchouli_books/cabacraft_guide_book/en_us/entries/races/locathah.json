@@ -1,0 +1,11 @@
+{
+  "name": "Locathah",
+  "icon": "minecraft:cod",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aquatic humanoid. Bipedal fish-folk with a permanent tail. Native to the water and built for it.$(br2)Height: 1.0$(br)Width: 1.0$(br2)$(bold)Aquatic Lungs.$(/) Breathes underwater indefinitely; never drowns.$(br2)$(bold)Current-Born.$(/) Swim speed +15%.$(br2)$(bold)Deep Sight.$(/) Full night vision while submerged in water.$(br2)$(bold)Leviathan's Will.$(/) Immune to the Poison and Nausea effects.$(br2)$(bold)Fishtail.$(/) The tail is intrinsic. The tail-style accessory is auto-equipped and reapplied every second.$(br2)$(bold)Dry-Out.$(/) After 90 seconds out of water, gains -25% movement speed, -20% melee damage, and 0.8x mining speed. Touching water resets the timer."
+    }
+  ]
+}

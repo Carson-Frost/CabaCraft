@@ -1,0 +1,18 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Shell guards the back",
+    "value": -0.6,
+    "operation": "multiply_total"
+  },
+  "damage_condition": {
+    "type": "origins:attacker",
+    "condition": {
+      "type": "origins:relative_rotation",
+      "actor_rotation": "head",
+      "target_rotation": "head",
+      "comparison": ">=",
+      "compare_to": 0.4
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Blacksmith",
+  "icon": "minecraft:iron_sword",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Craft melee-weapons class. Crafts the Paladin claymores, maces, and great hammers across iron, gold, and diamond tiers; the Rogue daggers, double axes, glaives, and sickles across the same three tiers; and four unpaired fantasy blades (Sharp Curved Sword, Fog Guard Sword, Dragonslayer Halberd, Spark of Dawn Polearm).$(br2)Netherite, aeternium, and ruby variants stay vanilla smithing-table upgrades from the bases."
+    }
+  ]
+}

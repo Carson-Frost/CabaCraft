@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/arcane_robe_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "MMM",
+      "WGW",
+      "W W"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:amethyst_block"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "G": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "result": {
+      "item": "wizards:arcane_robe_legs",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/weapon_dragonslayer_halberd",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "NDN",
+      " O ",
+      "HO "
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "O": {
+        "item": "minecraft:obsidian"
+      },
+      "H": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "fantasy_weapons:weapon_dragonslayer_halberd",
+      "count": 1
+    }
+  }
+}

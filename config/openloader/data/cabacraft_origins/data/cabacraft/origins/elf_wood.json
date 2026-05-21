@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "cabacraft:elf_wood/fleet",
+    "cabacraft:elf_wood/keen_shot",
+    "cabacraft:elf_wood/camouflage",
+    "cabacraft:elf_wood/skin"
+  ],
+  "icon": {
+    "item": "archers:composite_longbow"
+  },
+  "order": 1,
+  "impact": 1
+}

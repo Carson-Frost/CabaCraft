@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "cabacraft:human_reach/boon"
+  ],
+  "icon": {
+    "item": "minecraft:fishing_rod"
+  },
+  "order": 2,
+  "impact": 0
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/iron_kite_shield",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "MLM",
+      "MBM",
+      " M "
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:iron_ingot"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "paladins:iron_kite_shield",
+      "count": 1
+    }
+  }
+}

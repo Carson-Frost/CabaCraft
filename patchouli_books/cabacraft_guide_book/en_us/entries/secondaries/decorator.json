@@ -1,0 +1,11 @@
+{
+  "name": "Decorator",
+  "icon": "minecraft:painting",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Wall-coverings secondary. Crafts the full Wallpapers catalogue (16 standard dye-matched rolls plus 30+ themed variants), thirteen stone-tier skirting boards (andesite, blackstone, calcite, dark prismarine, deepslate, diorite, dripstone, gold, granite, prismarine, quartz, stone, tuff), and the six themed Mine Cells flags (King's Crest, Torn King's Crest, Black Bridge, Insufferable Crypt, Promenade of the Condemned, Ramparts).$(br2)Generic colored ribbon flags and the flag pole stay vanilla-craftable."
+    }
+  ]
+}

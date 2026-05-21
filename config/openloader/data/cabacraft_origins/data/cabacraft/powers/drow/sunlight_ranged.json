@@ -1,0 +1,48 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "name": "Sunlight sensitivity (ranged)",
+    "value": -0.25,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sky"
+      },
+      {
+        "type": "origins:daytime"
+      },
+      {
+        "type": "origins:in_rain",
+        "inverted": true
+      },
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "minecraft:bows"
+              }
+            }
+          },
+          {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "items": ["minecraft:crossbow"]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

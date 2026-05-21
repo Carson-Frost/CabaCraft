@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/enchanted_golden_apple_fishing_bobber",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "c:slime_balls"
+      },
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    ],
+    "result": {
+      "item": "tide:enchanted_golden_apple_fishing_bobber",
+      "count": 1
+    }
+  }
+}

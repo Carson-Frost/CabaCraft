@@ -1,0 +1,11 @@
+{
+  "name": "Offices",
+  "icon": "accents:crown",
+  "category": "patchouli:factions",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Three civic seats. Each caps at one holder. Holders craft regalia exclusive to that seat.$(br2)$(bold)Chancellor.$(/) Elected. Names the Treasurer and Judge. Unlocks 6 recipes — the Hero helmet, chestplate, leggings, and boots; the Hero Claymore; and the Crown (no other source in the game).$(br2)$(bold)Treasurer.$(/) Chancellor-appointed. Unlocks 4 Gilded Hunt regalia recipes. Sole minter of all Numismatics currency — Spur, Bevel, Cog, Crown, Sun, Sprocket — none of these drop from anything in the world.$(br2)$(bold)Judge.$(/) Chancellor-appointed. Unlocks 4 Crucible Knight regalia recipes."
+    }
+  ]
+}

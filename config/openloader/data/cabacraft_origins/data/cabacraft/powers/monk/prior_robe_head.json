@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/prior_robe_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GTG",
+      "WTW",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "T": {
+        "item": "minecraft:ghast_tear"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      }
+    },
+    "result": {
+      "item": "paladins:prior_robe_head",
+      "count": 1
+    }
+  }
+}

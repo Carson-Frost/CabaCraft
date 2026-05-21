@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/goggles",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " S ",
+      "GPG",
+      "BBB"
+    ],
+    "key": {
+      "S": {
+        "tag": "c:string"
+      },
+      "G": {
+        "tag": "c:glass_blocks"
+      },
+      "P": {
+        "tag": "c:gold_plates"
+      },
+      "B": {
+        "tag": "c:brass_plates"
+      }
+    },
+    "result": {
+      "item": "create:goggles",
+      "count": 1
+    }
+  }
+}

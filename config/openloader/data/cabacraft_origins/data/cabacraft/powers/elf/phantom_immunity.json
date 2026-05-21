@@ -1,0 +1,15 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Fey ward vs phantoms",
+    "value": -1.0,
+    "operation": "multiply_total"
+  },
+  "damage_condition": {
+    "type": "origins:attacker",
+    "condition": {
+      "type": "entity_type",
+      "entity_type": "minecraft:phantom"
+    }
+  }
+}

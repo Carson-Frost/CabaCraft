@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "additionalentityattributes:generic.water_speed",
+    "name": "Locathah swim",
+    "value": 0.15,
+    "operation": "multiply_base"
+  }
+}

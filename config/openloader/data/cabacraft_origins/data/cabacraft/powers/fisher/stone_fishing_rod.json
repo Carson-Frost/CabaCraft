@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/stone_fishing_rod",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  #",
+      " #S",
+      "# S"
+    ],
+    "key": {
+      "#": {
+        "tag": "c:cobblestones"
+      },
+      "S": {
+        "tag": "c:strings"
+      }
+    },
+    "result": {
+      "item": "tide:stone_fishing_rod",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:citizen/desert/weapon_desert_wind",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ACA",
+      "BCB",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gilded_blackstone"
+      },
+      "B": {
+        "item": "minecraft:gold_block"
+      },
+      "C": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "result": {
+      "item": "fantasy_weapons:weapon_desert_wind",
+      "count": 1
+    }
+  },
+  "condition": {
+    "type": "apoli:scoreboard",
+    "objective": "cabacraft_faction",
+    "comparison": "==",
+    "compare_to": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Tiefling",
+  "icon": "minecraft:blaze_powder",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fiend-blooded humanoid. Reddish skin, baked-in darkvision. Spawns and respawns in the Nether.$(br2)Height: 1.8$(br)Width: 0.6$(br2)$(bold)Fiendish Sight.$(/) Full night vision at all times.$(br2)$(bold)Infernal Body.$(/) Immune to all fire and lava damage.$(br2)$(bold)Hellish Rebuke.$(/) A melee attacker who strikes the player takes 2 fire damage in return.$(br2)$(bold)Born of the Nether.$(/) Initial spawn point and respawn point are set in the Nether.$(br2)$(bold)Cursed by Water.$(/) Touching water or standing in rain deals 2 damage per second (1 on Easy difficulty)."
+    }
+  ]
+}

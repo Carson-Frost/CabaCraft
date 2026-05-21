@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/copperfin",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BGB",
+      "GCP",
+      "BEB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:copper_block"
+      },
+      "G": {
+        "item": "minecraft:tinted_glass"
+      },
+      "C": {
+        "item": "minecraft:conduit"
+      },
+      "P": {
+        "item": "immersive_aircraft:enhanced_propeller"
+      },
+      "E": {
+        "item": "immersive_aircraft:engine"
+      }
+    },
+    "result": {
+      "item": "immersive_machinery:copperfin",
+      "count": 1
+    }
+  }
+}

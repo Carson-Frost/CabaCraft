@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "additionalentityattributes:generic.water_speed",
+    "name": "Heavy frame",
+    "value": -0.25,
+    "operation": "multiply_base"
+  }
+}

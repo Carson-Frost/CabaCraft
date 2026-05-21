@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/frost_robe_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "MMM",
+      "WGW",
+      "W W"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:prismarine_bricks"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "G": {
+        "item": "minecraft:prismarine_crystals"
+      }
+    },
+    "result": {
+      "item": "wizards:frost_robe_legs",
+      "count": 1
+    }
+  }
+}

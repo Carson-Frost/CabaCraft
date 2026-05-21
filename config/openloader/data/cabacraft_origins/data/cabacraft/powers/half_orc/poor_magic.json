@@ -1,0 +1,29 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "spell_power:arcane",
+      "name": "Poor magic",
+      "value": -0.2,
+      "operation": "multiply_base"
+    },
+    {
+      "attribute": "spell_power:fire",
+      "name": "Poor magic",
+      "value": -0.2,
+      "operation": "multiply_base"
+    },
+    {
+      "attribute": "spell_power:frost",
+      "name": "Poor magic",
+      "value": -0.2,
+      "operation": "multiply_base"
+    },
+    {
+      "attribute": "spell_power:healing",
+      "name": "Poor magic",
+      "value": -0.2,
+      "operation": "multiply_base"
+    }
+  ]
+}

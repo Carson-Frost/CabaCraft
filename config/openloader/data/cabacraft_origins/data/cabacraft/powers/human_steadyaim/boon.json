@@ -1,0 +1,35 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "name": "Steady aim",
+    "value": 0.15,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "minecraft:bows"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "items": [
+              "minecraft:crossbow"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

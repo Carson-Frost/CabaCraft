@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Quick",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.05,
+    "operation": "multiply_base"
+  }
+}

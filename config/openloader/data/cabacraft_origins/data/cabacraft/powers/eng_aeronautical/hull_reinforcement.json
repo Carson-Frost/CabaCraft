@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/hull_reinforcement",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IBI",
+      "HMH",
+      "IBI"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      },
+      "H": {
+        "item": "immersive_aircraft:hull"
+      },
+      "M": {
+        "item": "create:mechanical_drill"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:hull_reinforcement",
+      "count": 1
+    }
+  }
+}

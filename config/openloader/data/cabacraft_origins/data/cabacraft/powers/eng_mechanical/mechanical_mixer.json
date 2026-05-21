@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/mechanical_mixer",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "S",
+      "C",
+      "I"
+    ],
+    "key": {
+      "S": {
+        "item": "create:cogwheel"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      },
+      "I": {
+        "item": "create:precision_mechanism"
+      }
+    },
+    "result": {
+      "item": "create:mechanical_mixer",
+      "count": 1
+    }
+  }
+}

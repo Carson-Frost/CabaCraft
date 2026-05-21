@@ -1,0 +1,11 @@
+{
+  "name": "Bard",
+  "icon": "immersive_melodies:lute",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Performer-and-scribe secondary. Crafts eleven instruments (bagpipe, didgeridoo, ender bass, flute, handpan, lute, piano, tiny drum, triangle, trumpet, vielle); the full chess set including the Chess Board Knight armor and polearm; the Guide Book itself; the Fishing Journal; paint canvases, easel, and palette; and the Jam music disc."
+    }
+  ]
+}

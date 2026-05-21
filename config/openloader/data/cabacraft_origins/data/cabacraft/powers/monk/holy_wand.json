@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/holy_wand",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " GA",
+      "HG ",
+      "H  "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "A": {
+        "item": "minecraft:glowstone"
+      },
+      "H": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "paladins:holy_wand",
+      "count": 1
+    }
+  }
+}

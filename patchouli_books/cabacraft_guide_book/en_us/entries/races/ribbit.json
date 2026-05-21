@@ -1,0 +1,11 @@
+{
+  "name": "Ribbit",
+  "icon": "minecraft:slime_ball",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Amphibian humanoid. Bipedal frog-folk with webbed digits and a strict diet of bugs, fish, and slime.$(br2)Height: 0.90$(br)Width: 0.95$(br2)$(bold)Spring Leap.$(/) Hold the Origins primary key while standing on the ground to coil, then release to launch. Up to roughly 6 blocks at full charge (2 seconds).$(br2)$(bold)Soft Landing.$(/) Takes no fall damage, at any height.$(br2)$(bold)Grung Hide.$(/) Immune to the Poison effect.$(br2)$(bold)Webbed Feet.$(/) Swim speed +25%.$(br2)$(bold)Insectivore.$(/) Only items tagged as Ribbit food (fish, slimeballs, spider eyes, and the pack's bug foods) restore hunger. Everything else cannot be eaten.$(br2)$(bold)Cold-Blooded.$(/) Movement speed reduced 25% in biomes with temperature below 0.15 (snow, taiga, ice spikes)."
+    }
+  ]
+}

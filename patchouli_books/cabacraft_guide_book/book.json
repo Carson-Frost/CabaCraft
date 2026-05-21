@@ -1,0 +1,12 @@
+{
+  "name": "CabaCraft Guide",
+  "subtitle": " ",
+  "landing_text": "A reference for CabaCraft.$(br2)At world creation the player picks a $(l:races/overview)race$(/l), a $(l:classes/overview)primary class$(/l), and a $(l:secondaries/overview)secondary class$(/l). After joining the world, the player may also belong to a $(l:factions/overview)faction$(/l).$(br2)Items in CabaCraft come from one of three sources: vanilla, the player's class catalogue, or the $(l:traders/overview)trader$(/l) economy.",
+  "book_texture": "patchouli:textures/gui/book_brown.png",
+  "model": "patchouli:book_brown",
+  "i18n": false,
+  "use_resource_pack": true,
+  "show_progress": false,
+  "use_blocky_font": false,
+  "show_toasts": false
+}

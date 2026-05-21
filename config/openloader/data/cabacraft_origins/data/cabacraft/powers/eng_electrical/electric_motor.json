@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/electric_motor",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BSB",
+      "SRS",
+      "BCB"
+    ],
+    "key": {
+      "B": {
+        "tag": "c:brass_plates"
+      },
+      "S": {
+        "item": "createaddition:copper_spool"
+      },
+      "R": {
+        "tag": "c:iron_rods"
+      },
+      "C": {
+        "item": "createaddition:capacitor"
+      }
+    },
+    "result": {
+      "item": "createaddition:electric_motor",
+      "count": 1
+    }
+  }
+}

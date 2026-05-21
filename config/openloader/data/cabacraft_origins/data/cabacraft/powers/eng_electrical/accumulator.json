@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/accumulator",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "III",
+      "ICI",
+      "III"
+    ],
+    "key": {
+      "I": {
+        "tag": "c:iron_plates"
+      },
+      "C": {
+        "item": "createaddition:capacitor"
+      }
+    },
+    "result": {
+      "item": "createaddition:accumulator",
+      "count": 1
+    }
+  }
+}

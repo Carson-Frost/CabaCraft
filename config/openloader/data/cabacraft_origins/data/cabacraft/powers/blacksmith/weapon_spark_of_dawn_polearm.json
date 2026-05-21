@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/weapon_spark_of_dawn_polearm",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GDG",
+      " A ",
+      "HA "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "A": {
+        "item": "minecraft:glowstone"
+      },
+      "H": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "fantasy_weapons:weapon_spark_of_dawn_polearm",
+      "count": 1
+    }
+  }
+}

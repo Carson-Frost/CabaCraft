@@ -1,0 +1,22 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/chess_board_knight_leggings",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "QQQ",
+      "Q Q",
+      "Q Q"
+    ],
+    "key": {
+      "Q": {
+        "item": "minecraft:quartz_block"
+      }
+    },
+    "result": {
+      "item": "fantasy_armor:chess_board_knight_leggings",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/hull",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LLL",
+      "IBI",
+      "LLL"
+    ],
+    "key": {
+      "L": {
+        "tag": "minecraft:logs"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:hull",
+      "count": 1
+    }
+  }
+}

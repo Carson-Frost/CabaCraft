@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/empty_blaze_burner",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IBI",
+      "IBI",
+      " C "
+    ],
+    "key": {
+      "I": {
+        "tag": "c:iron_plates"
+      },
+      "B": {
+        "tag": "c:netherrack"
+      },
+      "C": {
+        "item": "create:andesite_casing"
+      }
+    },
+    "result": {
+      "item": "create:empty_blaze_burner",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/golden_dagger",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " L",
+      "BS",
+      "S "
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:gold_block"
+      },
+      "B": {
+        "item": "minecraft:gold_ingot"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "rogues:golden_dagger",
+      "count": 1
+    }
+  }
+}

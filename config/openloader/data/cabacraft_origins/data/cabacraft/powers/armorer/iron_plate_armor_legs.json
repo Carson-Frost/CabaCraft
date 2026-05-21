@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/iron_plate_armor_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IiI",
+      "ITI",
+      " I "
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:iron_leggings"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "T": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "armoroftheages:iron_plate_armor_legs",
+      "count": 1
+    }
+  }
+}

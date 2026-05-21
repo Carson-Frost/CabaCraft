@@ -1,0 +1,17 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/weed",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:weed_crate"
+      }
+    ],
+    "result": {
+      "item": "nirvana:weed",
+      "count": 9
+    }
+  }
+}

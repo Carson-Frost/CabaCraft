@@ -1,0 +1,11 @@
+{
+  "name": "Fisher",
+  "icon": "tide:diamond_fishing_rod",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fishing-tackle secondary. Crafts five rod tiers (stone, iron, golden, diamond, crystal); four line types (fishing, braided, golden, reinforced); four hook types (fishing, iron, lavaproof, void); the Fish Satchel and Fish Display; and 33 bobber variants (white base plus dye colors, metallic variants, and specials like apple, feather, duck, nautilus).$(br2)Netherite and Midas rods stay vanilla smithing-table upgrades from the bases. Bait stays open to all players."
+    }
+  ]
+}

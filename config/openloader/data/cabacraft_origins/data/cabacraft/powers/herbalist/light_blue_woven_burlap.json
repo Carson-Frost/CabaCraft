@@ -1,0 +1,20 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/light_blue_woven_burlap",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:woven_burlap"
+      },
+      {
+        "tag": "c:light_blue_dyes"
+      }
+    ],
+    "result": {
+      "item": "nirvana:light_blue_woven_burlap",
+      "count": 1
+    }
+  }
+}

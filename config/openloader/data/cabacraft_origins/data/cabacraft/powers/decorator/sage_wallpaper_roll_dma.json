@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:decorator/sage_wallpaper_roll_dma",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "PDP",
+      "PSP"
+    ],
+    "key": {
+      "D": {
+        "item": "mint:sage_dye"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "S": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "result": {
+      "item": "wallpapers:sage_wallpaper_roll_dma",
+      "count": 16
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/prior_robe_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "G G",
+      "WTW",
+      "GWG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "T": {
+        "item": "minecraft:ghast_tear"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      }
+    },
+    "result": {
+      "item": "paladins:prior_robe_chest",
+      "count": 1
+    }
+  }
+}

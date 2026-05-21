@@ -1,0 +1,22 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/fishing_line",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "S",
+      "S",
+      "S"
+    ],
+    "key": {
+      "S": {
+        "tag": "c:strings"
+      }
+    },
+    "result": {
+      "item": "tide:fishing_line",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:brewer/quiche",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "sls",
+      "mfm",
+      "ece"
+    ],
+    "key": {
+      "c": {
+        "item": "farmersdelight:pie_crust"
+      },
+      "e": {
+        "item": "minecraft:egg"
+      },
+      "f": {
+        "item": "brewinandchewin:flaxen_cheese_wedge"
+      },
+      "l": {
+        "item": "farmersdelight:cabbage_leaf"
+      },
+      "m": {
+        "tag": "c:milks"
+      },
+      "s": {
+        "item": "minecraft:brown_mushroom"
+      }
+    },
+    "result": {
+      "item": "brewinandchewin:quiche",
+      "count": 1
+    }
+  }
+}

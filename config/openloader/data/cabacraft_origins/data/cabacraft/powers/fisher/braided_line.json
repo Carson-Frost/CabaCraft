@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/braided_line",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#",
+      "L",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "tag": "c:slime_balls"
+      },
+      "L": {
+        "item": "tide:fishing_line"
+      }
+    },
+    "result": {
+      "item": "tide:braided_line",
+      "count": 1
+    }
+  }
+}

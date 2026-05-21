@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/propeller",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "I I",
+      "IBI",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:propeller",
+      "count": 1
+    }
+  }
+}

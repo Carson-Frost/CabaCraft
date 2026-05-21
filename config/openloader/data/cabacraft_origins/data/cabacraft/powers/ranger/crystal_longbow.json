@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/crystal_longbow",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCX",
+      "MMX",
+      "CCX"
+    ],
+    "key": {
+      "C": {
+        "item": "betterend:crystal_shards"
+      },
+      "M": {
+        "item": "betterend:aeternium_ingot"
+      },
+      "X": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "archers:crystal_longbow",
+      "count": 1
+    }
+  }
+}

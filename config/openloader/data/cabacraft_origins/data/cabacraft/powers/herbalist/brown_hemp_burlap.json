@@ -1,0 +1,20 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/brown_hemp_burlap",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:hemp_burlap"
+      },
+      {
+        "tag": "c:brown_dyes"
+      }
+    ],
+    "result": {
+      "item": "nirvana:brown_hemp_burlap",
+      "count": 1
+    }
+  }
+}

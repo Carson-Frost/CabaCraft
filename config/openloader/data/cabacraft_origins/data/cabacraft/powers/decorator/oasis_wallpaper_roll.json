@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:decorator/oasis_wallpaper_roll",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "PDP",
+      "PSP"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:sand"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "S": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "result": {
+      "item": "wallpapers:oasis_wallpaper_roll",
+      "count": 16
+    }
+  }
+}

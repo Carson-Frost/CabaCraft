@@ -1,0 +1,11 @@
+{
+  "name": "Dwarf",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Stout humanoid. Bipedal mountain-folk, short and broad. Built around mining and resilience.$(br2)Height: 0.85$(br)Width: 1.15$(br2)$(bold)Darkvision.$(/) Full night vision at all times.$(br2)$(bold)Stonecunning.$(/) Break speed +150% on any block in the pickaxe tag.$(br2)$(bold)Strong Arms.$(/) Stone-tier blocks can be mined bare-handed. Drops still require the correct pickaxe tier.$(br2)$(bold)Dwarven Constitution.$(/) Immune to the Poison effect.$(br2)$(bold)Dwarven Resilience.$(/) Knockback resistance +0.30.$(br2)$(bold)Short Legs.$(/) Movement speed -10%.$(br2)$(bold)Stone Sinks.$(/) Swim speed -50%."
+    }
+  ]
+}

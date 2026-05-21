@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/bamboo_bee",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GHG",
+      "PEP",
+      "BBB"
+    ],
+    "key": {
+      "G": {
+        "item": "immersive_aircraft:industrial_gears"
+      },
+      "H": {
+        "item": "immersive_aircraft:hull"
+      },
+      "P": {
+        "item": "immersive_aircraft:enhanced_propeller"
+      },
+      "E": {
+        "item": "immersive_aircraft:eco_engine"
+      },
+      "B": {
+        "item": "minecraft:bamboo_block"
+      }
+    },
+    "result": {
+      "item": "immersive_machinery:bamboo_bee",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:warrior/warrior_armor_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "C C",
+      "IBI",
+      "ILI"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:chain"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "rogues:warrior_armor_chest",
+      "count": 1
+    }
+  }
+}

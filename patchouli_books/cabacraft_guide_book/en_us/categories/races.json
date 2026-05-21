@@ -1,0 +1,6 @@
+{
+  "name": "Races",
+  "description": "Ten races. Pick one at world creation. The choice is permanent.",
+  "icon": "minecraft:player_head",
+  "sortnum": 1
+}

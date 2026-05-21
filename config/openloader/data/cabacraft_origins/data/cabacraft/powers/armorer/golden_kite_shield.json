@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/golden_kite_shield",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "MLM",
+      "MBM",
+      " M "
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:gold_ingot"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "B": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    "result": {
+      "item": "paladins:golden_kite_shield",
+      "count": 1
+    }
+  }
+}

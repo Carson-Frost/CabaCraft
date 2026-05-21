@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/fire_spell_book",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BPB",
+      "PKP",
+      "BPB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:blaze_rod"
+      },
+      "P": {
+        "item": "minecraft:blaze_powder"
+      },
+      "K": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "result": {
+      "item": "wizards:fire_spell_book",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/crusader_armor_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ITI",
+      "GDG",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "T": {
+        "item": "minecraft:ghast_tear"
+      },
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "paladins:crusader_armor_legs",
+      "count": 1
+    }
+  }
+}

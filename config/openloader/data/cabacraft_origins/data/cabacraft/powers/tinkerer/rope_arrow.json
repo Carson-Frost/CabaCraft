@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/rope_arrow",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "L",
+      "S",
+      "M"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:lead"
+      },
+      "S": {
+        "item": "minecraft:arrow"
+      },
+      "M": {
+        "item": "immersive_machinery:redstone_mechanism"
+      }
+    },
+    "result": {
+      "item": "supplementaries:rope_arrow",
+      "count": 1
+    }
+  }
+}

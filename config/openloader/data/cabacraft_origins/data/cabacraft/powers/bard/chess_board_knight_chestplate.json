@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/chess_board_knight_chestplate",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "Q Q",
+      "QPQ",
+      "QQQ"
+    ],
+    "key": {
+      "Q": {
+        "item": "minecraft:quartz_block"
+      },
+      "P": {
+        "item": "minecraft:polished_blackstone"
+      }
+    },
+    "result": {
+      "item": "fantasy_armor:chess_board_knight_chestplate",
+      "count": 1
+    }
+  }
+}

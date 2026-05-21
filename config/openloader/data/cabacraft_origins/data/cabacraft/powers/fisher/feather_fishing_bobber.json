@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/feather_fishing_bobber",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "c:slime_balls"
+      },
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "item": "minecraft:feather"
+      }
+    ],
+    "result": {
+      "item": "tide:feather_fishing_bobber",
+      "count": 1
+    }
+  }
+}

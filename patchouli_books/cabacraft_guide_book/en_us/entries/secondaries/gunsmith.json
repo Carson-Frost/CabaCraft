@@ -1,0 +1,11 @@
+{
+  "name": "Gunsmith",
+  "icon": "musketmod:musket",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Firearms secondary. Crafts the Pistol (flintlock, iron-block breech), Musket (long iron-block barrel), Blunderbuss (flared bore), Cartridge ammunition (paper-wrapped powder and iron-nugget shot; yields 4), and the Musket Upgrade Smithing Template (used at a smithing table to upgrade a musket into the Bayonet or Scope variant)."
+    }
+  ]
+}

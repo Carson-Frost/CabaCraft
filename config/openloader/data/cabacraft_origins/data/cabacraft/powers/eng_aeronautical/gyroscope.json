@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/gyroscope",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "RCR",
+      "CGC",
+      "RCR"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:compass"
+      },
+      "R": {
+        "item": "minecraft:comparator"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:gyroscope",
+      "count": 1
+    }
+  }
+}

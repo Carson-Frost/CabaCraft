@@ -1,0 +1,30 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/grave_sentinel_boots",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "N N",
+      "BWB"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "S": {
+        "item": "minecraft:soul_soil"
+      },
+      "B": {
+        "item": "minecraft:bone_block"
+      },
+      "W": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "result": {
+      "item": "fantasy_armor:grave_sentinel_boots",
+      "count": 1
+    }
+  }
+}

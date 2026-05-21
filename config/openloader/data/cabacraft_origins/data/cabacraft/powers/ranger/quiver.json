@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/quiver",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "L L",
+      "SAS",
+      "LLL"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "S": {
+        "item": "minecraft:string"
+      },
+      "A": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "result": {
+      "item": "supplementaries:quiver",
+      "count": 1
+    }
+  }
+}

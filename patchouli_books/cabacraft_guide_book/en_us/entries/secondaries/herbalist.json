@@ -1,0 +1,11 @@
+{
+  "name": "Herbalist",
+  "icon": "nirvana:hemp",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Botanical secondary. Crafts the full Nirvana catalogue — hemp crops and seeds, hemp cloth and burlap (with 16 dyed variants each), smoking gear (joint, bong, pipes), edibles (weed, brownie, salve, bliss bloom), the Deerstalker hat, the Peace Banner Pattern, and the Reefer head and spawn egg."
+    }
+  ]
+}

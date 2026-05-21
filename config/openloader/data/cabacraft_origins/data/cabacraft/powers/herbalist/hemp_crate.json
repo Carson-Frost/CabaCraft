@@ -1,0 +1,22 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/hemp_crate",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "nirvana:hemp"
+      }
+    },
+    "result": {
+      "item": "nirvana:hemp_crate",
+      "count": 1
+    }
+  }
+}

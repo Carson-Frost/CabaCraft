@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/grave_sentinel_leggings",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "NSN",
+      "B B",
+      "W W"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "S": {
+        "item": "minecraft:soul_soil"
+      },
+      "B": {
+        "item": "minecraft:bone_block"
+      },
+      "W": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "result": {
+      "item": "fantasy_armor:grave_sentinel_leggings",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:tinkerer/redstone_mechanism",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:comparator"
+      },
+      {
+        "item": "minecraft:redstone_block"
+      },
+      {
+        "item": "minecraft:copper_block"
+      },
+      {
+        "item": "minecraft:redstone_torch"
+      },
+      {
+        "item": "minecraft:repeater"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "immersive_machinery:redstone_mechanism",
+      "count": 1
+    }
+  }
+}

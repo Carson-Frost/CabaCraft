@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/staff_wizard",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  Q",
+      " QS",
+      "QS "
+    ],
+    "key": {
+      "Q": {
+        "item": "minecraft:quartz_block"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "wizards:staff_wizard",
+      "count": 1
+    }
+  }
+}

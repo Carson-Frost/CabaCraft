@@ -22,25 +22,18 @@ ServerEvents.recipes(event => {
     'xercapaint:item_canvas_tall',
     'xercapaint:item_canvas_large',
     'xercapaint:item_easel',
-    'chessmod:game_piece',
+
+    // GRANDMASTER: "minecraft:librarian" (taiga) — chess theme (game piece moved
+    //   off librarian) + chess_board_knight plate + chess_board_knight polearm
+    'chessmod:chess_piece',
+    'fantasy_armor:chess_board_knight_helmet',
+    'fantasy_armor:chess_board_knight_chestplate',
+    'fantasy_armor:chess_board_knight_leggings',
+    'fantasy_armor:chess_board_knight_boots',
+    'fantasy_weapons:weapon_chess_board_knight_polearm',
 
 
-    // PRIEST: "paladins:monk"
-    //'paladins:priest_spell_book',
-    //'paladins:paladin_spell_book',
-    'paladins:acolyte_wand',
-    'paladins:holy_wand',
-    'paladins:diamond_holy_wand',
-    'paladins:holy_staff',
-    'paladins:diamond_holy_staff',
-    'paladins:priest_robe_head',
-    'paladins:priest_robe_chest',
-    'paladins:priest_robe_legs',
-    'paladins:priest_robe_feet',
-    'paladins:prior_robe_head',
-    'paladins:prior_robe_chest',
-    'paladins:prior_robe_legs',
-    'paladins:prior_robe_feet',
+    // BISHOP: "paladins:monk" — paladin/crusader plate + armoroftheages holy armor (top-tier, buffed) + holy staves (moved from priest). [file: bishop.txt; priest wands/robes moved to PRIEST]
     'paladins:paladin_armor_head',
     'paladins:paladin_armor_chest',
     'paladins:paladin_armor_legs',
@@ -49,9 +42,29 @@ ServerEvents.recipes(event => {
     'paladins:crusader_armor_chest',
     'paladins:crusader_armor_legs',
     'paladins:crusader_armor_feet',
-    'paladins:iron_kite_shield',
-    'paladins:golden_kite_shield',
-    'paladins:diamond_kite_shield',
+    'armoroftheages:holy_armor_head',
+    'armoroftheages:holy_armor_chest',
+    'armoroftheages:holy_armor_legs',
+    'armoroftheages:holy_armor_feet',
+    'paladins:holy_staff',
+    'paladins:diamond_holy_staff',
+
+    // PRIEST: "morevillagers:enderian" — wands + priest/prior robes + magnum torches (staves moved to bishop) [file: priest.txt; formerly "monk"]
+    // (Mystic trader retired; torches folded in here as a "wardkeeper monk" theme.)
+    'paladins:acolyte_wand',
+    'paladins:holy_wand',
+    'paladins:diamond_holy_wand',
+    'paladins:priest_robe_head',
+    'paladins:priest_robe_chest',
+    'paladins:priest_robe_legs',
+    'paladins:priest_robe_feet',
+    'paladins:prior_robe_head',
+    'paladins:prior_robe_chest',
+    'paladins:prior_robe_legs',
+    'paladins:prior_robe_feet',
+    'magnumtorch:diamond_magnum_torch',
+    'magnumtorch:emerald_magnum_torch',
+    'magnumtorch:amethyst_magnum_torch',
 
 
     
@@ -66,6 +79,7 @@ ServerEvents.recipes(event => {
     'archers:ranger_armor_chest',
     'archers:ranger_armor_legs',
     'archers:ranger_armor_feet',
+    'supplementaries:quiver',
     
 
     // MUSICIAN: cleric
@@ -82,24 +96,15 @@ ServerEvents.recipes(event => {
     'immersive_melodies:didgeridoo',
     // 'ribbits:maraca',
 
-    // FLAG MAKER: 'minecraft:shepherd'
+    // FLAG MAKER: 'minecraft:shepherd' — ONLY the 6 custom/themed minecells flags
+    //   (sanctioned minecells exception: decorative-only). All 32 generic colored
+    //   ribbon flags (small + large) + flag_pole stay normally craftable.
     'minecells:kings_crest_flag',
-    'minecells:large_white_ribbon_flag',
-    'minecells:large_orange_ribbon_flag',
-    'minecells:large_magenta_ribbon_flag',
-    'minecells:large_light_blue_ribbon_flag',
-    'minecells:large_yellow_ribbon_flag',
-    'minecells:large_lime_ribbon_flag',
-    'minecells:large_pink_ribbon_flag',
-    'minecells:large_gray_ribbon_flag',
-    'minecells:large_light_gray_ribbon_flag',
-    'minecells:large_cyan_ribbon_flag',
-    'minecells:large_purple_ribbon_flag',
-    'minecells:large_blue_ribbon_flag',
-    'minecells:large_brown_ribbon_flag',
-    'minecells:large_green_ribbon_flag',
-    'minecells:large_red_ribbon_flag',
-    'minecells:large_black_ribbon_flag',
+    'minecells:torn_kings_crest_flag',
+    'minecells:black_bridge_flag',
+    'minecells:insufferable_crypt_flag',
+    'minecells:promenade_of_the_condemned_flag',
+    'minecells:ramparts_flag',
 
     // BANKER
     'numismatics:red_card',
@@ -142,107 +147,181 @@ ServerEvents.recipes(event => {
     'numismatics:andesite_depositor',
     'numismatics:bank_terminal',
 
-    // FISHERMAN: "minecraft:fisherman"
+    // FISHERMAN: "minecraft:fisherman" — Tide tackle + fish_satchel/display + bobbers.
+    //   Maritime gadgets moved to TINKERER. White bobber + 17 specials are trader-only;
+    //   the 15 colored bobbers' default recipes are removed and replaced by
+    //   white_fishing_bobber + dye recipes in bobber_recipes.js.js.
     'tide:stone_fishing_rod',
     'tide:iron_fishing_rod',
     'tide:golden_fishing_rod',
     'tide:crystal_fishing_rod',
     'tide:diamond_fishing_rod',
-    'tide:duck_fishing_bobber',
-    'tide:lavaproof_fishing_hook',
-    'tide:fishing_hook',
-    'tide:iron_fishing_hook',
-    'tide:void_fishing_hook',
     'tide:fishing_line',
     'tide:reinforced_line',
     'tide:braided_line',
     'tide:golden_line',
+    'tide:fishing_hook',
+    'tide:iron_fishing_hook',
+    'tide:lavaproof_fishing_hook',
+    'tide:void_fishing_hook',
+    'tide:fish_satchel',
     'tide:fish_display',
+    'tide:white_fishing_bobber',
+    'tide:amethyst_fishing_bobber',
+    'tide:apple_fishing_bobber',
+    'tide:chorus_fishing_bobber',
+    'tide:diamond_fishing_bobber',
+    'tide:duck_fishing_bobber',
+    'tide:echo_fishing_bobber',
+    'tide:enchanted_golden_apple_fishing_bobber',
+    'tide:feather_fishing_bobber',
+    'tide:golden_fishing_bobber',
+    'tide:golden_apple_fishing_bobber',
+    'tide:grassy_fishing_bobber',
+    'tide:heart_fishing_bobber',
+    'tide:iron_fishing_bobber',
+    'tide:lichen_fishing_bobber',
+    'tide:nautilus_fishing_bobber',
+    'tide:netherite_fishing_bobber',
+    'tide:pearl_fishing_bobber',
+    // 15 colored bobbers — default slime+planks+dye recipe removed; remade as white+dye
+    'tide:black_fishing_bobber',
+    'tide:blue_fishing_bobber',
+    'tide:brown_fishing_bobber',
+    'tide:cyan_fishing_bobber',
+    'tide:gray_fishing_bobber',
+    'tide:green_fishing_bobber',
+    'tide:light_blue_fishing_bobber',
+    'tide:light_gray_fishing_bobber',
+    'tide:lime_fishing_bobber',
+    'tide:magenta_fishing_bobber',
+    'tide:orange_fishing_bobber',
+    'tide:pink_fishing_bobber',
+    'tide:purple_fishing_bobber',
+    'tide:red_fishing_bobber',
+    'tide:yellow_fishing_bobber',
 
-    // ENGINEER: "morevillagers:engineer"
+    // ENGINEER: "morevillagers:engineer" — ALL Immersive Aircraft components (structural,
+    //   engines, gyro, + weapon/upgrade parts). Vehicles (biplane/airship/gyrodyne/
+    //   quadrocopter/cargo_airship/warship/bamboo_hopper) are player-assembled, never sold.
     'immersive_aircraft:propeller',
+    'immersive_aircraft:enhanced_propeller',
     'immersive_aircraft:industrial_gears',
     'immersive_aircraft:sturdy_pipes',
-    'immersive_aircraft:rotary_cannon',
-    'immersive_aircraft:boiler',
-    'immersive_aircraft:enhanced_propeller',
     'immersive_aircraft:improved_landing_gear',
-    'immersive_aircraft:steel_boiler',
+    'immersive_aircraft:sail',
     'immersive_aircraft:hull',
+    'immersive_aircraft:hull_reinforcement',
+    'immersive_aircraft:boiler',
+    'immersive_aircraft:steel_boiler',
+    'immersive_aircraft:engine',
+    'immersive_aircraft:eco_engine',
+    'immersive_aircraft:nether_engine',
+    'immersive_aircraft:gyroscope',
+    'immersive_aircraft:gyroscope_hud',
+    'immersive_aircraft:gyroscope_dials',
+    'immersive_aircraft:rotary_cannon',
+    'immersive_aircraft:bomb_bay',
+    'immersive_aircraft:heavy_crossbow',
+    'immersive_aircraft:telescope',
 
-    // ENGINEER 2: "morevillagers:miner"
-    'create:schematic_table',
+    // MECHANIST: "morevillagers:miner" — Create machines/tools + Create Additions
+    //   electric tier (very expensive). mechanical_drill = most expensive trade in
+    //   the pack. Trains (track_station/observer/signal) dropped → normally craftable.
     'create:wrench',
+    'create:goggles',
+    'create:schematic_table',
     'create:belt_connector',
     'create:empty_blaze_burner',
     'create:mechanical_saw',
-    'create:mechanical_drill',
     'create:deployer',
-    'create:track_station',
-    'create:track_observer',
-    'create:track_signal',
     'create:mechanical_arm',
-    'create:goggles',
+    'create:mechanical_drill',
+    'createaddition:electric_motor',
+    'createaddition:alternator',
+    'createaddition:connector',
+    'createaddition:large_connector',
+    'createaddition:redstone_relay',
+    'createaddition:accumulator',
+    'createaddition:capacitor',
+    'createaddition:portable_energy_interface',
+    'createaddition:tesla_coil',
+    'createaddition:rolling_mill',
     
 
-    // CULTIST 'villagersplus:occultist'
+    // CULTIST 'villagersplus:occultist' — initiate death-knight gear + fantasy_armor dark_lord set + dark_lord_sword twin
+    'fantasy_weapons:weapon_dark_lord_sword',
     'death_knights:initiate_armor_head',
     'death_knights:initiate_armor_chest',
     'death_knights:initiate_armor_legs',
     'death_knights:initiate_armor_feet',
+    'fantasy_armor:dark_lord_helmet',
+    'fantasy_armor:dark_lord_chestplate',
+    'fantasy_armor:dark_lord_leggings',
+    'fantasy_armor:dark_lord_boots',
     // 'jewelry:unique_attack_ring',
     // 'jewelry:unique_attack_necklace',
     // 'endrem:cryptic_eye
     // 'minecraft:end_crystal
 
 
-    // SCIENTIST: 'villagersplus:alchemist'
+    // SCIENTIST: 'villagersplus:alchemist' — plaguebringer gear + all infected fantasy_weapons
     'death_knights:plaguebringer_armor_head',
     'death_knights:plaguebringer_armor_chest',
     'death_knights:plaguebringer_armor_legs',
     'death_knights:plaguebringer_armor_feet',
     'death_knights:unholy_dk_ring',
     'death_knights:unholy_dk_necklace',
-
-
-    'death_knights:iron_runeblade',
-    'death_knights:diamond_runeblade',
-    'death_knights:great_iron_runeblade',
-    'death_knights:great_diamond_runeblade',
-    'death_knights:great_iron_runeaxe',
-    'death_knights:great_diamond_runeaxe',
+    'fantasy_weapons:weapon_infected_sharp_sword',
+    'fantasy_weapons:weapon_infected_sharp_spear',
+    'fantasy_weapons:weapon_infected_sharp_curved_sword',
     
     
     
     
     
 
-    // BLIGHT: 'villagersplus:oceanographer
+    // BLIGHT: 'villagersplus:oceanographer' — crimson guard gear + blood/venom fantasy_weapons
     'death_knights:crimson_guard_armor_head',
     'death_knights:crimson_guard_armor_chest',
     'death_knights:crimson_guard_armor_legs',
     'death_knights:crimson_guard_armor_feet',
     'death_knights:blood_dk_ring',
     'death_knights:blood_dk_necklace',
+    'fantasy_weapons:weapon_phantom_needle',
+    'fantasy_weapons:weapon_rivers_of_blood',
+    'fantasy_weapons:weapon_spider_fang',
 
 
-    // TBD
+    // FROST_KNIGHT: "minecraft:armorer" + type:"minecraft:taiga" (the "snow armorer")
+    // Frost-themed armorer — armor, accessories, AND all DK runeblades/runeaxes,
+    // plus fantasy_armor dark_cover. (The death_knight trader retired; blades folded in.)
     'death_knights:frozen_champion_armor_head',
     'death_knights:frozen_champion_armor_chest',
     'death_knights:frozen_champion_armor_legs',
     'death_knights:frozen_champion_armor_feet',
     'death_knights:frost_dk_ring',
     'death_knights:frost_dk_necklace',
+    'fantasy_armor:dark_cover_helmet',
+    'fantasy_armor:dark_cover_chestplate',
+    'fantasy_armor:dark_cover_leggings',
+    'fantasy_armor:dark_cover_boots',
+    'death_knights:initiate_runeblade',
+    'death_knights:iron_runeblade',
+    'death_knights:diamond_runeblade',
+    'death_knights:great_iron_runeblade',
+    'death_knights:great_diamond_runeblade',
+    'death_knights:great_iron_runeaxe',
+    'death_knights:great_diamond_runeaxe',
 
     
     
-    // NONE
+    // NONE — class workbenches stay locked (class gear is bought, not crafted)
     'spell_engine:spell_binding',
-    'runes:crafting_altar',
     'paladins:monk_workbench',
     'rogues:arms_workbench',
     'archers:archers_workbench',
-    'jewelry:jewelers_kit',
+    // jewelry:jewelers_kit and runes:crafting_altar are CRAFTABLE — players make their own jewelry/runes
 
     // WIZARD: "wizards:wizard_merchant"
     'wizards:wand_novice',
@@ -280,18 +359,53 @@ ServerEvents.recipes(event => {
     'rogues:assassin_armor_chest',
     'rogues:assassin_armor_legs',
     'rogues:assassin_armor_feet',
+    // grave_sentinel fantasy plate + 2 standalone fantasy blades (moved from wanderer)
+    'fantasy_armor:grave_sentinel_helmet',
+    'fantasy_armor:grave_sentinel_chestplate',
+    'fantasy_armor:grave_sentinel_leggings',
+    'fantasy_armor:grave_sentinel_boots',
+    'fantasy_weapons:weapon_cursed_blade',
+    'fantasy_weapons:weapon_crimson_reaper',
     // (warrior/berserker armor moved to ARMORER below)
+    // ARMS_MERCHANT: "rogues:arms_merchant" (desert) — all guns + gun accessories
+    //   (moved off rogue; pistol also sold cheaper by pirate. Base guns + upgrade
+    //   smithing template only — bayonet/scope muskets are player-smithed from these.)
     'musketmod:musket',
     'musketmod:blunderbuss',
     'musketmod:pistol',
     'musketmod:cartridge',
+    'musketmod:musket_upgrade_smithing_template',
+
+    // PIRATE: "morevillagers:oceanographer" — flintlock (musketmod:pistol, also sold
+    //   by rogue but cheaper here), cutlass, lady_maria pirate plate, accents
+    //   pirate_hat/captain_hat/bandolier/holstered_belt (accents covered by the
+    //   blanket accents:sewing removal below; pistol covered by musketmod above)
+    'fantasy_weapons:weapon_sharp_curved_sword',
+    'fantasy_armor:lady_maria_helmet',
+    'fantasy_armor:lady_maria_chestplate',
+    'fantasy_armor:lady_maria_leggings',
+    'fantasy_armor:lady_maria_boots',
 
 
-    // ARMORER: "minecraft:armorer" — heavy armor merchant
+    // BLACKSMITH: "minecraft:weaponsmith" — melee weapons only [file: blacksmith.txt;
+    //   formerly "bladesmith". paladins kite shields moved BACK to armorer.]
+
+    // ARMORER: "minecraft:armorer" (plains) — forged plate + paladins kite shields.
+    //   immersive_armors:heavy = "Heavy" (un-renamed); immersive_armors:warrior
+    //   renamed "Viking" via item_names.js.js. fantasy_armor sets pulled out and
+    //   parked in the TBD block just below (revisit later).
+    'armoroftheages:iron_plate_armor_head',
+    'armoroftheages:iron_plate_armor_chest',
+    'armoroftheages:iron_plate_armor_legs',
+    'armoroftheages:iron_plate_armor_feet',
     'immersive_armors:heavy_helmet',
     'immersive_armors:heavy_chestplate',
     'immersive_armors:heavy_leggings',
     'immersive_armors:heavy_boots',
+    'immersive_armors:warrior_helmet',
+    'immersive_armors:warrior_chestplate',
+    'immersive_armors:warrior_leggings',
+    'immersive_armors:warrior_boots',
     'rogues:warrior_armor_head',
     'rogues:warrior_armor_chest',
     'rogues:warrior_armor_legs',
@@ -300,6 +414,51 @@ ServerEvents.recipes(event => {
     'rogues:berserker_armor_chest',
     'rogues:berserker_armor_legs',
     'rogues:berserker_armor_feet',
+    'paladins:iron_kite_shield',
+    'paladins:golden_kite_shield',
+    'paladins:diamond_kite_shield',
+    // TBD — fantasy_armor sets pulled from armorer; still recipe-locked, not sold (revisit):
+    'fantasy_armor:fog_guard_helmet',
+    'fantasy_armor:fog_guard_chestplate',
+    'fantasy_armor:fog_guard_leggings',
+    'fantasy_armor:fog_guard_boots',
+    'fantasy_armor:old_knight_helmet',
+    'fantasy_armor:old_knight_chestplate',
+    'fantasy_armor:old_knight_leggings',
+    'fantasy_armor:old_knight_boots',
+    'fantasy_armor:dragonslayer_helmet',
+    'fantasy_armor:dragonslayer_chestplate',
+    'fantasy_armor:dragonslayer_leggings',
+    'fantasy_armor:dragonslayer_boots',
+    'fantasy_armor:spark_of_dawn_helmet',
+    'fantasy_armor:spark_of_dawn_chestplate',
+    'fantasy_armor:spark_of_dawn_leggings',
+    'fantasy_armor:spark_of_dawn_boots',
+    // TBD — orphan twin weapons recipe-locked too, so each set travels with its blade
+    //   in the fantasy_armor pass (dark_cover armor is sold on frost_knight; its sword
+    //   stays parked until that pass decides):
+    'fantasy_weapons:weapon_dragonslayer_halberd',
+    'fantasy_weapons:weapon_fog_guard_sword',
+    'fantasy_weapons:weapon_spark_of_dawn_polearm',
+    'fantasy_weapons:weapon_dark_cover_sword',
+    // TBD — relic_armorer RETIRED; these exotic fantasy_armor sets stay recipe-locked,
+    //   not sold (revisit in the dedicated fantasy_armor pass with the other parked sets)
+    'fantasy_armor:flesh_of_the_feaster_helmet',
+    'fantasy_armor:flesh_of_the_feaster_chestplate',
+    'fantasy_armor:flesh_of_the_feaster_leggings',
+    'fantasy_armor:flesh_of_the_feaster_boots',
+    'fantasy_armor:dead_gladiator_helmet',
+    'fantasy_armor:dead_gladiator_chestplate',
+    'fantasy_armor:dead_gladiator_leggings',
+    'fantasy_armor:dead_gladiator_boots',
+    'fantasy_armor:silver_knight_helmet',
+    'fantasy_armor:silver_knight_chestplate',
+    'fantasy_armor:silver_knight_leggings',
+    'fantasy_armor:silver_knight_boots',
+    'fantasy_armor:gilded_hunt_helmet',
+    'fantasy_armor:gilded_hunt_chestplate',
+    'fantasy_armor:gilded_hunt_leggings',
+    'fantasy_armor:gilded_hunt_boots',
 
     // TBD — immersive_armors sets awaiting trader assignment (recipes removed; unobtainable until reassigned)
     'immersive_armors:wooden_helmet',
@@ -326,10 +485,7 @@ ServerEvents.recipes(event => {
     'immersive_armors:steampunk_chestplate',
     'immersive_armors:steampunk_leggings',
     'immersive_armors:steampunk_boots',
-    'immersive_armors:warrior_helmet',
-    'immersive_armors:warrior_chestplate',
-    'immersive_armors:warrior_leggings',
-    'immersive_armors:warrior_boots',
+    // (immersive_armors:warrior moved to ARMORER block above — renamed "Viking")
     'immersive_armors:wither_helmet',
     'immersive_armors:wither_chestplate',
     'immersive_armors:wither_leggings',
@@ -340,28 +496,30 @@ ServerEvents.recipes(event => {
     'immersive_armors:divine_boots',
 
 
-    // MYSTIC: "morevillagers:enderian"
-    'magnumtorch:diamond_magnum_torch',
-    'magnumtorch:emerald_magnum_torch',
-    'magnumtorch:amethyst_magnum_torch',
-    //"minecraft:end_stone",
-    // "minecraft:chorus_fruit",
 
 
-    // TINKERER
-    'immersive_aircraft:gyroscope',
-    'immersive_aircraft:gyroscope_hud',
-    'immersive_aircraft:gyroscope_dials',
-    'immersive_machinery:redstone_sheep',
+    // TINKERER: "minecraft:toolsmith" — TECH gadgets only: Tide instruments, exposure
+    //   camera kit, Supplementaries tech gadgets, create extendo_grip, immersive_machinery
+    //   redstone (redstone_mechanism = most expensive tinkerer item).
+    //   Dropped → now normally craftable: slingshot, flute, hourglass, bomb, bomb_spiky,
+    //   turn_table, pulley_block. (supplementaries:speedometer is sold but has no recipe,
+    //   so it's intentionally NOT listed here.)
+    'tide:pocket_watch',
     'tide:depth_meter',
     'tide:climate_gauge',
-    'tide:pocket_watch',
     'tide:weather_radio',
-    'createadditions:electric_motor',
-    'createadditions:alternator',
+    'tide:lunar_calendar',
     'create:extendo_grip',
-    'slideshow:projector',
+    'slide_show:projector',
+    'immersive_machinery:redstone_sheep',
+    'immersive_machinery:redstone_mechanism',
+    'supplementaries:rope_arrow',
     'supplementaries:spring_launcher',
+    'supplementaries:altimeter',
+    'supplementaries:wrench',
+    'exposure:camera',
+    'exposure:black_and_white_film',
+    'exposure:color_film',
 
     // 'infinitybuttons:red_emergency_button',
     // 'infinitybuttons:red_safe_emergency_button',
@@ -414,6 +572,148 @@ ServerEvents.recipes(event => {
     "minecells:promenade_doorway",
     "minecells:ramparts_doorway",
     "minecells:black_bridge_doorway",
+
+    // RONIN: "minecraft:weaponsmith" (taiga) — Eastern lamellar (AOTA do-maru/o-yoroi/raijin + bamboo hat) + fantasy ronin set + katana-family blades
+    'armoroftheages:bamboo_hat',
+    'fantasy_weapons:weapon_wakizashi',
+    'fantasy_weapons:weapon_black_katana',
+    'fantasy_weapons:weapon_nagakiba',
+    'fantasy_weapons:weapon_marai_executioner_sword',
+    'armoroftheages:japanese_light_armor_head',
+    'armoroftheages:japanese_light_armor_chest',
+    'armoroftheages:japanese_light_armor_legs',
+    'armoroftheages:japanese_light_armor_feet',
+    'armoroftheages:o_yoroi_armor_head',
+    'armoroftheages:o_yoroi_armor_chest',
+    'armoroftheages:o_yoroi_armor_legs',
+    'armoroftheages:o_yoroi_armor_feet',
+    'armoroftheages:raijin_armor_head',
+    'armoroftheages:raijin_armor_chest',
+    'armoroftheages:raijin_armor_legs',
+    'armoroftheages:raijin_armor_feet',
+    'fantasy_armor:ronin_helmet',
+    'fantasy_armor:ronin_chestplate',
+    'fantasy_armor:ronin_leggings',
+    'fantasy_armor:ronin_boots',
+
+    // NOMAD: "minecraft:armorer" (desert) — AOTA sun-gold (pharaoh/anubis/exalted_aurum/quetzalcoatl) + fantasy golden_horns/golden_execution + desert/gold weapons
+    'fantasy_weapons:weapon_desert_wind',
+    'fantasy_weapons:weapon_golden_halberd',
+    'fantasy_weapons:weapon_marika_hammer',
+    'fantasy_weapons:weapon_golden_horns_battleaxe',
+    'fantasy_weapons:weapon_golden_execution_battleaxe',
+    'fantasy_weapons:weapon_kingslayer',
+    'armoroftheages:pharaoh_armor_head',
+    'armoroftheages:pharaoh_armor_chest',
+    'armoroftheages:pharaoh_armor_legs',
+    'armoroftheages:pharaoh_armor_feet',
+    'armoroftheages:anubis_armor_head',
+    'armoroftheages:anubis_armor_chest',
+    'armoroftheages:anubis_armor_legs',
+    'armoroftheages:anubis_armor_feet',
+    'armoroftheages:exalted_aurum_armor_head',
+    'armoroftheages:exalted_aurum_armor_chest',
+    'armoroftheages:exalted_aurum_armor_legs',
+    'armoroftheages:exalted_aurum_armor_feet',
+    'armoroftheages:quetzalcoatl_armor_head',
+    'armoroftheages:quetzalcoatl_armor_chest',
+    'armoroftheages:quetzalcoatl_armor_legs',
+    'armoroftheages:quetzalcoatl_armor_feet',
+    'fantasy_armor:golden_horns_helmet',
+    'fantasy_armor:golden_horns_chestplate',
+    'fantasy_armor:golden_horns_leggings',
+    'fantasy_armor:golden_horns_boots',
+    'fantasy_armor:golden_execution_helmet',
+    'fantasy_armor:golden_execution_chestplate',
+    'fantasy_armor:golden_execution_leggings',
+    'fantasy_armor:golden_execution_boots',
+
+    // TBD — boss-relic / champion-tier sets: recipe-locked, NOT yet sold by any
+    //   trader (no "champion" trader — awaiting assignment per user). Distribute
+    //   into ronin/nomad/centurion/wanderer (or elsewhere) when decided.
+    'fantasy_weapons:weapon_fury_of_the_storm',
+    'fantasy_weapons:weapon_hand_of_malenia',
+    'fantasy_weapons:weapon_hero_claymore',
+    'fantasy_weapons:weapon_sunset_wings_claymore',
+    'fantasy_weapons:weapon_dragons_doom',
+    'fantasy_weapons:weapon_fates_beacon',
+    'fantasy_armor:malenia_helmet',
+    'fantasy_armor:malenia_chestplate',
+    'fantasy_armor:malenia_leggings',
+    'fantasy_armor:malenia_boots',
+    'fantasy_armor:hero_helmet',
+    'fantasy_armor:hero_chestplate',
+    'fantasy_armor:hero_leggings',
+    'fantasy_armor:hero_boots',
+    'fantasy_armor:ornstein_helmet',
+    'fantasy_armor:ornstein_chestplate',
+    'fantasy_armor:ornstein_leggings',
+    'fantasy_armor:ornstein_boots',
+    'fantasy_armor:crucible_knight_helmet',
+    'fantasy_armor:crucible_knight_chestplate',
+    'fantasy_armor:crucible_knight_leggings',
+    'fantasy_armor:crucible_knight_boots',
+    'fantasy_armor:redeemer_helmet',
+    'fantasy_armor:redeemer_chestplate',
+    'fantasy_armor:redeemer_leggings',
+    'fantasy_armor:redeemer_boots',
+    'fantasy_armor:twinned_helmet',
+    'fantasy_armor:twinned_chestplate',
+    'fantasy_armor:twinned_leggings',
+    'fantasy_armor:twinned_boots',
+    'fantasy_armor:sunset_wings_helmet',
+    'fantasy_armor:sunset_wings_chestplate',
+    'fantasy_armor:sunset_wings_leggings',
+    'fantasy_armor:sunset_wings_boots',
+
+    // CENTURION: "minecraft:armorer" (jungle) — AOTA centurion + fantasy eclipse_soldier + legion spears + weathered old/sharp/savage blades
+    'fantasy_weapons:weapon_hefty_club',
+    'fantasy_weapons:weapon_old_blade',
+    'fantasy_weapons:weapon_old_broadsword',
+    'fantasy_weapons:weapon_old_dagger',
+    'fantasy_weapons:weapon_sharp_sword',
+    'fantasy_weapons:weapon_savage_sword',
+    'fantasy_weapons:weapon_sharp_spear',
+    'fantasy_weapons:weapon_savage_spear',
+    'fantasy_weapons:weapon_savage_hammer',
+    'fantasy_weapons:weapon_eclipse_soldier_spear',
+    'armoroftheages:centurion_armor_head',
+    'armoroftheages:centurion_armor_chest',
+    'armoroftheages:centurion_armor_legs',
+    'armoroftheages:centurion_armor_feet',
+    'fantasy_armor:eclipse_soldier_helmet',
+    'fantasy_armor:eclipse_soldier_chestplate',
+    'fantasy_armor:eclipse_soldier_leggings',
+    'fantasy_armor:eclipse_soldier_boots',
+
+    // WANDERER: "minecraft:weaponsmith" (jungle) — rogue road kits (thief/wandering_wizard/wind_worshipper/forgotten_trace/evening_ghost) + light blades
+    //   (cursed_blade + crimson_reaper moved to ROGUE)
+    'fantasy_weapons:weapon_savage_dagger',
+    'fantasy_weapons:weapon_volcano_flame',
+    'fantasy_weapons:weapon_thief_dagger',
+    'fantasy_weapons:weapon_wandering_wizard_sword',
+    'fantasy_weapons:weapon_forgotten_trace_spear',
+    'fantasy_armor:thief_helmet',
+    'fantasy_armor:thief_chestplate',
+    'fantasy_armor:thief_leggings',
+    'fantasy_armor:thief_boots',
+    'fantasy_armor:wandering_wizard_helmet',
+    'fantasy_armor:wandering_wizard_chestplate',
+    'fantasy_armor:wandering_wizard_leggings',
+    'fantasy_armor:wandering_wizard_boots',
+    'fantasy_armor:wind_worshipper_helmet',
+    'fantasy_armor:wind_worshipper_chestplate',
+    'fantasy_armor:wind_worshipper_leggings',
+    'fantasy_armor:wind_worshipper_boots',
+    'fantasy_armor:forgotten_trace_helmet',
+    'fantasy_armor:forgotten_trace_chestplate',
+    'fantasy_armor:forgotten_trace_leggings',
+    'fantasy_armor:forgotten_trace_boots',
+    'fantasy_armor:evening_ghost_helmet',
+    'fantasy_armor:evening_ghost_chestplate',
+    'fantasy_armor:evening_ghost_leggings',
+    'fantasy_armor:evening_ghost_boots',
+
   ]})
 })
 

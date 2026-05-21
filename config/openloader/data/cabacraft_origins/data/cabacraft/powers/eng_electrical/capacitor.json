@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_electrical/capacitor",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BSB",
+      "BRB",
+      "BSB"
+    ],
+    "key": {
+      "B": {
+        "tag": "c:brass_plates"
+      },
+      "S": {
+        "item": "createaddition:copper_spool"
+      },
+      "R": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    "result": {
+      "item": "createaddition:capacitor",
+      "count": 1
+    }
+  }
+}

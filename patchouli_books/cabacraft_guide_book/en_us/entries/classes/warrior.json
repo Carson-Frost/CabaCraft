@@ -1,0 +1,11 @@
+{
+  "name": "Warrior",
+  "icon": "rogues:warrior_armor_chest",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Combat heavy-melee class. The leanest catalogue — nine items. Crafts the Warrior armor set (iron-block plastron, chain pauldrons), the Berserker armor set (netherite-ingot torso), and the Warrior spell book. Netherite Warrior and Berserker variants stay vanilla smithing-table upgrades from the base sets.$(br2)Generic plate and generic melee weapons live with the Armorer and Blacksmith classes."
+    }
+  ]
+}

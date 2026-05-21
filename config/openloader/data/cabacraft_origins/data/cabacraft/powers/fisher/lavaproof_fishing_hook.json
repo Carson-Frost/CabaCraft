@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/lavaproof_fishing_hook",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  #",
+      "O O",
+      " O "
+    ],
+    "key": {
+      "#": {
+        "tag": "c:ingots/gold"
+      },
+      "O": {
+        "tag": "c:obsidians"
+      }
+    },
+    "result": {
+      "item": "tide:lavaproof_fishing_hook",
+      "count": 1
+    }
+  }
+}

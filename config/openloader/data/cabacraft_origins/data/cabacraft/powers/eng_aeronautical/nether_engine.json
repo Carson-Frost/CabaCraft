@@ -1,0 +1,37 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/nether_engine",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BNB",
+      "XEX",
+      "RMR"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:blaze_rod"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "E": {
+        "item": "immersive_aircraft:engine"
+      },
+      "X": {
+        "item": "createaddition:electric_motor"
+      },
+      "R": {
+        "item": "minecraft:nether_brick"
+      },
+      "M": {
+        "item": "create:mechanical_drill"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:nether_engine",
+      "count": 1
+    }
+  }
+}

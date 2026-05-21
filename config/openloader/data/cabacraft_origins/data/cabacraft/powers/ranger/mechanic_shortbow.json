@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/mechanic_shortbow",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IRX",
+      "RIX",
+      "IRX"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "X": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "archers:mechanic_shortbow",
+      "count": 1
+    }
+  }
+}

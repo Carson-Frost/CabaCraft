@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:brewer/item_coaster",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "scs"
+    ],
+    "key": {
+      "c": {
+        "item": "farmersdelight:canvas"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "brewinandchewin:item_coaster",
+      "count": 2
+    }
+  }
+}

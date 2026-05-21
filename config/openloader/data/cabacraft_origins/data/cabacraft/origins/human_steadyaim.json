@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "cabacraft:human_steadyaim/boon"
+  ],
+  "icon": {
+    "item": "minecraft:arrow"
+  },
+  "order": 6,
+  "impact": 0
+}

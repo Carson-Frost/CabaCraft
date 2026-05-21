@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:blacksmith/diamond_claymore",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  L",
+      "BB ",
+      "HB "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:diamond"
+      },
+      "L": {
+        "item": "minecraft:diamond_block"
+      },
+      "H": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "paladins:diamond_claymore",
+      "count": 1
+    }
+  }
+}

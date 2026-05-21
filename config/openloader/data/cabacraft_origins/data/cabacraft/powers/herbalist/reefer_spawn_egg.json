@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/reefer_spawn_egg",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:hemp"
+      },
+      {
+        "item": "nirvana:hemp"
+      },
+      {
+        "item": "nirvana:hemp"
+      }
+    ],
+    "result": {
+      "item": "nirvana:reefer_spawn_egg",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "spell_power:arcane",
+      "name": "High Elf arcane",
+      "value": 0.1,
+      "operation": "multiply_base"
+    },
+    {
+      "attribute": "spell_power:fire",
+      "name": "High Elf fire",
+      "value": 0.1,
+      "operation": "multiply_base"
+    },
+    {
+      "attribute": "spell_power:frost",
+      "name": "High Elf frost",
+      "value": 0.1,
+      "operation": "multiply_base"
+    },
+    {
+      "attribute": "spell_power:healing",
+      "name": "High Elf healing",
+      "value": 0.1,
+      "operation": "multiply_base"
+    }
+  ]
+}

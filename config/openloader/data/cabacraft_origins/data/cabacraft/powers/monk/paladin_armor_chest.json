@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:monk/paladin_armor_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "G G",
+      "III",
+      "ILI"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "paladins:paladin_armor_chest",
+      "count": 1
+    }
+  }
+}

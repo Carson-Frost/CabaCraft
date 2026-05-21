@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:citizen/treasurer/gilded_hunt_chestplate",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ACA",
+      "BCB",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_block"
+      },
+      "B": {
+        "item": "minecraft:gold_block"
+      },
+      "C": {
+        "item": "minecraft:emerald_block"
+      }
+    },
+    "result": {
+      "item": "fantasy_armor:gilded_hunt_chestplate",
+      "count": 1
+    }
+  },
+  "condition": {
+    "type": "apoli:scoreboard",
+    "objective": "cabacraft_office_treasurer",
+    "comparison": ">=",
+    "compare_to": 1
+  }
+}

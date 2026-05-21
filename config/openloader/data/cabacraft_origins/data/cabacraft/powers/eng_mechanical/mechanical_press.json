@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/mechanical_press",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "S",
+      "C",
+      "B"
+    ],
+    "key": {
+      "S": {
+        "item": "create:shaft"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      },
+      "B": {
+        "tag": "c:iron_blocks"
+      }
+    },
+    "result": {
+      "item": "create:mechanical_press",
+      "count": 1
+    }
+  }
+}

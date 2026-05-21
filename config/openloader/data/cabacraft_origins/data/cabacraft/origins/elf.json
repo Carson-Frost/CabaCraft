@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "cabacraft:elf/size",
+    "cabacraft:elf/low_light",
+    "cabacraft:elf/phantom_immunity",
+    "cabacraft:elf/frail",
+    "cabacraft:elf/easily_shoved"
+  ],
+  "icon": {
+    "item": "minecraft:bow"
+  },
+  "order": 3,
+  "impact": 1
+}

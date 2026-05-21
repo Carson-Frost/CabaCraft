@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/staff_fire",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " BP",
+      "NSN",
+      "GB "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:blaze_rod"
+      },
+      "P": {
+        "item": "minecraft:blaze_powder"
+      },
+      "N": {
+        "item": "minecraft:nether_bricks"
+      },
+      "S": {
+        "tag": "c:wood_sticks"
+      },
+      "G": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    "result": {
+      "item": "wizards:staff_fire",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Wood Elf",
+  "icon": "minecraft:bow",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Forest lineage of the Elf race. Stacks on top of the shared Elf traits.$(br2)$(bold)Fleet of Foot.$(/) Movement speed +10%.$(br2)$(bold)Keen Shot.$(/) Bow and crossbow damage +20%.$(br2)$(bold)Forest Camouflage.$(/) While sneaking on a block tagged as foliage (tall grass, leaves), the player turns invisible. Armor is hidden as well."
+    }
+  ]
+}

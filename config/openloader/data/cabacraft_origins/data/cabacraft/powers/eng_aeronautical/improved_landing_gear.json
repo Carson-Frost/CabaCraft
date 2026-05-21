@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/improved_landing_gear",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "I I",
+      "ICI",
+      "BIB"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "C": {
+        "item": "minecraft:coal_block"
+      },
+      "B": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "immersive_aircraft:improved_landing_gear",
+      "count": 1
+    }
+  }
+}

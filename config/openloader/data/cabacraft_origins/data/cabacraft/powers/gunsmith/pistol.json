@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:gunsmith/pistol",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  I",
+      "IBI",
+      " G "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      },
+      "G": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "result": {
+      "item": "musketmod:pistol",
+      "count": 1
+    }
+  }
+}

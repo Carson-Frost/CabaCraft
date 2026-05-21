@@ -1,0 +1,11 @@
+{
+  "name": "Tailor",
+  "icon": "accents:top_hat",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cosmetic-wearables secondary. Crafts the full Accents catalogue — thirteen hats (Captain, Christmas, Cowboy, Kasa, Overtop, Pickelhaube, Pirate, Pumpkin, Sombrero, Straw, Top, Tundra Hood, Wide Brim); belts, satchels, and quivers; masks and plushies; and accent wearables (Wings, Hermes Boots, Scarf).$(br2)Accents items are dyeable — Tailor crafts the base, the player dyes. The Crown is reserved as Chancellor regalia; the Wizard Hat is removed from the game entirely."
+    }
+  ]
+}

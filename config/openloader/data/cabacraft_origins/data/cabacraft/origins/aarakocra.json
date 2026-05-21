@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "cabacraft:aarakocra/size",
+    "cabacraft:aarakocra/wings",
+    "cabacraft:aarakocra/flight_safety",
+    "cabacraft:aarakocra/talons",
+    "cabacraft:aarakocra/dive",
+    "cabacraft:aarakocra/hollow_bones",
+    "cabacraft:aarakocra/skin"
+  ],
+  "icon": {
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1005}"
+  },
+  "order": 4,
+  "impact": 2
+}

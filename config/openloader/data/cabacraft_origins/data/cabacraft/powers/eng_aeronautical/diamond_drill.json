@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_aeronautical/diamond_drill",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DDD",
+      "DGD",
+      "DBD"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "G": {
+        "item": "immersive_aircraft:industrial_gears"
+      },
+      "B": {
+        "item": "immersive_machinery:iron_drill"
+      }
+    },
+    "result": {
+      "item": "immersive_machinery:diamond_drill",
+      "count": 1
+    }
+  }
+}

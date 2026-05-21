@@ -1,0 +1,11 @@
+{
+  "name": "Aeronautical Engineer",
+  "icon": "immersive_aircraft:hull",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aero discipline of Engineer. Crafts all twenty Immersive Aircraft components (propellers, hulls, sails, boilers, engines, gyroscopes, cannons) plus six Immersive Machinery vehicles (drills, the Copperfin submarine, Tunnel Digger).$(br2)Top-tier engines and drills require a Mechanical Engineer part. The Nether Engine additionally requires two Electrical Engineer motors.$(br2)Vehicle assembly (biplane, airship, gyrodyne, quadrocopter, cargo airship, warship, bamboo hopper) is not class-gated — any player holding the parts can assemble the vehicle."
+    }
+  ]
+}

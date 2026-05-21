@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/hand_crank",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      " A ",
+      "A A"
+    ],
+    "key": {
+      "C": {
+        "tag": "minecraft:planks"
+      },
+      "A": {
+        "item": "create:andesite_alloy"
+      }
+    },
+    "result": {
+      "item": "create:hand_crank",
+      "count": 1
+    }
+  }
+}

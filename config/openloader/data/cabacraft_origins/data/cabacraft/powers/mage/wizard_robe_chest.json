@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/wizard_robe_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "M M",
+      "WMW",
+      "GWG"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:lapis_block"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "wizards:wizard_robe_chest",
+      "count": 1
+    }
+  }
+}

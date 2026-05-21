@@ -1,0 +1,29 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/ender_bass",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "NEN",
+      "   ",
+      "   "
+    ],
+    "key": {
+      "N": [
+        {
+          "item": "minecraft:note_block"
+        }
+      ],
+      "E": [
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ]
+    },
+    "result": {
+      "item": "immersive_melodies:ender_bass",
+      "count": 1
+    }
+  }
+}

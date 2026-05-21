@@ -1,0 +1,11 @@
+{
+  "name": "Engineer",
+  "icon": "immersive_aircraft:propeller",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Industrial craft class. After picking Engineer, a second screen offers one of three disciplines: $(l:classes/eng_aeronautical)Aero$(/l), $(l:classes/eng_mechanical)Mech$(/l), or $(l:classes/eng_electrical)Elec$(/l).$(br2)Trains, andesite alloy, casings, precision mechanisms, and train tracks stay open to all players. Engineer is about the machines built on top of that supply chain. Mech is the hub — Aero and Elec top-tier items require a Mech-made part."
+    }
+  ]
+}

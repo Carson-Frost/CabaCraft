@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/heavy_helmet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "III",
+      "iTi",
+      "   "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "i": {
+        "item": "minecraft:iron_ingot"
+      },
+      "T": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "immersive_armors:heavy_helmet",
+      "count": 1
+    }
+  }
+}

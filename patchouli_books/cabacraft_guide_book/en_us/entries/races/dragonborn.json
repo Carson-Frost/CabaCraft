@@ -1,0 +1,11 @@
+{
+  "name": "Dragonborn",
+  "icon": "minecraft:dragon_breath",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Scaled humanoid. Bipedal draconid; larger and broader than human. Carries draconic ancestry in its skin and breath.$(br2)Height: 1.08$(br)Width: 1.05$(br2)$(bold)Breath Weapon.$(/) Active. Press the Origins primary key to exhale a fire cone — 5 damage to targets within 3 blocks, ignites for 4 seconds. Cooldown 15 seconds; tracked on a HUD bar.$(br2)$(bold)Dragon Blood.$(/) Fire damage taken reduced 50%.$(br2)$(bold)Scaled Hide.$(/) Armor +2 at all times.$(br2)$(bold)Frostbane.$(/) Freeze damage taken increased by 3 per tick."
+    }
+  ]
+}

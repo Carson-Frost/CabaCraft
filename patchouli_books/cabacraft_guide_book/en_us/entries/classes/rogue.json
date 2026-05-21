@@ -1,0 +1,11 @@
+{
+  "name": "Rogue",
+  "icon": "rogues:rogue_armor_chest",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Combat stealth class. Crafts two shadow armor sets (Rogue, with phantom-membrane and sculk-vein dye; and Assassin, with sculk-darkened hood and netherite-scrap), the Grave-Sentinel armor set, the Cursed Blade and Crimson Reaper paired weapons, and the Rogue spell book.$(br2)Phantom membrane is the signature material for the shadow sets."
+    }
+  ]
+}

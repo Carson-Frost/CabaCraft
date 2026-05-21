@@ -1,0 +1,17 @@
+{
+  "language": "en_us",
+  "join": {},
+  "request": {},
+  "providers": {
+    "custom": [
+      {
+        "type": "username-url",
+        "name": "caba_origin_skin",
+        "enabled": true,
+        "useProviderSignature": false,
+        "cache": { "enabled": true, "expirationSeconds": 86400 },
+        "urlTemplate": "https://raw.githubusercontent.com/Carson-Frost/CabaCraft/main/config/skinrestorer/skins/{username}.png"
+      }
+    ]
+  }
+}

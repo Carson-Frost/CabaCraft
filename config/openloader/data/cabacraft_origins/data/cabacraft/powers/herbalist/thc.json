@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/thc",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XOX",
+      "OXO",
+      "XOX"
+    ],
+    "key": {
+      "O": {
+        "item": "nirvana:weed"
+      },
+      "X": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "result": {
+      "item": "nirvana:thc",
+      "count": 1
+    }
+  }
+}

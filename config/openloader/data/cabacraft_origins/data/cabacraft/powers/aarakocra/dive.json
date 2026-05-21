@@ -1,0 +1,11 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "name": "Dive strike",
+    "value": 1.0,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:fall_flying"
+  }
+}

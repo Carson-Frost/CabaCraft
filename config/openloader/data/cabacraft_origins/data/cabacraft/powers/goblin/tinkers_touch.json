@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_break_speed",
+  "modifier": {
+    "name": "Tinker's touch",
+    "operation": "multiply_total",
+    "value": 0.5
+  },
+  "condition": {
+    "type": "origins:in_tag",
+    "tag": "cabacraft:goblin_mining"
+  }
+}

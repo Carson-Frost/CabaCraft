@@ -1,0 +1,27 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/wizard_robe_feet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "G G",
+      "WMW"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:lapis_block"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "wizards:wizard_robe_feet",
+      "count": 1
+    }
+  }
+}

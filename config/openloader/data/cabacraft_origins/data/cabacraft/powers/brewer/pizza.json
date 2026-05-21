@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:brewer/pizza",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "fff",
+      "mtp",
+      "www"
+    ],
+    "key": {
+      "f": {
+        "item": "brewinandchewin:flaxen_cheese_wedge"
+      },
+      "m": {
+        "item": "minecraft:brown_mushroom"
+      },
+      "p": {
+        "item": "farmersdelight:beef_patty"
+      },
+      "t": {
+        "item": "farmersdelight:tomato"
+      },
+      "w": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "result": {
+      "item": "brewinandchewin:pizza",
+      "count": 1
+    }
+  }
+}

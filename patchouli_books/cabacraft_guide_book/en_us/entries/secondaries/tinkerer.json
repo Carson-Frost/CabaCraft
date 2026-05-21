@@ -1,0 +1,11 @@
+{
+  "name": "Tinkerer",
+  "icon": "tide:pocket_watch",
+  "category": "patchouli:secondaries",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tech-gadgets secondary. Crafts the Redstone Mechanism intermediate (block-tier redstone and copper), then builds maritime gauges (pocket watch, depth meter, climate gauge, weather radio, lunar calendar), Supplementaries gear (altimeter, wrench, rope arrow, spring launcher), the Redstone Sheep automated shearer, the Extendo Grip reach extender, and a plate camera with film and projector.$(br2)Most gadgets require a Redstone Mechanism as an input — building a gadget takes two class-crafts: mechanism, then gadget."
+    }
+  ]
+}

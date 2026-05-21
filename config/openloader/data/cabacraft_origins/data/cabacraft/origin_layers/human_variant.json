@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "order": 3,
+  "auto_choose": false,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "cabacraft:human",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "cabacraft:human_tough",
+        "cabacraft:human_quick",
+        "cabacraft:human_reach",
+        "cabacraft:human_hardy",
+        "cabacraft:human_surefooted",
+        "cabacraft:human_strongarm",
+        "cabacraft:human_steadyaim"
+      ]
+    }
+  ]
+}

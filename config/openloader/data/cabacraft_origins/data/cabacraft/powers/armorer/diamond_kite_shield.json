@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/diamond_kite_shield",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "MLM",
+      "MBM",
+      " M "
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:diamond"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "B": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    "result": {
+      "item": "paladins:diamond_kite_shield",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/mechanical_arm",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LLA",
+      "LP ",
+      "IC "
+    ],
+    "key": {
+      "L": {
+        "tag": "c:brass_plates"
+      },
+      "A": {
+        "item": "create:brass_casing"
+      },
+      "P": {
+        "item": "create:precision_mechanism"
+      },
+      "I": {
+        "item": "create:precision_mechanism"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      }
+    },
+    "result": {
+      "item": "create:mechanical_arm",
+      "count": 1
+    }
+  }
+}

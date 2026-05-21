@@ -1,0 +1,31 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:gunsmith/musket_upgrade_smithing_template",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GPG",
+      "FIF",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "F": {
+        "item": "minecraft:flint"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "musketmod:musket_upgrade_smithing_template",
+      "count": 1
+    }
+  }
+}

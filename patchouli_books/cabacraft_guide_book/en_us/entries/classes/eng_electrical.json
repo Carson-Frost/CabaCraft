@@ -1,0 +1,11 @@
+{
+  "name": "Electrical Engineer",
+  "icon": "createaddition:electric_motor",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Elec discipline of Engineer. Crafts the Create Additions FE power economy — electric motor (the Aero interlock anchor), alternator, connectors (small, large, light), redstone relay, digital adapter, barbed wire, capacitor, accumulator.$(br2)Top-tier storage (Modular Accumulator, Tesla Coil, Portable Energy Interface) requires a Mechanical Engineer press.$(br2)Electrum ingots, sheets, and rods stay open as base alloy. Spools and wires are class-gated."
+    }
+  ]
+}

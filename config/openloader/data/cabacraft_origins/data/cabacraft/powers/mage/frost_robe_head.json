@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:mage/frost_robe_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " G ",
+      "WMW",
+      "WWW"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:prismarine_crystals"
+      },
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "M": {
+        "item": "minecraft:prismarine_bricks"
+      }
+    },
+    "result": {
+      "item": "wizards:frost_robe_head",
+      "count": 1
+    }
+  }
+}

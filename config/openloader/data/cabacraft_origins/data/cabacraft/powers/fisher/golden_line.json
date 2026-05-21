@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:fisher/golden_line",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#",
+      "L",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "tag": "c:ingots/gold"
+      },
+      "L": {
+        "item": "tide:fishing_line"
+      }
+    },
+    "result": {
+      "item": "tide:golden_line",
+      "count": 1
+    }
+  }
+}

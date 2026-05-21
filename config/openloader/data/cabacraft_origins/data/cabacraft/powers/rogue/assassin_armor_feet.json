@@ -1,0 +1,30 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/assassin_armor_feet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GSG",
+      "RTR"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "S": {
+        "item": "minecraft:ink_sac"
+      },
+      "R": {
+        "item": "minecraft:rabbit_hide"
+      },
+      "T": {
+        "item": "minecraft:sculk"
+      }
+    },
+    "result": {
+      "item": "rogues:assassin_armor_feet",
+      "count": 1
+    }
+  }
+}

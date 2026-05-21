@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:eng_mechanical/encased_fan",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "S",
+      "A",
+      "P"
+    ],
+    "key": {
+      "S": {
+        "item": "create:shaft"
+      },
+      "A": {
+        "item": "create:brass_casing"
+      },
+      "P": {
+        "item": "create:propeller"
+      }
+    },
+    "result": {
+      "item": "create:encased_fan",
+      "count": 1
+    }
+  }
+}

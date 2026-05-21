@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Fleet of foot",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.1,
+    "operation": "multiply_base"
+  }
+}

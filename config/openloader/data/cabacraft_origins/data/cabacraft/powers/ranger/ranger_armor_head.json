@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:ranger/ranger_armor_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SRS",
+      "LSL",
+      " L "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:scute"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "R": {
+        "item": "minecraft:rabbit_hide"
+      }
+    },
+    "result": {
+      "item": "archers:ranger_armor_head",
+      "count": 1
+    }
+  }
+}

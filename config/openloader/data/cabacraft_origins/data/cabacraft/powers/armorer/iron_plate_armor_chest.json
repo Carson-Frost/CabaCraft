@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/iron_plate_armor_chest",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IiI",
+      "ITI",
+      "III"
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:iron_chestplate"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "T": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "armoroftheages:iron_plate_armor_chest",
+      "count": 1
+    }
+  }
+}

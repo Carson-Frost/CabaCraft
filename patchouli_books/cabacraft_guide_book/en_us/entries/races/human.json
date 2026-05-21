@@ -1,0 +1,11 @@
+{
+  "name": "Human",
+  "icon": "minecraft:player_head",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Standard humanoid. No innate traits, no drawbacks. Picks one variant boon at world entry.$(br2)Height: 1.8$(br)Width: 0.6$(br2)$(bold)Tough.$(/) Maximum health 24 (12 hearts).$(br2)$(bold)Quick.$(/) Movement speed +5%.$(br2)$(bold)Far-Reaching.$(/) Interaction reach and attack range +1 block.$(br2)$(bold)Hardy.$(/) Immune to the Hunger effect.$(br2)$(bold)Sure-Footed.$(/) Fall damage reduced 60%.$(br2)$(bold)Strong Arm.$(/) Melee damage +1.$(br2)$(bold)Steady Aim.$(/) Bow and crossbow damage +15%."
+    }
+  ]
+}

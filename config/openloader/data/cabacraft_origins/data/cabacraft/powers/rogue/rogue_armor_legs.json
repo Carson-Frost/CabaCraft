@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/rogue_armor_legs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WPW",
+      "L L",
+      "P P"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "P": {
+        "item": "minecraft:phantom_membrane"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "rogues:rogue_armor_legs",
+      "count": 1
+    }
+  }
+}

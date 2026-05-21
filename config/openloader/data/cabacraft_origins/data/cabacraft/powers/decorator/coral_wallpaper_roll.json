@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:decorator/coral_wallpaper_roll",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "PDP",
+      "PSP"
+    ],
+    "key": {
+      "D": {
+        "item": "dye_depot:coral_dye"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "S": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "result": {
+      "item": "wallpapers:coral_wallpaper_roll",
+      "count": 16
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:herbalist/herbal_salve",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "nirvana:hemp"
+      },
+      {
+        "item": "nirvana:hemp"
+      },
+      {
+        "item": "nirvana:hemp"
+      }
+    ],
+    "result": {
+      "item": "nirvana:herbal_salve",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:rogue/rogue_armor_head",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WDW",
+      "PWP",
+      " P "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wool"
+      },
+      "D": {
+        "item": "minecraft:sculk_vein"
+      },
+      "P": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "result": {
+      "item": "rogues:rogue_armor_head",
+      "count": 1
+    }
+  }
+}

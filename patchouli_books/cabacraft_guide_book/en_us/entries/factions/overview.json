@@ -1,0 +1,12 @@
+{
+  "name": "Factions and Offices",
+  "icon": "accents:crown",
+  "category": "patchouli:factions",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Two separate civic systems.$(br2)A $(bold)faction$(/) binds an FTB Teams party to one of three regions ($(l:factions/desert)Desert$(/l), $(l:factions/island)Island$(/l), $(l:factions/knight)Knight$(/l)). The party owner crafts regalia other party members cannot. One party per faction, one faction per party.$(br2)An $(bold)office$(/) is an independent civic seat ($(l:factions/offices)Chancellor, Treasurer, Judge$(/l)), capped at one holder each. Holders craft regalia exclusive to that seat. Office assignment is independent of faction membership.$(br2)$(bold)/cabafaction claim <desert|island|knight>.$(/) Party owner only. Binds the party to a faction.$(br2)$(bold)/cabafaction release.$(/) Party owner only. Releases the binding.$(br2)$(bold)/cabafaction info.$(/) Any party member. Shows the current faction."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:armorer/heavy_leggings",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "iIi",
+      "ITI",
+      "i i"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "i": {
+        "item": "minecraft:iron_ingot"
+      },
+      "T": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "immersive_armors:heavy_leggings",
+      "count": 1
+    }
+  }
+}

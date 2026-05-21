@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "cabacraft:tiefling/darkvision",
+    "cabacraft:tiefling/fire_immunity",
+    "cabacraft:tiefling/hellish_rebuke",
+    "cabacraft:tiefling/nether_spawn",
+    "cabacraft:tiefling/water_vulnerability",
+    "cabacraft:tiefling/skin"
+  ],
+  "icon": {
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1006}"
+  },
+  "order": 5,
+  "impact": 2
+}

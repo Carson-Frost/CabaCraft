@@ -1,0 +1,29 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/bagpipe",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "FF ",
+      "LLF",
+      "LLL"
+    ],
+    "key": {
+      "F": [
+        {
+          "item": "immersive_melodies:flute"
+        }
+      ],
+      "L": [
+        {
+          "item": "minecraft:leather"
+        }
+      ]
+    },
+    "result": {
+      "item": "immersive_melodies:bagpipe",
+      "count": 1
+    }
+  }
+}

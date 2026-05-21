@@ -1,0 +1,11 @@
+{
+  "name": "Mechanical Engineer",
+  "icon": "create:mechanical_drill",
+  "category": "patchouli:classes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mech discipline of Engineer. Crafts the Create machine tier — wrench, goggles, schematic table, belt connector, empty blaze burner, mechanical saw, deployer, mechanical arm, mechanical drill (the Aero interlock), mechanical press (the Elec interlock), mechanical mixer, millstone, crushing wheel, mechanical piston, encased fan, gearbox, clutch, gearshift, water wheel, hand crank, basin, depot.$(br2)Both Aero and Elec depend on Mech for their top-tier items, making Mech the hub of the Engineer tree."
+    }
+  ]
+}

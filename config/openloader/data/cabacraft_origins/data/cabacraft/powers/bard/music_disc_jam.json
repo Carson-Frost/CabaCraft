@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:bard/music_disc_jam",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "III",
+      "IDI",
+      "III"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_nugget"
+      },
+      "D": {
+        "item": "minecraft:music_disc_13"
+      }
+    },
+    "result": {
+      "item": "nirvana:music_disc_jam",
+      "count": 1
+    }
+  }
+}

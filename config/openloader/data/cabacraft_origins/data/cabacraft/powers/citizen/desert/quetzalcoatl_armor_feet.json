@@ -1,0 +1,34 @@
+{
+  "type": "origins:recipe",
+  "hidden": true,
+  "recipe": {
+    "id": "cabacraft:citizen/desert/quetzalcoatl_armor_feet",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ACA",
+      "BCB",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gilded_blackstone"
+      },
+      "B": {
+        "item": "minecraft:gold_block"
+      },
+      "C": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "result": {
+      "item": "armoroftheages:quetzalcoatl_armor_feet",
+      "count": 1
+    }
+  },
+  "condition": {
+    "type": "apoli:scoreboard",
+    "objective": "cabacraft_faction",
+    "comparison": "==",
+    "compare_to": 1
+  }
+}
