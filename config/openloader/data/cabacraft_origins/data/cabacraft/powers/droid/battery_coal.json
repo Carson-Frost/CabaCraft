@@ -14,18 +14,9 @@
       "always_edible": true
     },
     "entity_action": {
-      "type": "origins:and",
-      "actions": [
-        {
-          "type": "origins:change_resource",
-          "resource": "cabacraft:droid/battery",
-          "change": 4
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "playsound minecraft:block.anvil.use player @s ~ ~ ~ 0.4 1.4"
-        }
-      ]
+      "type": "origins:change_resource",
+      "resource": "cabacraft:droid/battery",
+      "change": 4
     }
   },
   "coal_block": {
@@ -42,18 +33,9 @@
       "always_edible": true
     },
     "entity_action": {
-      "type": "origins:and",
-      "actions": [
-        {
-          "type": "origins:change_resource",
-          "resource": "cabacraft:droid/battery",
-          "change": 20
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "playsound minecraft:block.anvil.use player @s ~ ~ ~ 0.7 1.0"
-        }
-      ]
+      "type": "origins:change_resource",
+      "resource": "cabacraft:droid/battery",
+      "change": 20
     }
   }
 }
