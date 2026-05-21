@@ -1,0 +1,11 @@
+{
+  "name": "Goblin",
+  "icon": "minecraft:emerald",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Small humanoid. Bipedal green-skinned scavenger with a knack for mechanisms and metalwork. Lives small, dies easy, fixes everything.$(br2)Height: 0.75$(br)Width: 0.55$(br2)$(bold)Tinker's Touch.$(/) Break speed +50% on copper, iron, gold, redstone, lapis, and nether quartz ores, plus raw-metal blocks.$(br2)$(bold)Quick Reflexes.$(/) Movement speed +10%.$(br2)$(bold)Light Step.$(/) Fall damage reduced 50%.$(br2)$(bold)Frail Frame.$(/) Maximum health 14 (7 hearts).$(br2)$(bold)Small Arms.$(/) Melee damage -1."
+    }
+  ]
+}

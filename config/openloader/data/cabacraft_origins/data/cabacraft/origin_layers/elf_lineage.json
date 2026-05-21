@@ -12,7 +12,8 @@
       "origins": [
         "cabacraft:elf_high",
         "cabacraft:elf_wood",
-        "cabacraft:elf_sea"
+        "cabacraft:elf_sea",
+        "cabacraft:drow"
       ]
     }
   ]

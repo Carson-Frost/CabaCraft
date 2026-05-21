@@ -1,0 +1,16 @@
+{
+  "type": "origins:effect_immunity",
+  "effects": [
+    "minecraft:poison",
+    "minecraft:weakness",
+    "minecraft:slowness",
+    "minecraft:mining_fatigue",
+    "minecraft:nausea",
+    "minecraft:blindness",
+    "minecraft:wither",
+    "minecraft:hunger",
+    "minecraft:levitation",
+    "minecraft:bad_omen",
+    "minecraft:darkness"
+  ]
+}

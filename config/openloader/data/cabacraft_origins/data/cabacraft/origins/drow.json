@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "cabacraft:drow/superior_darkvision",
+    "cabacraft:drow/shadow_strike",
+    "cabacraft:drow/shadow_vanish",
+    "cabacraft:drow/drow_constitution",
+    "cabacraft:drow/sunlight_sensitivity",
+    "cabacraft:drow/sunlight_break",
+    "cabacraft:drow/sunlight_ranged"
+  ],
+  "icon": {
+    "item": "minecraft:wither_skeleton_skull"
+  },
+  "order": 3,
+  "impact": 1
+}

@@ -12,7 +12,9 @@
     "cabacraft:dragonborn",
     "cabacraft:half_orc",
     "cabacraft:dwarf",
-    "cabacraft:human"
+    "cabacraft:human",
+    "cabacraft:droid",
+    "cabacraft:goblin"
   ],
   "allow_random": false,
   "allow_random_unchoosable": false,

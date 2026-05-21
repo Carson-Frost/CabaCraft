@@ -1,0 +1,42 @@
+{
+  "type": "origins:multiple",
+  "iron_nugget": {
+    "type": "origins:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "items": ["minecraft:iron_nugget"]
+      }
+    },
+    "food_component": {
+      "hunger": 1,
+      "saturation": 0.6
+    }
+  },
+  "iron_ingot": {
+    "type": "origins:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "items": ["minecraft:iron_ingot"]
+      }
+    },
+    "food_component": {
+      "hunger": 4,
+      "saturation": 4.8
+    }
+  },
+  "iron_block": {
+    "type": "origins:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "items": ["minecraft:iron_block"]
+      }
+    },
+    "food_component": {
+      "hunger": 8,
+      "saturation": 9.6
+    }
+  }
+}

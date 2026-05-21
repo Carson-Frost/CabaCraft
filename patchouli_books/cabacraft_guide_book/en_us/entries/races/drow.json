@@ -1,0 +1,11 @@
+{
+  "name": "Drow",
+  "icon": "minecraft:wither_skeleton_skull",
+  "category": "patchouli:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Underdark lineage of the Elf race. Stacks on the shared Elf traits. Built for caves, dungeons, and night fighting; weakened in surface daylight.$(br2)$(bold)Superior Darkvision.$(/) Full night vision (strength 1.0) at all times, including underwater. Overrides the shared Elf's faint vision.$(br2)$(bold)Shadow Strike.$(/) Melee damage +30% in light level 7 or below.$(br2)$(bold)Shadow Vanish.$(/) While sneaking in light level 7 or below, the player turns invisible. Armor is hidden as well.$(br2)$(bold)Drow Constitution.$(/) Immune to the Poison effect.$(br2)$(bold)Sunlight Sensitivity.$(/) While exposed to direct sky in daylight (not raining): melee damage -25%, ranged damage -25% with bows and crossbows, break speed -25%."
+    }
+  ]
+}

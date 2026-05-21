@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Small arms",
+    "attribute": "minecraft:generic.attack_damage",
+    "value": -1.0,
+    "operation": "addition"
+  }
+}

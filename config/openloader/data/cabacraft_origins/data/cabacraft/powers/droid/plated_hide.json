@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Plated hide",
+    "attribute": "minecraft:generic.armor",
+    "value": 1.0,
+    "operation": "addition"
+  }
+}
