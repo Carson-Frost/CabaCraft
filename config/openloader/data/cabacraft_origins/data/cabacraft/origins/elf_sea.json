@@ -2,10 +2,11 @@
   "powers": [
     "cabacraft:elf_sea/gills",
     "cabacraft:elf_sea/swim",
-    "cabacraft:elf_sea/sea_kin"
+    "cabacraft:elf_sea/sea_kin",
+    "cabacraft:elf_sea/skin"
   ],
   "icon": {
-    "item": "minecraft:trident"
+    "item": "mermod:sea_necklace"
   },
   "order": 2,
   "impact": 1

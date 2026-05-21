@@ -1,7 +1,10 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:human/skin"
+  ],
   "icon": {
-    "item": "minecraft:player_head"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1010}"
   },
   "order": 9,
   "impact": 0

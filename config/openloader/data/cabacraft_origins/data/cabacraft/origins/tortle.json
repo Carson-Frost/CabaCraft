@@ -4,10 +4,12 @@
     "cabacraft:tortle/claws",
     "cabacraft:tortle/slow",
     "cabacraft:tortle/shell_guard",
-    "cabacraft:tortle/hold_breath"
+    "cabacraft:tortle/hold_breath",
+    "cabacraft:tortle/skin"
   ],
   "icon": {
-    "item": "minecraft:turtle_helmet"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1001}"
   },
   "order": 0,
   "impact": 2

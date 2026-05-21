@@ -8,10 +8,12 @@
     "cabacraft:ribbit/poison_immunity",
     "cabacraft:ribbit/swim",
     "cabacraft:ribbit/cold_drawback",
-    "cabacraft:ribbit/diet"
+    "cabacraft:ribbit/diet",
+    "cabacraft:ribbit/skin"
   ],
   "icon": {
-    "item": "minecraft:slime_ball"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1002}"
   },
   "order": 1,
   "impact": 1

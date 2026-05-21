@@ -6,7 +6,8 @@
     "cabacraft:drow/drow_constitution",
     "cabacraft:drow/sunlight_sensitivity",
     "cabacraft:drow/sunlight_break",
-    "cabacraft:drow/sunlight_ranged"
+    "cabacraft:drow/sunlight_ranged",
+    "cabacraft:drow/skin"
   ],
   "icon": {
     "item": "minecraft:wither_skeleton_skull"

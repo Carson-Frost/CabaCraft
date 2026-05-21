@@ -6,10 +6,12 @@
     "cabacraft:locathah/leviathan_will",
     "cabacraft:locathah/tail_keeper",
     "cabacraft:locathah/wet",
-    "cabacraft:locathah/dry"
+    "cabacraft:locathah/dry",
+    "cabacraft:locathah/skin"
   ],
   "icon": {
-    "item": "minecraft:cod"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1003}"
   },
   "order": 2,
   "impact": 2

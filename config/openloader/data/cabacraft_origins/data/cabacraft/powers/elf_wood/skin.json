@@ -1,0 +1,13 @@
+{
+  "type": "origins:action_on_callback",
+  "hidden": true,
+  "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "function cabacraft:skin/elf_wood"
+  },
+  "entity_action_lost": {
+    "type": "origins:execute_command",
+    "command": "skin clear @s"
+  },
+  "execute_chosen_when_orb": true
+}

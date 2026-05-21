@@ -5,7 +5,8 @@
     "cabacraft:goblin/quick_reflexes",
     "cabacraft:goblin/light_step",
     "cabacraft:goblin/frail_frame",
-    "cabacraft:goblin/small_arms"
+    "cabacraft:goblin/small_arms",
+    "cabacraft:goblin/skin"
   ],
   "icon": {
     "item": "minecraft:emerald"
