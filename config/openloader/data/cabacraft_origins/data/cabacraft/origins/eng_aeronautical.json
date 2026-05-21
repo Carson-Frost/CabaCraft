@@ -1,7 +1,34 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:eng_aeronautical/propeller",
+    "cabacraft:eng_aeronautical/enhanced_propeller",
+    "cabacraft:eng_aeronautical/industrial_gears",
+    "cabacraft:eng_aeronautical/sturdy_pipes",
+    "cabacraft:eng_aeronautical/improved_landing_gear",
+    "cabacraft:eng_aeronautical/sail",
+    "cabacraft:eng_aeronautical/hull",
+    "cabacraft:eng_aeronautical/hull_reinforcement",
+    "cabacraft:eng_aeronautical/boiler",
+    "cabacraft:eng_aeronautical/steel_boiler",
+    "cabacraft:eng_aeronautical/engine",
+    "cabacraft:eng_aeronautical/eco_engine",
+    "cabacraft:eng_aeronautical/nether_engine",
+    "cabacraft:eng_aeronautical/gyroscope",
+    "cabacraft:eng_aeronautical/gyroscope_hud",
+    "cabacraft:eng_aeronautical/gyroscope_dials",
+    "cabacraft:eng_aeronautical/rotary_cannon",
+    "cabacraft:eng_aeronautical/bomb_bay",
+    "cabacraft:eng_aeronautical/heavy_crossbow",
+    "cabacraft:eng_aeronautical/telescope",
+    "cabacraft:eng_aeronautical/iron_drill",
+    "cabacraft:eng_aeronautical/diamond_drill",
+    "cabacraft:eng_aeronautical/netherite_drill",
+    "cabacraft:eng_aeronautical/copperfin",
+    "cabacraft:eng_aeronautical/tunnel_digger",
+    "cabacraft:eng_aeronautical/bamboo_bee"
+  ],
   "icon": {
-    "item": "immersive_aircraft:hull"
+    "item": "immersive_aircraft:biplane"
   },
   "order": 0,
   "impact": 0

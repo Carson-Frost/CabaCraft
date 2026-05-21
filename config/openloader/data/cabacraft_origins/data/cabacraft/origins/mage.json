@@ -1,7 +1,35 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:mage/wand_novice",
+    "cabacraft:mage/wand_arcane",
+    "cabacraft:mage/wand_fire",
+    "cabacraft:mage/wand_frost",
+    "cabacraft:mage/staff_wizard",
+    "cabacraft:mage/staff_arcane",
+    "cabacraft:mage/staff_fire",
+    "cabacraft:mage/staff_frost",
+    "cabacraft:mage/wizard_robe_head",
+    "cabacraft:mage/wizard_robe_chest",
+    "cabacraft:mage/wizard_robe_legs",
+    "cabacraft:mage/wizard_robe_feet",
+    "cabacraft:mage/arcane_robe_head",
+    "cabacraft:mage/arcane_robe_chest",
+    "cabacraft:mage/arcane_robe_legs",
+    "cabacraft:mage/arcane_robe_feet",
+    "cabacraft:mage/fire_robe_head",
+    "cabacraft:mage/fire_robe_chest",
+    "cabacraft:mage/fire_robe_legs",
+    "cabacraft:mage/fire_robe_feet",
+    "cabacraft:mage/frost_robe_head",
+    "cabacraft:mage/frost_robe_chest",
+    "cabacraft:mage/frost_robe_legs",
+    "cabacraft:mage/frost_robe_feet",
+    "cabacraft:mage/arcane_spell_book",
+    "cabacraft:mage/fire_spell_book",
+    "cabacraft:mage/frost_spell_book"
+  ],
   "icon": {
-    "item": "wizards:wand_arcane"
+    "item": "wizards:staff_wizard"
   },
   "order": 1,
   "impact": 0

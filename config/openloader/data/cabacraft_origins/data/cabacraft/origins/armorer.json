@@ -1,7 +1,27 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:armorer/iron_plate_armor_head",
+    "cabacraft:armorer/iron_plate_armor_chest",
+    "cabacraft:armorer/iron_plate_armor_legs",
+    "cabacraft:armorer/iron_plate_armor_feet",
+    "cabacraft:armorer/heavy_helmet",
+    "cabacraft:armorer/heavy_chestplate",
+    "cabacraft:armorer/heavy_leggings",
+    "cabacraft:armorer/heavy_boots",
+    "cabacraft:armorer/warrior_helmet",
+    "cabacraft:armorer/warrior_chestplate",
+    "cabacraft:armorer/warrior_leggings",
+    "cabacraft:armorer/warrior_boots",
+    "cabacraft:armorer/iron_kite_shield",
+    "cabacraft:armorer/golden_kite_shield",
+    "cabacraft:armorer/diamond_kite_shield",
+    "cabacraft:armorer/lady_maria_helmet",
+    "cabacraft:armorer/lady_maria_chestplate",
+    "cabacraft:armorer/lady_maria_leggings",
+    "cabacraft:armorer/lady_maria_boots"
+  ],
   "icon": {
-    "item": "minecraft:iron_chestplate"
+    "item": "armoroftheages:iron_plate_armor_chest"
   },
   "order": 6,
   "impact": 0

@@ -1,7 +1,7 @@
 {
   "powers": [],
   "icon": {
-    "item": "immersive_aircraft:propeller"
+    "item": "create:wrench"
   },
   "order": 0,
   "impact": 0

@@ -1,5 +1,11 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:gunsmith/pistol",
+    "cabacraft:gunsmith/musket",
+    "cabacraft:gunsmith/blunderbuss",
+    "cabacraft:gunsmith/cartridge",
+    "cabacraft:gunsmith/musket_upgrade_smithing_template"
+  ],
   "icon": {
     "item": "musketmod:musket"
   },

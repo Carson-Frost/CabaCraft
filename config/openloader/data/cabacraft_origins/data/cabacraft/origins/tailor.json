@@ -1,7 +1,36 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:tailor/bandolier",
+    "cabacraft:tailor/cakeman_plushie",
+    "cabacraft:tailor/captain_hat",
+    "cabacraft:tailor/christmas_hat",
+    "cabacraft:tailor/cowboy_hat",
+    "cabacraft:tailor/crown",
+    "cabacraft:tailor/dragon_skull",
+    "cabacraft:tailor/hermes_boots",
+    "cabacraft:tailor/holstered_belt",
+    "cabacraft:tailor/horns",
+    "cabacraft:tailor/item_satchel",
+    "cabacraft:tailor/kasa_hat",
+    "cabacraft:tailor/king_mask",
+    "cabacraft:tailor/overtop_hat",
+    "cabacraft:tailor/pickelhaube",
+    "cabacraft:tailor/pirate_hat",
+    "cabacraft:tailor/pumpkin_hat",
+    "cabacraft:tailor/quiver",
+    "cabacraft:tailor/scarf",
+    "cabacraft:tailor/sewing_kit",
+    "cabacraft:tailor/sheathed_katana",
+    "cabacraft:tailor/skull",
+    "cabacraft:tailor/sombrero",
+    "cabacraft:tailor/straw_hat",
+    "cabacraft:tailor/top_hat",
+    "cabacraft:tailor/tundra_hood",
+    "cabacraft:tailor/wide_brim_hat",
+    "cabacraft:tailor/wings"
+  ],
   "icon": {
-    "item": "minecraft:leather_chestplate"
+    "item": "accents:scarf"
   },
   "order": 6,
   "impact": 0

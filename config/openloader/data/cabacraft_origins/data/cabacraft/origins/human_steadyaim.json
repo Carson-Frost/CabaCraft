@@ -3,7 +3,7 @@
     "cabacraft:human_steadyaim/boon"
   ],
   "icon": {
-    "item": "minecraft:arrow"
+    "item": "archers:mechanic_shortbow"
   },
   "order": 6,
   "impact": 0

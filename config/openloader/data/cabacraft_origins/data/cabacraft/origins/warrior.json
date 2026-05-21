@@ -1,7 +1,17 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:warrior/warrior_armor_head",
+    "cabacraft:warrior/warrior_armor_chest",
+    "cabacraft:warrior/warrior_armor_legs",
+    "cabacraft:warrior/warrior_armor_feet",
+    "cabacraft:warrior/berserker_armor_head",
+    "cabacraft:warrior/berserker_armor_chest",
+    "cabacraft:warrior/berserker_armor_legs",
+    "cabacraft:warrior/berserker_armor_feet",
+    "cabacraft:warrior/warrior_spell_book"
+  ],
   "icon": {
-    "item": "rogues:warrior_armor_chest"
+    "item": "paladins:iron_claymore"
   },
   "order": 3,
   "impact": 0

@@ -1,7 +1,33 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:blacksmith/iron_claymore",
+    "cabacraft:blacksmith/iron_mace",
+    "cabacraft:blacksmith/iron_great_hammer",
+    "cabacraft:blacksmith/golden_claymore",
+    "cabacraft:blacksmith/golden_mace",
+    "cabacraft:blacksmith/golden_great_hammer",
+    "cabacraft:blacksmith/diamond_claymore",
+    "cabacraft:blacksmith/diamond_mace",
+    "cabacraft:blacksmith/diamond_great_hammer",
+    "cabacraft:blacksmith/iron_dagger",
+    "cabacraft:blacksmith/iron_double_axe",
+    "cabacraft:blacksmith/iron_glaive",
+    "cabacraft:blacksmith/iron_sickle",
+    "cabacraft:blacksmith/golden_dagger",
+    "cabacraft:blacksmith/golden_double_axe",
+    "cabacraft:blacksmith/golden_glaive",
+    "cabacraft:blacksmith/golden_sickle",
+    "cabacraft:blacksmith/diamond_dagger",
+    "cabacraft:blacksmith/diamond_double_axe",
+    "cabacraft:blacksmith/diamond_glaive",
+    "cabacraft:blacksmith/diamond_sickle",
+    "cabacraft:blacksmith/weapon_sharp_curved_sword",
+    "cabacraft:blacksmith/weapon_fog_guard_sword",
+    "cabacraft:blacksmith/weapon_dragonslayer_halberd",
+    "cabacraft:blacksmith/weapon_spark_of_dawn_polearm"
+  ],
   "icon": {
-    "item": "minecraft:iron_sword"
+    "item": "minecraft:anvil"
   },
   "order": 7,
   "impact": 0
