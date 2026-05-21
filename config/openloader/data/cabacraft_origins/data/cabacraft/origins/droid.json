@@ -2,6 +2,7 @@
   "powers": [
     "cabacraft:droid/size",
     "cabacraft:droid/constructed_body",
+    "cabacraft:droid/no_hunger",
     "cabacraft:droid/repair_core",
     "cabacraft:droid/sealed_systems",
     "cabacraft:droid/plated_hide",
