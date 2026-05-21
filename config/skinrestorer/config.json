@@ -10,7 +10,7 @@
         "enabled": true,
         "useProviderSignature": false,
         "cache": { "enabled": true, "expirationSeconds": 86400 },
-        "urlTemplate": "file:///C:/Users/carso/curseforge/minecraft/Instances/CabaCraft/config/skinrestorer/skins/{username}.png"
+        "urlTemplate": "https://raw.githubusercontent.com/Carson-Frost/CabaCraft/main/config/skinrestorer/skins/{username}.png"
       }
     ]
   }
