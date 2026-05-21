@@ -1,11 +1,11 @@
 {
   "name": "Droid",
-  "icon": "minecraft:iron_block",
+  "icon": "minecraft:player_head{SkullOwner:{Id:[I;1130301117,541118795,-1160790277,1855626170],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczOTA5NDYzNTEwNywKICAicHJvZmlsZUlkIiA6ICJlMjc5NjliODYyNWY0NDg1YjkyNmM5NTBhMDljMWMwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaVp6YVhQIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiZWE5MzkwZjk5NWRjMDg3N2E3NmJjMDJiMzhmM2M3ZGMzMTM1ODg2NTgyNjViNzNjNmNmMTEyN2M0NTZmZWMiCiAgICB9CiAgfQp9\"}]}}}",
   "category": "patchouli:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Constructed humanoid. Mechanical body, synthetic intelligence. Plated frame, sealed against most biological hazards.$(br2)Height: 1.0$(br)Width: 0.65$(br2)$(bold)Constructed Body.$(/) Cannot eat normal food.$(br2)$(bold)Repair Core.$(/) Iron nuggets, ingots, and blocks are edible — 1, 4, and 8 hunger points respectively.$(br2)$(bold)Sealed Systems.$(/) Immune to Poison, Weakness, Slowness, Mining Fatigue, Nausea, Blindness, Wither, Hunger, Levitation, Bad Omen, and Darkness effects.$(br2)$(bold)Plated Hide.$(/) Armor +1 at all times.$(br2)$(bold)Lightning Rod.$(/) Lightning damage taken doubled.$(br2)$(bold)Heavy Frame.$(/) Swim speed -25%."
+      "text": "Constructed humanoid. Mechanical body, synthetic intelligence. Plated frame, sealed against most biological hazards. Runs on a coal-fed battery; repairs from iron. No hunger bar.$(br2)Height: 1.0$(br)Width: 0.65$(br2)$(bold)Constructed Body.$(/) Cannot eat organic food.$(br2)$(bold)HUD Overlay.$(/) The hunger bar is hidden entirely. Hearts, armor, and XP unchanged.$(br2)$(bold)Repair Core.$(/) Iron nuggets, ingots, and blocks are edible and heal directly: 1, 4, and 10 hearts respectively.$(br2)$(bold)Battery.$(/) An energy bar above the hotbar. Drains by 1 unit per minute. At zero, movement and break speed both drop 50% until refueled.$(br2)$(bold)Coal Fuel.$(/) Eating coal or charcoal refills 4 battery units. A coal block refills the bar to full.$(br2)$(bold)Sealed Systems.$(/) Immune to Poison, Weakness, Slowness, Mining Fatigue, Nausea, Blindness, Wither, Hunger, Levitation, Bad Omen, and Darkness effects.$(br2)$(bold)Plated Hide.$(/) Armor +1 at all times.$(br2)$(bold)Lightning Rod.$(/) Lightning damage taken doubled.$(br2)$(bold)Heavy Frame.$(/) Swim speed -25%."
     }
   ]
 }

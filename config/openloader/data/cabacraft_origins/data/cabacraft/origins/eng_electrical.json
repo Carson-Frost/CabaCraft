@@ -1,7 +1,29 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:eng_electrical/copper_spool",
+    "cabacraft:eng_electrical/gold_spool",
+    "cabacraft:eng_electrical/electrum_spool",
+    "cabacraft:eng_electrical/copper_wire",
+    "cabacraft:eng_electrical/gold_wire",
+    "cabacraft:eng_electrical/iron_wire",
+    "cabacraft:eng_electrical/electrum_wire",
+    "cabacraft:eng_electrical/barbed_wire",
+    "cabacraft:eng_electrical/connector",
+    "cabacraft:eng_electrical/large_connector",
+    "cabacraft:eng_electrical/small_light_connector",
+    "cabacraft:eng_electrical/redstone_relay",
+    "cabacraft:eng_electrical/capacitor",
+    "cabacraft:eng_electrical/accumulator",
+    "cabacraft:eng_electrical/modular_accumulator",
+    "cabacraft:eng_electrical/electric_motor",
+    "cabacraft:eng_electrical/alternator",
+    "cabacraft:eng_electrical/tesla_coil",
+    "cabacraft:eng_electrical/portable_energy_interface",
+    "cabacraft:eng_electrical/rolling_mill",
+    "cabacraft:eng_electrical/digital_adapter"
+  ],
   "icon": {
-    "item": "createaddition:electric_motor"
+    "item": "createaddition:tesla_coil"
   },
   "order": 2,
   "impact": 0

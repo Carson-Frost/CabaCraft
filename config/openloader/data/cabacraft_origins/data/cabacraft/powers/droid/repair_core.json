@@ -9,8 +9,13 @@
       }
     },
     "food_component": {
-      "hunger": 1,
-      "saturation": 0.6
+      "hunger": 0,
+      "saturation": 0,
+      "always_edible": true
+    },
+    "entity_action": {
+      "type": "origins:heal",
+      "amount": 2
     }
   },
   "iron_ingot": {
@@ -22,8 +27,13 @@
       }
     },
     "food_component": {
-      "hunger": 4,
-      "saturation": 4.8
+      "hunger": 0,
+      "saturation": 0,
+      "always_edible": true
+    },
+    "entity_action": {
+      "type": "origins:heal",
+      "amount": 8
     }
   },
   "iron_block": {
@@ -35,8 +45,13 @@
       }
     },
     "food_component": {
-      "hunger": 8,
-      "saturation": 9.6
+      "hunger": 0,
+      "saturation": 0,
+      "always_edible": true
+    },
+    "entity_action": {
+      "type": "origins:heal",
+      "amount": 20
     }
   }
 }

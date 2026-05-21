@@ -1,7 +1,30 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:eng_mechanical/wrench",
+    "cabacraft:eng_mechanical/goggles",
+    "cabacraft:eng_mechanical/schematic_table",
+    "cabacraft:eng_mechanical/belt_connector",
+    "cabacraft:eng_mechanical/empty_blaze_burner",
+    "cabacraft:eng_mechanical/mechanical_saw",
+    "cabacraft:eng_mechanical/deployer",
+    "cabacraft:eng_mechanical/mechanical_arm",
+    "cabacraft:eng_mechanical/mechanical_drill",
+    "cabacraft:eng_mechanical/mechanical_press",
+    "cabacraft:eng_mechanical/mechanical_mixer",
+    "cabacraft:eng_mechanical/millstone",
+    "cabacraft:eng_mechanical/crushing_wheel",
+    "cabacraft:eng_mechanical/mechanical_piston",
+    "cabacraft:eng_mechanical/encased_fan",
+    "cabacraft:eng_mechanical/gearbox",
+    "cabacraft:eng_mechanical/clutch",
+    "cabacraft:eng_mechanical/gearshift",
+    "cabacraft:eng_mechanical/water_wheel",
+    "cabacraft:eng_mechanical/hand_crank",
+    "cabacraft:eng_mechanical/basin",
+    "cabacraft:eng_mechanical/depot"
+  ],
   "icon": {
-    "item": "create:mechanical_drill"
+    "item": "create:cogwheel"
   },
   "order": 1,
   "impact": 0

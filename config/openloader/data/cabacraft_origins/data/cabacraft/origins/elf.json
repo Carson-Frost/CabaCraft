@@ -7,7 +7,8 @@
     "cabacraft:elf/easily_shoved"
   ],
   "icon": {
-    "item": "minecraft:bow"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1004}"
   },
   "order": 3,
   "impact": 1

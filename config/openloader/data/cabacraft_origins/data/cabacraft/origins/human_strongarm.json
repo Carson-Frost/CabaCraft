@@ -3,7 +3,7 @@
     "cabacraft:human_strongarm/boon"
   ],
   "icon": {
-    "item": "minecraft:iron_sword"
+    "item": "paladins:iron_mace"
   },
   "order": 5,
   "impact": 0

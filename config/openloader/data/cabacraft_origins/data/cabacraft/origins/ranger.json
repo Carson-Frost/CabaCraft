@@ -1,7 +1,31 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:ranger/composite_longbow",
+    "cabacraft:ranger/crystal_longbow",
+    "cabacraft:ranger/crystal_shortbow",
+    "cabacraft:ranger/mechanic_shortbow",
+    "cabacraft:ranger/royal_longbow",
+    "cabacraft:ranger/heavy_crossbow",
+    "cabacraft:ranger/rapid_crossbow",
+    "cabacraft:ranger/flint_spear",
+    "cabacraft:ranger/iron_spear",
+    "cabacraft:ranger/golden_spear",
+    "cabacraft:ranger/diamond_spear",
+    "cabacraft:ranger/aeternium_spear",
+    "cabacraft:ranger/archer_armor_head",
+    "cabacraft:ranger/archer_armor_chest",
+    "cabacraft:ranger/archer_armor_legs",
+    "cabacraft:ranger/archer_armor_feet",
+    "cabacraft:ranger/ranger_armor_head",
+    "cabacraft:ranger/ranger_armor_chest",
+    "cabacraft:ranger/ranger_armor_legs",
+    "cabacraft:ranger/ranger_armor_feet",
+    "cabacraft:ranger/auto_fire_hook",
+    "cabacraft:ranger/quiver",
+    "cabacraft:ranger/archer_spell_book"
+  ],
   "icon": {
-    "item": "archers:archer_armor_chest"
+    "item": "archers:composite_longbow"
   },
   "order": 4,
   "impact": 0

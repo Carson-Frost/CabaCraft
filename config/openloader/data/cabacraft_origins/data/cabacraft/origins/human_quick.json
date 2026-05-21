@@ -3,7 +3,7 @@
     "cabacraft:human_quick/boon"
   ],
   "icon": {
-    "item": "minecraft:sugar"
+    "item": "minecraft:rabbit_foot"
   },
   "order": 1,
   "impact": 0

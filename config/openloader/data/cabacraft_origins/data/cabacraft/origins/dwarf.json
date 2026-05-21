@@ -11,8 +11,8 @@
     "cabacraft:dwarf/skin"
   ],
   "icon": {
-    "item": "minecraft:paper",
-    "nbt": "{CustomModelData:1009}"
+    "item": "minecraft:player_head",
+    "nbt": "{SkullOwner:{Id:[I;-1786143728,-633622482,1407490344,986799770],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTc0NjU1NDEzOSwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YzJhNWU4ZTZjOGI2YzJmYTQ4MzliNjNmZWVlMTczNjRjOGMxMTJiNDg2ODYyNDhmNjEyNzE5YjQ0ZjNmZGU0IgogICAgfQogIH0KfQ==\"}]}}}"
   },
   "order": 8,
   "impact": 2

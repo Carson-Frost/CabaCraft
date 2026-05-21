@@ -6,7 +6,8 @@
     "cabacraft:elf_wood/skin"
   ],
   "icon": {
-    "item": "archers:composite_longbow"
+    "item": "minecraft:player_head",
+    "nbt": "{SkullOwner:{Id:[I;342929103,569142397,-1897937298,-1269208894],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDExNzU3MzUwNiwKICAicHJvZmlsZUlkIiA6ICJmZGRmY2M4NjZmNWQ0N2JiOWE1ZmIwYmRiMzViYjQyYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYWRpcmNhbnBlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmNjA5MzdlNGU4NTUwNmNkNGRkMTI1MzdkMTQ1MjE1MjRiMGNkODE0OWI2ZTMwOWE2NjM1YzYwYTlmYTJhZmMiCiAgICB9CiAgfQp9\"}]}}}"
   },
   "order": 1,
   "impact": 1

@@ -1,0 +1,33 @@
+{
+  "type": "origins:multiple",
+  "slowdown": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Battery depleted",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.5,
+      "operation": "multiply_base"
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "cabacraft:droid/battery",
+      "comparison": "<=",
+      "compare_to": 0
+    }
+  },
+  "mining_penalty": {
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "name": "Battery depleted (mining)",
+      "operation": "multiply_total",
+      "value": -0.5
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "cabacraft:droid/battery",
+      "comparison": "<=",
+      "compare_to": 0
+    }
+  }
+}

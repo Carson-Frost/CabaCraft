@@ -1,7 +1,23 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:rogue/rogue_armor_head",
+    "cabacraft:rogue/rogue_armor_chest",
+    "cabacraft:rogue/rogue_armor_legs",
+    "cabacraft:rogue/rogue_armor_feet",
+    "cabacraft:rogue/assassin_armor_head",
+    "cabacraft:rogue/assassin_armor_chest",
+    "cabacraft:rogue/assassin_armor_legs",
+    "cabacraft:rogue/assassin_armor_feet",
+    "cabacraft:rogue/rogue_spell_book",
+    "cabacraft:rogue/grave_sentinel_helmet",
+    "cabacraft:rogue/grave_sentinel_chestplate",
+    "cabacraft:rogue/grave_sentinel_leggings",
+    "cabacraft:rogue/grave_sentinel_boots",
+    "cabacraft:rogue/weapon_cursed_blade",
+    "cabacraft:rogue/weapon_crimson_reaper"
+  ],
   "icon": {
-    "item": "rogues:rogue_armor_chest"
+    "item": "rogues:iron_dagger"
   },
   "order": 5,
   "impact": 0

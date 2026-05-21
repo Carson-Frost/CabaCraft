@@ -1,5 +1,22 @@
 {
-  "powers": [],
+  "powers": [
+    "cabacraft:tinkerer/redstone_mechanism",
+    "cabacraft:tinkerer/redstone_sheep",
+    "cabacraft:tinkerer/extendo_grip",
+    "cabacraft:tinkerer/pocket_watch",
+    "cabacraft:tinkerer/depth_meter",
+    "cabacraft:tinkerer/climate_gauge",
+    "cabacraft:tinkerer/weather_radio",
+    "cabacraft:tinkerer/lunar_calendar",
+    "cabacraft:tinkerer/altimeter",
+    "cabacraft:tinkerer/wrench",
+    "cabacraft:tinkerer/rope_arrow",
+    "cabacraft:tinkerer/spring_launcher",
+    "cabacraft:tinkerer/camera",
+    "cabacraft:tinkerer/black_and_white_film",
+    "cabacraft:tinkerer/color_film",
+    "cabacraft:tinkerer/projector"
+  ],
   "icon": {
     "item": "tide:pocket_watch"
   },

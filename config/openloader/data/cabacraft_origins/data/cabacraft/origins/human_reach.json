@@ -3,7 +3,7 @@
     "cabacraft:human_reach/boon"
   ],
   "icon": {
-    "item": "minecraft:fishing_rod"
+    "item": "supplementaries:rope_arrow"
   },
   "order": 2,
   "impact": 0

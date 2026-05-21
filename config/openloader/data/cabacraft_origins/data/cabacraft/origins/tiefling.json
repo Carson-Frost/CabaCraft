@@ -8,8 +8,8 @@
     "cabacraft:tiefling/skin"
   ],
   "icon": {
-    "item": "minecraft:paper",
-    "nbt": "{CustomModelData:1006}"
+    "item": "minecraft:player_head",
+    "nbt": "{SkullOwner:{Id:[I;-1405170405,562728978,112290684,659397743],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDIxMTg4MTg1OCwKICAicHJvZmlsZUlkIiA6ICJiZmMyODE3ZWRhZWM0OWY5YTVmMWVkNTdjODZhMGFjOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFYm95UmV6YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YzcxZWMyZTAyZjgxY2YzZjVmMzEyZTM1ZGYxYmFiN2E0MmU0MTQ2NTdhMmZkYTI1YmQ5MjBlNzg4OTVhZjYiCiAgICB9CiAgfQp9\"}]}}}"
   },
   "order": 5,
   "impact": 2

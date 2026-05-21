@@ -1,6 +1,6 @@
 {
   "name": "Sea Elf",
-  "icon": "minecraft:trident",
+  "icon": "minecraft:player_head{SkullOwner:{Id:[I;901519860,-1733789411,-83034972,-1308212767],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3OTQwMTIzMDk3MSwKICAicHJvZmlsZUlkIiA6ICIwNDg2YWUwMWI4Y2I0OWUzODMyZDcwOTNmMWJlNzI3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfcGFrbWFuXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZjI2YmFmNDk2M2IzNGM4NjdiZmIxOTQ4Y2YyOWY4MjAyMDdlNmVhNjM3ZWEzZGE3OTBjYmUxNjBhNWU1YzI0IgogICAgfQogIH0KfQ==\"}]}}}",
   "category": "patchouli:races",
   "pages": [
     {
