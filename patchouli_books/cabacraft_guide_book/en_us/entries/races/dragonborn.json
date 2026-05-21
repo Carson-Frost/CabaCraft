@@ -1,11 +1,11 @@
 {
   "name": "Dragonborn",
-  "icon": "minecraft:dragon_breath",
+  "icon": "minecraft:player_head{SkullOwner:{Id:[I;1576275640,-843381846,-1136900283,207671999],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMjY0OTM5MTgyNywKICAicHJvZmlsZUlkIiA6ICJkYmNlZjMyZjI5ZDc0Y2UzOTUzOWMwYjBhMTE1YjZiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJyYW1waXJlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4NDU4NzU4ODg4OTZhYjZiNmU1ZjI5ZDY2YWM5ZWY2YjQxZjIyN2UxMjY4NWRlNGNiMTM0OWUzMGMwZTM1YzgiCiAgICB9CiAgfQp9\"}]}}}",
   "category": "patchouli:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Scaled humanoid. Bipedal draconid; larger and broader than human. Carries draconic ancestry in its skin and breath.$(br2)Height: 1.08$(br)Width: 1.05$(br2)$(bold)Breath Weapon.$(/) Active. Press the Origins primary key to exhale a fire cone — 5 damage to targets within 3 blocks, ignites for 4 seconds. Cooldown 15 seconds; tracked on a HUD bar.$(br2)$(bold)Dragon Blood.$(/) Fire damage taken reduced 50%.$(br2)$(bold)Scaled Hide.$(/) Armor +2 at all times.$(br2)$(bold)Frostbane.$(/) Freeze damage taken increased by 3 per tick."
+      "text": "Scaled humanoid. Bipedal draconid; larger and broader than human. Carries draconic ancestry in its skin and breath.$(br2)Height: 1.08$(br)Width: 1.05$(br2)$(bold)Breath Weapon.$(/) Active. Press the Origins primary key to exhale a fire cone \u2014 5 damage to targets within 3 blocks, ignites for 4 seconds. Cooldown 15 seconds; tracked on a HUD bar.$(br2)$(bold)Dragon Blood.$(/) Fire damage taken reduced 50%.$(br2)$(bold)Scaled Hide.$(/) Armor +2 at all times.$(br2)$(bold)Frostbane.$(/) Freeze damage taken increased by 3 per tick."
     }
   ]
 }
