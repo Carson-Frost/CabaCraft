@@ -1,0 +1,41 @@
+{
+  "type": "origins:multiple",
+  "coal": {
+    "type": "origins:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "items": ["minecraft:coal"]
+      }
+    },
+    "food_component": {
+      "hunger": 0,
+      "saturation": 0,
+      "always_edible": true
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "cabacraft:droid/battery",
+      "change": 4
+    }
+  },
+  "coal_block": {
+    "type": "origins:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "items": ["minecraft:coal_block"]
+      }
+    },
+    "food_component": {
+      "hunger": 0,
+      "saturation": 0,
+      "always_edible": true
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "cabacraft:droid/battery",
+      "change": 20
+    }
+  }
+}
