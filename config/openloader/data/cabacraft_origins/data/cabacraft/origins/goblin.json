@@ -10,7 +10,7 @@
   ],
   "icon": {
     "item": "minecraft:paper",
-    "nbt": "{CustomModelData:1012}"
+    "tag": "{CustomModelData:1012}"
   },
   "order": 11,
   "impact": 2
