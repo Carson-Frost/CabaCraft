@@ -7,8 +7,8 @@
     "cabacraft:elf_high/skin"
   ],
   "icon": {
-    "item": "minecraft:player_head",
-    "nbt": "{SkullOwner:{Id:[I;-2030275517,-447437910,112620528,2039157740],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc3OTE1MjkxNjc4MSwKICAicHJvZmlsZUlkIiA6ICI2ZjU1ZTk4NGFiZTM0NjNjODVmOGVhZTVhNjU0ZDg5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWxNc1doZWV6eSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NTBlMWY1ZTgzZTJiM2I3NGY5YTQ4OWU5NDdjNzg0YjlmNDI1ODEyMGRkYTJjNGEwNjg0Y2I0NGQ4MWMzNmRlIgogICAgfQogIH0KfQ==\"}]}}}"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1014}"
   },
   "order": 0,
   "impact": 1

@@ -8,8 +8,8 @@
     "cabacraft:tortle/skin"
   ],
   "icon": {
-    "item": "minecraft:player_head",
-    "nbt": "{SkullOwner:{Id:[I;-145446395,-211057036,313710735,-222717274],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzMzU3NDkzNTgyOSwKICAicHJvZmlsZUlkIiA6ICJmZDQ3Y2I4YjgzNjQ0YmY3YWIyYmUxODZkYjI1ZmMwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDEyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlMWEwYzViODllYWE2ZjMwMzBjNThjNTk1MGFmZmFlNjhmZDM2ZjBkNGZkZDlhYTU3MTc5N2U2ZWQ1MTNlYjMiCiAgICB9CiAgfQp9\"}]}}}"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1001}"
   },
   "order": 0,
   "impact": 2

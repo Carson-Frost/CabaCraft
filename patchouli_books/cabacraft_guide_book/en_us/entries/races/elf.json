@@ -1,6 +1,6 @@
 {
   "name": "Elf",
-  "icon": "minecraft:bow",
+  "icon": "minecraft:paper{CustomModelData:1004}",
   "category": "patchouli:races",
   "pages": [
     {

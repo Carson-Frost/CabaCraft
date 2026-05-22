@@ -1,6 +1,6 @@
 {
   "name": "Drow",
-  "icon": "minecraft:player_head{SkullOwner:{Id:[I;-1926291596,-1550366511,1198184278,-1218370192],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc0MjE1Njc2MTg3NCwKICAicHJvZmlsZUlkIiA6ICJkNWRmZDkzNjA4MTg0YTdlYTgyOTNlMzFlZDY4MmI5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzY2htZWtlbGRvcmYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQxZDU5YmUwZTg5MzI3OTRjMGI0NjU2ZDc4MzA1YjAxN2M5YjkwNGZmZmY1NjhjOTFjYTFmN2IyNGMzMzg5YSIKICAgIH0KICB9Cn0=\"}]}}}",
+  "icon": "minecraft:paper{CustomModelData:1013}",
   "category": "patchouli:races",
   "pages": [
     {
