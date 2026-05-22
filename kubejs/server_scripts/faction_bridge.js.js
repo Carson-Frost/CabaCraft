@@ -43,7 +43,11 @@ function clearTeamFaction(server, teamId) {
 }
 function factionTaken(server, facNum) {
   let b = bindings(server)
-  return b.getAllKeys().toArray().some(k => b.getInt(k) === facNum)
+  // getAllKeys() is a Java Set; iterate with for..of (KubeJS Rhino supports
+  // Java Iterables). Do NOT use .some() on .toArray() — JS array methods are
+  // not present on a raw Java Object[], so .some is undefined and throws.
+  for (let k of b.getAllKeys()) { if (b.getInt(k) === facNum) return true }
+  return false
 }
 
 // ---- resolve a player's FTB party + owner via the FTB Teams Java API -------
