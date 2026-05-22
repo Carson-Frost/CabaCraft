@@ -8,8 +8,8 @@
     "cabacraft:dragonborn/skin"
   ],
   "icon": {
-    "item": "minecraft:player_head",
-    "nbt": "{SkullOwner:{Id:[I;1576275640,-843381846,-1136900283,207671999],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMjY0OTM5MTgyNywKICAicHJvZmlsZUlkIiA6ICJkYmNlZjMyZjI5ZDc0Y2UzOTUzOWMwYjBhMTE1YjZiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJyYW1waXJlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4NDU4NzU4ODg4OTZhYjZiNmU1ZjI5ZDY2YWM5ZWY2YjQxZjIyN2UxMjY4NWRlNGNiMTM0OWUzMGMwZTM1YzgiCiAgICB9CiAgfQp9\"}]}}}"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1007}"
   },
   "order": 6,
   "impact": 2

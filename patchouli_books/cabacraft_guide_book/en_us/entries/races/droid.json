@@ -1,6 +1,6 @@
 {
   "name": "Droid",
-  "icon": "minecraft:player_head{SkullOwner:{Id:[I;1130301117,541118795,-1160790277,1855626170],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczOTA5NDYzNTEwNywKICAicHJvZmlsZUlkIiA6ICJlMjc5NjliODYyNWY0NDg1YjkyNmM5NTBhMDljMWMwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaVp6YVhQIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiZWE5MzkwZjk5NWRjMDg3N2E3NmJjMDJiMzhmM2M3ZGMzMTM1ODg2NTgyNjViNzNjNmNmMTEyN2M0NTZmZWMiCiAgICB9CiAgfQp9\"}]}}}",
+  "icon": "minecraft:paper{CustomModelData:1011}",
   "category": "patchouli:races",
   "pages": [
     {

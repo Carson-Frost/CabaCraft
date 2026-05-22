@@ -12,8 +12,8 @@
     "cabacraft:ribbit/skin"
   ],
   "icon": {
-    "item": "minecraft:player_head",
-    "nbt": "{SkullOwner:{Id:[I;-1619711716,-1227700912,-61092415,923223488],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc2MDcxNzg1ODE1MywKICAicHJvZmlsZUlkIiA6ICI0OThjYTc2ZGYwODM0NzhmOGY0NjdjOGY1OTQwMjk1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWx0cm8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmIxZDU1YzlkYzFhNzE1MWZiYWZiNjI1YTE0MTg0MDU1MWE4YmU4NmQ5MDA3MzIzMjM3Zjk4ZGFlYWZlNWU0ZSIKICAgIH0KICB9Cn0=\"}]}}}"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1002}"
   },
   "order": 1,
   "impact": 1

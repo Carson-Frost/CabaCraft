@@ -9,8 +9,8 @@
     "cabacraft:goblin/skin"
   ],
   "icon": {
-    "item": "minecraft:player_head",
-    "nbt": "{SkullOwner:{Id:[I;1655937675,-802004364,1175695549,-471523590],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczODk3NjkzMjY1NCwKICAicHJvZmlsZUlkIiA6ICI3MjU1MDA3NjQzYzQ0YTZiYjM3MjJlNzc3OTk5OTFkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4M250YW55IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNkY2MzNDNjZmFjMjFlMWIwNmRlZmNmNWE5MWY0YmQ5ZDI4MDk5MDE2YmI3NzJiNGM2NDNjZGNkMWY3YjZhZTgiCiAgICB9CiAgfQp9\"}]}}}"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1012}"
   },
   "order": 11,
   "impact": 2

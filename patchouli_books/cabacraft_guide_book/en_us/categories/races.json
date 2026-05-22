@@ -1,6 +1,6 @@
 {
   "name": "Races",
-  "description": "Ten races. Pick one at world creation. The choice is permanent.",
-  "icon": "minecraft:player_head",
+  "description": "Twelve races. Pick one at world creation. The choice is permanent.",
+  "icon": "minecraft:paper{CustomModelData:1001}",
   "sortnum": 1
 }

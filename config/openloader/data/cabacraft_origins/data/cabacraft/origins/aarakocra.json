@@ -9,8 +9,8 @@
     "cabacraft:aarakocra/skin"
   ],
   "icon": {
-    "item": "minecraft:player_head",
-    "nbt": "{SkullOwner:{Id:[I;-2102678658,6724971,1400220446,1103005498],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5MTI0MzYyNzU4MCwKICAicHJvZmlsZUlkIiA6ICJiMTM1MDRmMjMxOGI0OWNjYWFkZDcyYWVhYmMyNTQ1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUeXBrZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlMDkyYjA2NDNhNzYyYTI4ODJlYmViZThhMjJmODRhZDIyZDE3OTM4NGY4ZjdmOGIyYjUzMjBjZjAwOTc3IgogICAgfQogIH0KfQ==\"}]}}}"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1005}"
   },
   "order": 4,
   "impact": 2

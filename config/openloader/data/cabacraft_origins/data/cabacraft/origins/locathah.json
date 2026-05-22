@@ -10,8 +10,8 @@
     "cabacraft:locathah/skin"
   ],
   "icon": {
-    "item": "minecraft:player_head",
-    "nbt": "{SkullOwner:{Id:[I;1736668281,1991326418,-1711508535,2126120970],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczNzAwMDkzMTEzOSwKICAicHJvZmlsZUlkIiA6ICJkYjQwYmNjNWUzMDE0ZmZjOGVlOWQxNDU5MTcyYjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJhWGUxOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTU2OGQxYjA0ODRkOTNhYTBlN2U1YjQxM2U4Yzk4NjE4ZDU2YmVkNjMwMWQzOTBhNDFkMDcxZjM3ZDhmODM1IgogICAgfQogIH0KfQ==\"}]}}}"
+    "item": "minecraft:paper",
+    "nbt": "{CustomModelData:1003}"
   },
   "order": 2,
   "impact": 2
