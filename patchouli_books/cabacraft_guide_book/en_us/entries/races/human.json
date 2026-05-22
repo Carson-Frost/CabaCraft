@@ -1,6 +1,6 @@
 {
   "name": "Human",
-  "icon": "minecraft:player_head",
+  "icon": "minecraft:paper{CustomModelData:1010}",
   "category": "patchouli:races",
   "pages": [
     {
