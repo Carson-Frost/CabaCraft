@@ -5,6 +5,10 @@
     "type": "origins:execute_command",
     "command": "function cabacraft:skin/locathah"
   },
+  "entity_action_added": {
+    "type": "origins:execute_command",
+    "command": "function cabacraft:skin/locathah"
+  },
   "entity_action_lost": {
     "type": "origins:execute_command",
     "command": "skin clear @s"
