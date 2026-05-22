@@ -259,7 +259,40 @@ ServerEvents.recipes(event => {
     'createaddition:portable_energy_interface',
     'createaddition:tesla_coil',
     'createaddition:rolling_mill',
-    
+
+    // ENGINEER DISCIPLINES — class-gated (origins:recipe on cabacraft:eng_mechanical /
+    //   eng_electrical / eng_aeronautical). Phase-3 removal-sync MISSED these base
+    //   machines (the "rest were already removed by trader-audit" assumption was wrong
+    //   for Engineer); exclusivity audit 2026-05-22 caught all 23. No trader fallback —
+    //   Engineer is the sole gateway to Create (user-confirmed). Sibling Create/CA items
+    //   are already locked in the MECHANIST block above.
+    // -- Mechanical (Create) --
+    'create:basin',
+    'create:clutch',
+    'create:depot',
+    'create:encased_fan',
+    'create:gearbox',
+    'create:gearshift',
+    'create:hand_crank',
+    'create:mechanical_mixer',
+    'create:mechanical_piston',
+    'create:mechanical_press',
+    'create:millstone',
+    'create:water_wheel',
+    // -- Electrical (Create Addition) --
+    'createaddition:barbed_wire',
+    'createaddition:copper_spool',
+    'createaddition:digital_adapter',
+    'createaddition:electrum_spool',
+    'createaddition:gold_spool',
+    'createaddition:modular_accumulator',
+    'createaddition:small_light_connector',
+    // -- Aeronautical (Immersive Machinery) --
+    'immersive_machinery:bamboo_bee',
+    'immersive_machinery:copperfin',
+    'immersive_machinery:iron_drill',
+    'immersive_machinery:tunnel_digger',
+
 
     // CULTIST 'villagersplus:occultist' — initiate death-knight gear + fantasy_armor dark_lord set + dark_lord_sword twin
     'fantasy_weapons:weapon_dark_lord_sword',
