@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "order": 20,
+  "enabled": true,
+  "auto_choose": true,
+  "hidden": true,
+  "default_origin": "cabacraft:citizen",
+  "origins": [
+    "cabacraft:citizen"
+  ],
+  "allow_random": false
+}
