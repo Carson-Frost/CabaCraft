@@ -8,7 +8,7 @@
 		"compactUsabilityHints": false
 	},
 	"executeCommand": {
-		"permissionLevel": 2,
+		"permissionLevel": 4,
 		"showOutput": false
 	}
 }
