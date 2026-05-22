@@ -1,17 +1,69 @@
 {
   "language": "en_us",
-  "join": {},
-  "request": {},
+  "join": {
+    "refreshSkin": true,
+    "skipRefreshProviders": [],
+    "applyDelay": 0,
+    "autoFetch": {
+      "enabled": false,
+      "overrideExisting": false,
+      "provider": "mojang"
+    }
+  },
+  "request": {
+    "proxy": "",
+    "timeout": 10,
+    "userAgent": ""
+  },
   "providers": {
+    "mojang": {
+      "enabled": true,
+      "name": "mojang",
+      "cache": {
+        "enabled": true,
+        "duration": 60
+      }
+    },
+    "ely_by": {
+      "enabled": true,
+      "name": "ely.by",
+      "cache": {
+        "enabled": true,
+        "duration": 60
+      }
+    },
+    "mineskin": {
+      "apiKey": "",
+      "proxyUrlUpload": false,
+      "enabled": true,
+      "name": "web",
+      "cache": {
+        "enabled": true,
+        "duration": 300
+      }
+    },
+    "collection": {
+      "sources": [],
+      "enabled": false,
+      "name": "collection",
+      "cache": {
+        "enabled": true,
+        "duration": 604800
+      }
+    },
     "custom": [
       {
+        "urlTemplate": "https://raw.githubusercontent.com/Carson-Frost/CabaCraft/main/config/skinrestorer/skins/{username}.png",
         "type": "username-url",
-        "name": "caba_origin_skin",
-        "enabled": true,
         "useProviderSignature": false,
-        "cache": { "enabled": true, "expirationSeconds": 86400 },
-        "urlTemplate": "https://raw.githubusercontent.com/Carson-Frost/CabaCraft/main/config/skinrestorer/skins/{username}.png"
+        "enabled": true,
+        "name": "caba_origin_skin",
+        "cache": {
+          "enabled": true,
+          "duration": 300
+        }
       }
     ]
-  }
+  },
+  "version": 2
 }
