@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Brawny humanoid. Bipedal orc-blooded, large and broad. Built for melee.$(br2)Height: 1.08$(br)Width: 1.08$(br2)$(bold)Low-Light Vision.$(/) Faint night vision (strength 0.3). Does not function underwater.$(br2)$(bold)Savage Attacks.$(/) Melee damage +1.$(br2)$(bold)Relentless Endurance.$(/) When health drops to 1 heart or below, grants brief Resistance V (5 seconds) and Regeneration II (3 seconds). 5-minute cooldown.$(br2)$(bold)Dull to Magic.$(/) Spell power -20% in arcane, fire, frost, and healing."
+      "text": "Brawny humanoid. Bipedal orc-blooded, large and broad. Built for melee.$(br2)Height: 1.08$(br)Width: 1.08$(br2)$(bold)Low-Light Vision.$() Faint night vision (strength 0.3). Does not function underwater.$(br2)$(bold)Savage Attacks.$() Melee damage +1.$(br2)$(bold)Relentless Endurance.$() When health drops to 1 heart or below, grants brief Resistance V (5 seconds) and Regeneration II (3 seconds). 5-minute cooldown.$(br2)$(bold)Dull to Magic.$() Spell power -20% in arcane, fire, frost, and healing."
     }
   ]
 }

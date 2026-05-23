@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Coastal lineage of the Elf race. Stacks on top of the shared Elf traits. Amphibious but not water-dominant.$(br2)$(bold)Sea Lungs.$(/) Holds breath underwater for approximately 45 seconds before drowning begins. Resets at the surface.$(br2)$(bold)Tidewalker.$(/) Swim speed +40%.$(br2)$(bold)Sea-Kin.$(/) Counts as a member of the aquatic entity group. Drowned and guardians treat the player as one of their own."
+      "text": "Coastal lineage of the Elf race. Stacks on top of the shared Elf traits. Amphibious but not water-dominant.$(br2)$(bold)Sea Lungs.$() Holds breath underwater for approximately 45 seconds before drowning begins. Resets at the surface.$(br2)$(bold)Tidewalker.$() Swim speed +40%.$(br2)$(bold)Sea-Kin.$() Counts as a member of the aquatic entity group. Drowned and guardians treat the player as one of their own."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Sun-gold and legion. Claimed via $(bold)/cabafaction claim desert$(/).$(br2)Unlocks 47 leader-only regalia recipes — Pharaoh, Anubis, Exalted Aurum, Quetzalcoatl, and Centurion armor sets; the Golden Horns, Golden Execution, and Eclipse Soldier fantasy sets; and signature weapons including Desert Wind, Golden Halberd, Marika Hammer, and Kingslayer, plus a weathered-blade collection (Old Blade, Sharp Sword, Savage Sword, Hefty Club, and related variants)."
+      "text": "Sun-gold and legion. Claimed via $(bold)/cabafaction claim desert$().$(br2)Unlocks 47 leader-only regalia recipes — Pharaoh, Anubis, Exalted Aurum, Quetzalcoatl, and Centurion armor sets; the Golden Horns, Golden Execution, and Eclipse Soldier fantasy sets; and signature weapons including Desert Wind, Golden Halberd, Marika Hammer, and Kingslayer, plus a weathered-blade collection (Old Blade, Sharp Sword, Savage Sword, Hefty Club, and related variants)."
     }
   ]
 }
