@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Arcane lineage of the Elf race. Stacks on top of the shared Elf traits.$(br2)$(bold)Arcane Affinity.$(/) Spell power +10% in arcane, fire, frost, and healing.$(br2)$(bold)Magic Ward.$(/) Magic-typed damage taken reduced 15%.$(br2)$(bold)Fey Resilience.$(/) Every 3 seconds, clears most harmful status effects (Slowness, Weakness, Poison, Mining Fatigue, Nausea, Blindness, Wither, Hunger, Levitation, Unluck).$(br2)$(bold)Frail Strike.$(/) Melee attack damage reduced 25%."
+      "text": "Arcane lineage of the Elf race. Stacks on top of the shared Elf traits.$(br2)$(bold)Arcane Affinity.$() Spell power +10% in arcane, fire, frost, and healing.$(br2)$(bold)Magic Ward.$() Magic-typed damage taken reduced 15%.$(br2)$(bold)Fey Resilience.$() Every 3 seconds, clears most harmful status effects (Slowness, Weakness, Poison, Mining Fatigue, Nausea, Blindness, Wither, Hunger, Levitation, Unluck).$(br2)$(bold)Frail Strike.$() Melee attack damage reduced 25%."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Shelled humanoid. Bipedal tortoise-folk with a permanent dorsal shell that occupies the chest slot.$(br2)Height: 0.85$(br)Width: 1.3$(br2)$(bold)Shell Guard.$(/) Attacks landing from behind deal 60% reduced damage.$(br2)$(bold)Claws.$(/) Bare-hand attacks (empty mainhand) deal +1 damage.$(br2)$(bold)Deep Lungs.$(/) Holds breath underwater for approximately 60 seconds before drowning begins. Resets at the surface.$(br2)$(bold)Plodding.$(/) Movement speed reduced 25%."
+      "text": "Shelled humanoid. Bipedal tortoise-folk with a permanent dorsal shell that occupies the chest slot.$(br2)Height: 0.85$(br)Width: 1.3$(br2)$(bold)Shell Guard.$() Attacks landing from behind deal 60% reduced damage.$(br2)$(bold)Claws.$() Bare-hand attacks (empty mainhand) deal +1 damage.$(br2)$(bold)Deep Lungs.$() Holds breath underwater for approximately 60 seconds before drowning begins. Resets at the surface.$(br2)$(bold)Plodding.$() Movement speed reduced 25%."
     }
   ]
 }
